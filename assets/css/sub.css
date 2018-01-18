@@ -2,6 +2,7 @@ body {
   min-width: 320px;
   font-size: 13px;
   color: #666;
+  font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif; }
 
 address, p, dl {
@@ -25,8 +26,8 @@ a:hover, a:focus {
   padding-right: 10px; }
   .container .row,
   .container-fluid .row {
-    margin-left: 0;
-    margin-right: 0; }
+    margin-left: -5px;
+    margin-right: -5px; }
     .container .row .col-xs-1,
     .container .row .col-sm-1,
     .container .row .col-md-1,

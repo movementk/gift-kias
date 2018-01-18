@@ -2,6 +2,7 @@ body {
   min-width: 320px;
   font-size: 13px;
   color: #666;
+  font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif; }
 
 address, p, dl {
@@ -25,8 +26,8 @@ a:hover, a:focus {
   padding-right: 10px; }
   .container .row,
   .container-fluid .row {
-    margin-left: 0;
-    margin-right: 0; }
+    margin-left: -5px;
+    margin-right: -5px; }
     .container .row .col-xs-1,
     .container .row .col-sm-1,
     .container .row .col-md-1,
@@ -406,5 +407,197 @@ a:hover, a:focus {
         .container-fluid .row .col-lg-12 {
           padding-left: 15px;
           padding-right: 15px; } }
+
+#header {
+  border-top: 3px solid #0d2557; }
+  #header .top-nav {
+    text-align: right;
+    background-color: #0d2557; }
+    #header .top-nav .quick-menu {
+      display: inline-block;
+      font-size: 0; }
+      #header .top-nav .quick-menu > li {
+        display: inline-block; }
+        #header .top-nav .quick-menu > li > a {
+          display: block;
+          font-size: 11px;
+          width: 90px;
+          color: #93a8c9;
+          text-align: center;
+          font-weight: 400;
+          border-right: 1px solid #325293;
+          background-color: #143883;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          font-family: 'Roboto', sans-serif;
+          padding: 10px 0; }
+          #header .top-nav .quick-menu > li > a:hover, #header .top-nav .quick-menu > li > a:focus {
+            opacity: .8; }
+        #header .top-nav .quick-menu > li:last-child > a {
+          border-right: 0; }
+  #header .logo-nav {
+    /*padding: 10px 0;*/ }
+    #header .logo-nav h1 {
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px 0; }
+      #header .logo-nav h1 a {
+        display: block; }
+        #header .logo-nav h1 a img {
+          width: 81px;
+          display: inline-block;
+          vertical-align: top; }
+  @media (min-width: 768px) {
+    #header .logo-nav {
+      /*padding: 12px 0;*/ }
+      #header .logo-nav h1 {
+        padding: 12px 0; }
+        #header .logo-nav h1 a img {
+          width: 148px; } }
+  @media (min-width: 1200px) {
+    #header {
+      border-top: 0;
+      border-bottom: 2px solid #004f97; } }
+
+#content {
+  height: 500px;
+  background-color: #000; }
+
+#footer {
+  padding-bottom: 40px;
+  background-color: #0d2557; }
+  #footer .foot-logo img {
+    width: 124px; }
+  #footer .policy {
+    margin: 25px 0; }
+    #footer .policy > li {
+      display: inline-block; }
+      #footer .policy > li > a {
+        font-size: 12px;
+        color: #949ca0;
+        line-height: 24px; }
+        #footer .policy > li > a:hover, #footer .policy > li > a:focus {
+          text-decoration: underline; }
+      #footer .policy > li:after {
+        position: relative;
+        top: -1px;
+        font-size: 10px;
+        margin: 0 6px 0 9px;
+        color: #949ca0;
+        content: "|"; }
+      #footer .policy > li:last-child:after {
+        content: "";
+        margin: 0; }
+  #footer .company-info {
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif; }
+    #footer .company-info > ul > li {
+      line-height: 22px; }
+      #footer .company-info > ul > li a {
+        color: #fff; }
+    #footer .company-info p {
+      color: #fff;
+      line-height: 22px;
+      line-height: 22px; }
+      #footer .company-info p.site-by {
+        font-weight: 500;
+        color: #304673; }
+        #footer .company-info p.site-by a {
+          color: #304673; }
+  @media (min-width: 768px) {
+    #footer .foot-logo {
+      padding-top: 8px; }
+      #footer .foot-logo img {
+        width: 169px; }
+    #footer .policy {
+      margin-top: 0;
+      margin-bottom: 15px;
+      margin-left: -20px; }
+      #footer .policy > li > a {
+        font-size: 13px; }
+    #footer .company-info {
+      font-size: 13px;
+      margin-left: -20px; }
+      #footer .company-info > ul {
+        overflow: hidden; }
+        #footer .company-info > ul > li {
+          float: left;
+          letter-spacing: -.3px; }
+          #footer .company-info > ul > li ~ li {
+            margin-left: 10px; }
+          #footer .company-info > ul > li:nth-of-type(4) {
+            clear: both;
+            margin-left: 0; }
+      #footer .company-info p {
+        display: inline; } }
+  @media (min-width: 1200px) {
+    #footer {
+      padding-bottom: 60px; }
+      #footer .foot-logo {
+        padding-top: 0; }
+      #footer .policy {
+        margin: 30px 0 25px !important; }
+        #footer .policy > li > a {
+          font-size: 13px; }
+      #footer .company-info {
+        margin-left: 0; }
+        #footer .company-info > ul > li {
+          letter-spacing: 0; }
+          #footer .company-info > ul > li:nth-of-type(2) {
+            clear: both;
+            margin-left: 0; }
+          #footer .company-info > ul > li:nth-of-type(4) {
+            clear: none;
+            margin-left: 10px; } }
+
+.donation-information {
+  padding: 30px 0;
+  margin-bottom: 40px;
+  background-color: #eaeaee; }
+  .donation-information ul li a {
+    display: block;
+    padding: 12px 0;
+    text-align: center;
+    border: 1px solid #ccc; }
+    .donation-information ul li a h3 {
+      font-size: 13px;
+      color: #666;
+      font-weight: 400; }
+    .donation-information ul li a p {
+      font-size: 14px;
+      color: #888;
+      line-height: 20px;
+      font-weight: 300; }
+  .donation-information ul li ~ li a {
+    margin-top: 10px; }
+  .donation-information ul li:nth-of-type(2) a {
+    margin-top: 0; }
+  @media (min-width: 768px) {
+    .donation-information ul li a {
+      font-size: 15px;
+      padding: 15px 0;
+      margin-top: 0 !important; } }
+  @media (min-width: 1200px) {
+    .donation-information {
+      padding: 40px 0;
+      margin-bottom: 60px; }
+      .donation-information ul li a {
+        text-align: left;
+        border: 0;
+        border-right: 1px solid #d2d6dd;
+        padding: 10px 0; }
+        .donation-information ul li a h3 {
+          font-size: 18px;
+          color: #333;
+          margin-bottom: 20px; }
+      .donation-information ul li:last-child a {
+        border: 0; } }
 
 /*# sourceMappingURL=default.css.map */
