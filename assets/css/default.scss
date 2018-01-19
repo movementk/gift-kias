@@ -1,7 +1,25 @@
 @import 'common';
+
+body {
+    padding-top: 62px;
+    @media(min-width: $sm) {
+        padding-top: 101px;
+    }
+    @media(min-width: $lg) {
+        padding-top: 127px;
+    }
+}
+
 // header
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 62px;
     border-top: 3px solid #0d2557;
+    z-index: 100;
     .top-nav {
         text-align: right;
         background-color: #0d2557;
@@ -35,8 +53,8 @@
         }
     }
     .logo-nav {
-        /*padding: 10px 0;*/
-        h1 {
+        background-color: #fff;
+        .logo {
             display: inline-block;
             vertical-align: top;
             padding: 10px 0;
@@ -49,38 +67,289 @@
                 }
             }
         }
+        .btn-link {
+            float: right;
+            display: block;
+            width: 22px;
+            height: 17px;
+            border: 0;
+            padding: 0;
+            margin-top: 20px;
+            border-radius: 0;
+            background-image: url(/assets/images/btn_menu.gif);
+            background-repeat: no-repeat;
+            background-size: 22px auto;
+            background-position: 50% 50%;
+        }
     }
     @media(min-width: $sm) {
-        .top-nav {
-            
-        }
+        height: 101px;
         .logo-nav {
-            /*padding: 12px 0;*/
-            h1 {
-                padding: 12px 0;
+            .logo {
+                padding: 16px 0;
                 a {
                     img {
                         width: 148px;
                     }
                 }
             }
+            .btn-link {
+                width: 36px;
+                height: 27px;
+                margin-top: 35px;
+                background-size: 36px 27px;
+            }
         }
     }
     @media(min-width: $lg) {
+        height: 127px;
         border-top: 0;
-        border-bottom: 2px solid #004f97;
+        .logo-nav {
+            height: 92px;
+            border-bottom: 2px solid #004f97;
+            .logo {
+                padding: 12px 0;
+            }
+        }
+    }
+}
+// nav
+.nav-expanded {
+    #header {
+        height: 407px;
+        @include transition();
+        background-color: rgba(34, 34, 34, .8);
+    }
+}
+#nav {
+    > ul {
+        font-size: 0;
+        > li {
+            vertical-align: top;
+            display: inline-block;
+            width: 25%;
+            text-align: center;
+            > a {
+                font-size: 19px;
+                color: #222;
+                font-weight: 500;
+                line-height: 90px;
+                @include transition();
+            }
+            &.active {
+                > a {
+                    color: #004f97;
+                }
+            }
+            ul {
+                padding: 30px 0;
+                li {
+                    line-height: 48px;
+                    a {
+                        text-align: center;
+                        font-size: 16px;
+                        color: #fff;
+                        font-weight: 400;
+                        @include transition();
+                        &:hover, &:focus {
+                            color: #93a8c9;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
-// content
-#content {
-    height: 500px;
-    background-color: #000;
+//nav-aside
+.nav-opened {
+    overflow: hidden;
+    #nav-aside {
+        right: 0;
+        .nav-content {
+            right: 0;
+        }
+    }
 }
+#nav-aside {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /*right: 0;*/
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    .nav-backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .75);
+    }
+    .nav-content {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        /*right: 0;*/
+        width: 320px;
+        height: 100%;
+        padding-top: 62px;
+        background-color: #fff;
+        z-index: 200;
+        @include transition();
+        .nav-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            padding: 13px 10px;
+            .logo {
+                float: left;
+                display: inline-block;
+                vertical-align: top;
+                img {
+                    width: 81px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            }
+            .btn-link {
+                float: right;
+                width: 18px;
+                height: 18px;
+                border: 0;
+                padding: 0;
+                margin-top: 8px;
+                background-image: url(/assets/images/btn_close.gif);
+                background-position: 50% 50%;
+                background-size: 18px auto;
+            }
+        }
+    }
+    .nav-body {
+        overflow: auto;
+        height: 100%;
+        padding-bottom: 40px;
+        > ul {
+            > li {
+                > a {
+                    position: relative;
+                    display: block;
+                    font-size: 15px;
+                    color: #333;
+                    font-weight: 400;
+                    line-height: 50px;
+                    padding: 0 10px;
+                    border-bottom: 1px solid #ccc;
+                    &:after {
+                        position: absolute;
+                        top: 0;
+                        right: 10px;
+                        font-family: "fontello";
+                        content: "\E802";
+                    }
+                }
+                > ul {
+                    display: none;
+                    background-color: #f4f4f4;
+                    > li {
+                        > a {
+                            font-size: 14px;
+                            color: #999;
+                            display: block;
+                            padding-left: 25px;
+                            line-height: 50px;
+                            border-bottom: 1px solid #dadada;
+                            &:before {
+                                content: "- ";
+                            }
+                        }
+                    }
+                }
+                &:first-child {
+                    > a {
+                        border-top: 1px solid #ccc;
+                    }
+                }
+                &.selected {
+                    > a {
+                        color: #fff;
+                        border-color: #0d2557;
+                        background-color: #0d2557;
+                        &:after {
+                            content: "\E803";
+                        }
+                    }
+                    > ul {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .btn-mypage {
+            margin-top: 30px;
+            padding: 0 10px;
+            .btn-link {
+                display: block;
+                font-size: 13px;
+                color: #666;
+                text-align: center;
+                line-height: 38px;
+                padding: 0;
+                text-decoration: none;
+                border: 1px solid #d7d7d7;
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        .nav-content {
+            padding-top: 80px;
+            .nav-header {
+                padding: 17px 20px;
+                height: 80px;
+                .logo {
+                    img {
+                        width: 100px;
+                    }
+                }
+                .btn-link {
+                    width: 22px;
+                    height: 22px;
+                    margin-top: 12px;
+                    background-size: 22px auto;
+                }
+            }
+            .nav-body {
+                > ul {
+                    > li {
+                        > a {
+                            font-size: 18px;
+                            padding: 0 20px;
+                            &:after {
+                                right: 20px;
+                            }
+                        }
+                        > ul {
+                            > li {
+                                > a {
+                                    font-size: 15px;
+                                    padding-left: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 // footer
 #footer {
-    padding-bottom: 40px;
+    padding: 40px 0;
     background-color: #0d2557;
     .foot-logo {
         img {
@@ -180,7 +449,7 @@
         }
     }
     @media(min-width: $lg) {
-        padding-bottom: 60px;
+        padding: 60px 0;
         .foot-logo {
             padding-top: 0;
         }
@@ -214,7 +483,6 @@
 // 기부 정보
 .donation-information {
     padding: 30px 0;
-    margin-bottom: 40px;
     background-color: #eaeaee;
     ul {
         li {
@@ -260,7 +528,6 @@
     }
     @media(min-width: $lg) {
         padding: 40px 0;
-        margin-bottom: 60px;
         ul {
             li {
                 a {
@@ -283,8 +550,63 @@
         }
     }
 }
-
-
+// 입금계좌 안내
+.bank {
+    overflow: hidden;
+    color: #fff;
+    padding-top: 55px;
+    > div {
+        float: left;
+        &.information {
+            width: 330px;
+            h3 {
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 400;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                border-bottom: 1px solid #fff;
+                background-image: url(/assets/images/icon_bank.png);
+                background-repeat: no-repeat;
+                background-position: 0 3px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 22px;
+                margin-top: 20px;
+                opacity: .5;
+            }
+            strong {
+                display: block;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 20px;
+            }
+        }
+        &.bank-details {
+            dl {
+                overflow: hidden;
+                dt {
+                    font-size: 13px;
+                    color: #fff;
+                    font-weight: 300;
+                    opacity: .6;
+                    margin-bottom: 6px;
+                }
+                dd { 
+                    font-size: 26px;
+                    color: #fff;
+                    font-weight: 500;
+                    margin-bottom: 30px;
+                    @include roboto();
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
