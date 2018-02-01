@@ -1,1 +1,341 @@
 @import 'common';
+
+#header {
+    border-bottom: 2px solid #004f97;
+}
+
+#content {
+    padding-bottom: 80px;
+    .container-fluid {
+        max-width: 1200px;
+    }
+    @media(min-width: $sm) {
+        padding-bottom: 120px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 150px;
+    }
+}
+
+.page-header {
+    color: #fff;
+    margin: 0;
+    padding: 45px 0;
+    border: 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(/assets/images/sub/bg_page_header.jpg);
+    .page-title {
+        font-size: 34px;
+        font-weight: 400;
+        @include roboto();
+    }
+    .breadcrumb {
+        font-size: 0;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        background: none;
+        > li {
+            font-size: 12px;
+            color: #fff;
+            &:before {
+                padding: 0 10px;
+                content: "\E805";
+                font-family: "fontello";
+            }
+            &:first-child {
+                &:before {
+                    display: none;
+                }
+            }
+            > a {
+                color: #fff;
+                .icon-home {
+                    position: relative;
+                    top: -1px;
+                }
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        padding: 85px 0 60px;
+        .page-title { 
+            font-size: 48px;
+        }
+        .breadcrumb {
+            > li {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.page-warp {
+    .lnb-nav {
+        margin: 0 -10px;
+        ul {
+            width: 100%;
+            font-size: 0;
+            li {
+                display: inline-block;
+                width: 25%;
+                a {
+                    display: block;
+                    font-size: 12px;
+                    color: #fff;
+                    font-weight: 400;
+                    padding: 15px 0;
+                    text-align: center;
+                    background-color: #143883;
+                    border-right: 1px solid #5b74a8;
+                }
+                &.active {
+                    a {
+                        color: #143883;
+                        background-color: #fff;
+                    }
+                }
+                &:last-child {
+                    a {
+                        border-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .sub-content {
+        padding-top: 50px;
+    }
+    @media(min-width: $sm) {
+        .lnb-nav {
+            margin: 0 -20px;
+            ul {
+                li {
+                    a {
+                        padding: 17px 0;
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+        .sub-content {
+            padding-top: 85px;
+        }
+    }
+    @media(min-width: $lg) {
+        padding-top: 50px;
+        .lnb-nav {
+            margin: 0;
+            padding-right: 40px;
+            .lnb-title {
+                font-size: 28px;
+                font-weight: 500;
+                color: #fff;
+                text-align: center;
+                padding: 35px 0 25px;
+                background-color: #143883;
+                small {
+                    font-size: 12px;
+                    color: #2364e4;
+                    display: block;
+                    margin-top: 10px;
+                }
+            }
+            ul {
+                border: 1px solid #ccc;
+                li {
+                    display: block;
+                    width: 100%;
+                    a {
+                        text-align: left;
+                        font-size: 15px;
+                        color: #666;
+                        padding: 20px;
+                        border-right: 0;
+                        background-color: #fff;
+                        border-bottom: 1px solid #ccc;
+                        &:after {
+                            position: relative;
+                            top: 2px;
+                            font-size: 13px;
+                            float: right;
+                            font-family: "fontello";
+                            content: "\E800";
+                        }
+                    }
+                    &.active {
+                        a {
+                            color: #143883;
+                            background-color: #eaeaee;
+                        }
+                    }
+                    &:last-child {
+                        a {
+                            border-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .sub-content {
+            padding-top: 20px;
+        }
+    }
+}
+
+// 공통 영역
+section {
+    .section-header {
+        padding-bottom: 25px;
+        border-bottom: 3px solid #eaeaee;
+        .section-title {
+            font-size: 22px;
+            color: #143883;
+            font-weight: bold;
+        }
+    }
+    .section-content {
+        margin-top: 30px;
+    }
+    @media(min-width: $sm) {
+        .section-header {
+            padding-bottom: 30px;
+            .section-title {
+                font-size: 32px;
+            }
+        }
+        .section-content {
+            margin-top: 60px;
+        }
+    }
+    @media(min-width: $md) {
+        .section-header {
+            .section-title {
+                font-size: 36px;
+            }
+        }
+        .section-content {
+            margin-top: 65px;
+        }
+    }
+}
+
+.section-content {
+    .fund-application {
+        h5 {
+            font-size: 18px;
+            color: #333;
+            line-height: 30px;
+            font-weight: 300;
+            margin-bottom: 35px;
+            i {
+                color: #143883;
+                font-style: normal; 
+            }
+        }
+        p {
+            font-size: 13px;
+            line-height: 32px;
+            color: #555;
+            word-break: break-all;
+        }
+        strong {
+            display: block;
+            font-sizs: 16px;
+            color: #333;
+            line-height: 32px;
+            font-weight: 300;
+            margin-top: 45px;
+            margin-bottom: 40px;
+            span {
+                border-bottom: 1px solid #333;
+                padding-bottom: 5px;
+                
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        .fund-application {
+            h5 {
+                font-size: 32px;
+                line-height: 50px;
+            }
+            p {
+                font-size: 15px;
+            }
+            strong {
+                font-size: 20px;
+            }
+        }
+    }
+     @media(min-width: $md) {
+        .fund-application {
+            h5 {
+                font-size: 33px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
