@@ -602,5 +602,36 @@ section .section-content {
     font-size: 33px; }
   .section-content .fund-application p {
     font-size: 16px; } }
+.section-content .fund-list {
+  margin-top: 55px; }
+  .section-content .fund-list ul li .fund-info {
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #ccc; }
+    .section-content .fund-list ul li .fund-info figure {
+      border-bottom: 1px solid #ccc;
+      overflow: hidden; }
+      .section-content .fund-list ul li .fund-info figure img {
+        width: 100%; }
+    .section-content .fund-list ul li .fund-info .details {
+      padding: 30px; }
+      .section-content .fund-list ul li .fund-info .details h6 {
+        font-size: 17px;
+        color: #143883;
+        margin-bottom: 15px; }
+      .section-content .fund-list ul li .fund-info .details p {
+        font-size: 13px;
+        color: #555;
+        line-height: 22px; }
+@media (min-width: 768px) {
+  .section-content .fund-list ul li .fund-info {
+    margin-top: 0; }
+    .section-content .fund-list ul li .fund-info figure {
+      height: 170px; }
+      .section-content .fund-list ul li .fund-info figure > img {
+        width: 100%;
+        height: 100%; }
+  .section-content .fund-list ul li:last-child .fund-info {
+    margin-right: 0; } }
 
 /*# sourceMappingURL=sub.css.map */
