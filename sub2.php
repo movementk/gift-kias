@@ -68,19 +68,50 @@
                                             여러분의 적극적인 참여를 기다 립니다.
                                         </p>
                                     </div>
-                                    <div class="">
+                                    <div class="fund-list">
                                         <ul class="row">
                                             <li class="col-xs-12 col-sm-4">
-                                                <figure>
-                                                    <img src="" alt="">
-                                                </figure>
-                                                <div class="details">
-                                                    <h6></h6>
-                                                    <p></p>
+                                                <div class="fund-info">
+                                                    <figure>
+                                                        <img src="/assets/images/sub/fund-application01.jpg" alt="">
+                                                    </figure> 
+                                                    <div class="details">
+                                                        <h6>발전기금</h6>
+                                                        <p>
+                                                            KIAS의 우선사업에 활용하도록<br> 
+                                                            용도를 위임한 기금입니다.
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </li>
-                                            <li class="col-xs-12 col-sm-4"></li>
-                                            <li class="col-xs-12 col-sm-4"></li> 
+                                            <li class="col-xs-12 col-sm-4">
+                                                <div class="fund-info">
+                                                    <figure>
+                                                        <img src="/assets/images/sub/fund-application02.jpg" alt="">
+                                                    </figure>
+                                                    <div class="details">
+                                                        <h6>특정목적기금</h6>
+                                                        <p>
+                                                            석학유치. 인재육성, 국제교류,<br>  
+                                                            장서확충
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-xs-12 col-sm-4">
+                                                <div class="fund-info">
+                                                    <figure>
+                                                        <img src="/assets/images/sub/fund-application03.jpg" alt="">
+                                                    </figure>
+                                                    <div class="details">
+                                                        <h6>지정기금</h6>
+                                                        <p>
+                                                            기부자의 지정용도에 따라<br> 
+                                                            운영합니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li> 
                                         </ul>
                                     </div>
                                 </div>
