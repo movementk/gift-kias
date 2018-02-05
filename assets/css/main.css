@@ -408,7 +408,159 @@ a:hover, a:focus {
           padding-left: 15px;
           padding-right: 15px; } }
 
-#content {
-  height: 500px; }
+.jumbotron {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: none !important; }
+  .jumbotron ul li {
+    display: block;
+    text-align: center;
+    padding: 120px 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+    .jumbotron ul li h2 {
+      display: block;
+      font-size: 32px;
+      color: #fff;
+      font-weight: 500; }
+      .jumbotron ul li h2 small {
+        font-size: 17px;
+        color: #fff;
+        font-weight: 300;
+        display: block;
+        margin-bottom: 10px; }
+    .jumbotron ul li hr {
+      margin: 25px auto;
+      width: 30px;
+      border-top: 2px solid #bf4b46; }
+    .jumbotron ul li p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 12px;
+      color: #fff;
+      font-weight: 300;
+      line-height: 18px;
+      font-style: italic; }
+    @media (min-width: 768px) {
+      .jumbotron ul li {
+        padding: 220px 0 230px; }
+        .jumbotron ul li h2 {
+          font-size: 70px; }
+          .jumbotron ul li h2 small {
+            font-size: 36px;
+            margin-bottom: 30px; }
+        .jumbotron ul li hr {
+          margin: 40px auto; }
+        .jumbotron ul li p {
+          font-size: 15px;
+          line-height: 22px; } }
+    @media (min-width: 1200px) {
+      .jumbotron ul li {
+        padding: 150px 0 160px; }
+        .jumbotron ul li h2 {
+          font-size: 65px; }
+          .jumbotron ul li h2 small {
+            font-size: 30px;
+            margin-bottom: 20px; }
+        .jumbotron ul li hr {
+          margin: 30px auto; } }
+
+.gift-participation {
+  padding: 30px 0; }
+  .gift-participation ul > li .details {
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    .gift-participation ul > li .details .vertical-box {
+      display: table-cell;
+      height: 235px;
+      vertical-align: middle; }
+      .gift-participation ul > li .details .vertical-box .icon-img {
+        display: none; }
+      .gift-participation ul > li .details .vertical-box h3 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff; }
+        .gift-participation ul > li .details .vertical-box h3 small {
+          font-size: 15px;
+          color: #fff;
+          font-weight: 300;
+          display: block;
+          margin-top: 15px; }
+      .gift-participation ul > li .details .vertical-box > .btn-link {
+        display: inline-block;
+        width: 170px;
+        height: 40px;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 36px;
+        color: #fff;
+        text-align: left;
+        margin-top: 30px;
+        padding: 0 14px;
+        border: 2px solid #fff;
+        text-decoration: none; }
+        .gift-participation ul > li .details .vertical-box > .btn-link:after {
+          font-family: "fontello";
+          float: right;
+          content: "\E805"; }
+    .gift-participation ul > li .details.method {
+      background-image: url(/assets/images/main/bg_gift_xs_participation01.jpg); }
+    .gift-participation ul > li .details.participation {
+      background-image: url(/assets/images/main/bg_gift_xs_participation02.jpg); }
+    .gift-participation ul > li .details.online {
+      background-image: url(/assets/images/main/bg_gift_xs_participation03.jpg); }
+  .gift-participation ul > li ~ li .details {
+    margin-top: 10px; }
+  @media (min-width: 768px) {
+    .gift-participation {
+      padding: 30px 0; }
+      .gift-participation ul > li ~ li .details {
+        margin-top: 20px; } }
+  @media (min-width: 992px) {
+    .gift-participation {
+      padding: 60px 0; }
+      .gift-participation ul > li .details {
+        margin: 0 !important; }
+        .gift-participation ul > li .details .vertical-box {
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .gift-participation ul > li .details .vertical-box .icon-img {
+            display: block;
+            margin-bottom: 25px; }
+            .gift-participation ul > li .details .vertical-box .icon-img img {
+              display: block;
+              margin: 0 auto; }
+          .gift-participation ul > li .details .vertical-box h3 {
+            font-size: 20px; }
+            .gift-participation ul > li .details .vertical-box h3 small {
+              margin-top: 10px; }
+          .gift-participation ul > li .details .vertical-box .btn-link {
+            display: none; }
+          .gift-participation ul > li .details .vertical-box:hover {
+            background-color: rgba(147, 167, 199, 0.85);
+            box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.2); }
+            .gift-participation ul > li .details .vertical-box:hover .icon-img {
+              display: none; }
+            .gift-participation ul > li .details .vertical-box:hover .btn-link {
+              display: block;
+              margin: 0 auto;
+              margin-top: 30px; }
+        .gift-participation ul > li .details.method {
+          background-image: url(/assets/images/main/bg_gift_lg_participation01.jpg); }
+        .gift-participation ul > li .details.participation {
+          background-image: url(/assets/images/main/bg_gift_lg_participation02.jpg); }
+        .gift-participation ul > li .details.online {
+          background-image: url(/assets/images/main/bg_gift_lg_participation03.jpg); } }
 
 /*# sourceMappingURL=main.css.map */

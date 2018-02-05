@@ -187,6 +187,28 @@
 }
 
 // 공통 영역
+.form-group {
+    margin: 0;
+}
+label {
+    font-weight: 400;
+}
+.form-control {
+    font-size: 13px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: 1px solid #dee1e2;
+}
+.btn {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    @include transition();
+    &:hover, &:focus {
+        opacity: .7;
+    }
+}
+
 section {
     .section-header {
         padding-bottom: 25px;
@@ -238,22 +260,21 @@ section {
         }
         p {
             font-size: 13px;
-            line-height: 32px;
+            line-height: 28px;
             color: #555;
             word-break: break-all;
-        }
-        strong {
-            display: block;
-            font-sizs: 16px;
-            color: #333;
-            line-height: 32px;
-            font-weight: 300;
-            margin-top: 45px;
-            margin-bottom: 40px;
-            span {
-                border-bottom: 1px solid #333;
-                padding-bottom: 5px;
-                
+            &.note {
+                display: block;
+                font-sizs: 16px;
+                color: #333;
+                line-height: 32px;
+                font-weight: 300;
+                margin-top: 45px;
+                margin-bottom: 40px;
+                span {
+                    padding-bottom: 7px;
+                    border-bottom: 1px solid #333;
+                }
             }
         }
     }
@@ -265,9 +286,11 @@ section {
             }
             p {
                 font-size: 15px;
-            }
-            strong {
-                font-size: 20px;
+                line-height: 30px;
+                &.note {
+                    font-size: 20px;
+                    line-height: 38px;
+                }
             }
         }
     }
@@ -278,16 +301,176 @@ section {
             }
             p {
                 font-size: 16px;
+                line-height: 32px;
             }
         }
     }
 }
-
-
-
-
-
-
+// sub-title
+.sub-title {
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    padding-left: 23px;
+    background-image: url(/assets/images/sub/bg_sub_title.png);
+    background-repeat: no-repeat;
+    background-size: 14px auto;
+    background-position: 0 50%;
+    @media(min-width: $sm) {
+        font-size: 22px;
+        padding-left: 27px;
+        background-size: 17px auto;
+    }
+}
+// 검색영역
+.search-form {
+    position: relative;
+    padding: 17px 68px 17px 110px;
+    background-color: #ececec;
+    .form-group {
+        .form-control {
+            height: 40px;
+        }
+        select {
+            position: absolute;
+            top: 17px;
+            left: 10px;
+            width: 95px;
+        }
+    }
+    .btn-search {
+        position: absolute;
+        top: 17px;
+        right: 10px;
+        width: 53px;
+        height: 40px;
+        font-size: 13px;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        background-color: #5e5e5f;
+    }
+    @media(min-width: $sm) {
+        padding: 30px 170px 30px 190px;
+        border: 1px solid #ebebeb;
+        .form-group {
+            .form-control {
+                height: 35px;
+            }
+            select {
+                top: 30px;
+                left: 40px;
+                width: 130px;
+            }
+        }
+        .btn-search {
+            top: 30px;
+            right: 40px;
+            width: 120px;
+            height: 35px;
+            line-height: 35px;
+        }
+    }
+    @media(min-width: $md) {
+        padding-left: 210px;
+        padding-right: 200px;
+        .form-group {
+            select {
+                left: 70px;
+            }
+        }
+        .btn-search {
+            right: 70px;
+        }
+    }
+}
+// faq-list
+.faq-list {
+    border-top: 2px solid #143883;
+    .panel {
+        margin: 0 !important;
+        border: 0;
+        border-radius: 0;
+        &:first-child {
+            .panel-heading {
+                border-top: 0;
+            }
+        }
+        .panel-heading {
+            position: relative;
+            padding: 0;
+            border-radius: 0;
+            border-top: 1px solid #dfdfdf;
+            background-color: #fff;
+            &:before {
+                position: absolute;
+                top: 13px;
+                left: 20px;
+                display: block;
+                width: 28px;
+                height: 28px;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 28px;
+                text-align: center;
+                color: #fff;
+                content: "Q";
+                @include roboto();
+                border-radius: 50%;
+                background-color: #143883;
+            }
+            a {
+                padding: 15px 20px 15px 70px;
+                position: relative;
+                font-size: 14px;
+                display: block;
+                color: #143883;
+                font-weight: 400;
+                line-height: 24px;
+                &:after {
+                    position: absolute;
+                    top: 50%;
+                    right: 10px;
+                    margin-top: -12px;
+                    font-family: "fontello";
+                    content: "\E809";
+                }
+                &.collapsed {
+                    color: #555;
+                    &:after {
+                        margin-top: -12px;
+                        font-family: "fontello";
+                        content: "\E80A";
+                    }
+                }
+            }
+        }
+        .panel-body {
+            font-size: 12px;
+            color: #555;
+            line-height: 22px;
+            padding: 30px 30px 30px 70px;
+            border-radius: 0;
+            background-color: #f6f6f8;
+        }
+    }
+    @media(min-width: $sm) {
+        .panel {
+            .panel-heading {
+                a {
+                    font-size: 16px;
+                    &:after {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .panel-body {
+                font-size: 14px;
+                line-height: 28px;
+            }
+        }
+    }
+}
 
 
 

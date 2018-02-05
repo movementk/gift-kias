@@ -57,7 +57,10 @@
                                             자리매김하기 위해서는 여러분의 지속적인 후원과 큰
                                             힘이 될 것입니다.
                                         </p>
-                                        <strong><span>고등과학원의 미래는 우리나라의<br class="visible-xs"> 과학기술의 미래이자<br> 바로 당신의 미래입니다.</span></strong>
+                                        <p class="note">
+                                            <span>고등과학원의 미래는 우리나라의</span><br class="visible-xs"><span> 과학기술의 미래이자</span><br>
+                                            <span>바로 당신의 미래입니다.</span>
+                                        </p>
                                         <p>
                                             기초과학은 첨단기술의 기본이 됩니다.<br>
                                             당장은 아니지만, 미래 우리 후손들의 먹거리를<br>

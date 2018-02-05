@@ -1,6 +1,242 @@
 @import 'common';
 
-#content {
-    height: 500px;
-    
+.jumbotron {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background: none !important;
+    ul {
+        li {
+            display: block;
+            text-align: center;
+            padding: 120px 0;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            h2 {
+                display: block;
+                font-size: 32px;
+                color: #fff;
+                font-weight: 500;
+                small {
+                    font-size: 17px;
+                    color: #fff;
+                    font-weight: 300;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+            }
+            hr {
+                margin: 25px auto;
+                width: 30px;
+                border-top: 2px solid #bf4b46;
+            }
+            p {
+                @include roboto();
+                font-size: 12px;
+                color: #fff;
+                font-weight: 300;
+                line-height: 18px;
+                font-style: italic;
+            }
+            @media (min-width: $sm) {
+                padding: 220px 0 230px;
+                h2 {
+                    font-size: 70px;
+                    small {
+                        font-size: 36px;
+                        margin-bottom: 30px;
+                    }
+                }
+                hr {
+                    margin: 40px auto;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+            @media (min-width: $lg) {
+                padding: 150px 0 160px;
+                h2 {
+                    font-size: 65px;
+                    small {
+                        font-size: 30px;
+                        margin-bottom: 20px;
+                    }
+                }
+                hr {
+                    margin: 30px auto;
+                }
+            }
+        }
+    }
 }
+
+.gift-participation {
+    padding: 30px 0;
+    ul {
+        > li {
+            .details {
+                display: table;
+                width: 100%;
+                text-align: center;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+                .vertical-box {
+                    display: table-cell;
+                    height: 235px;
+                    vertical-align: middle;
+                    .icon-img {
+                        display: none;
+                    }
+                    h3 {
+                        font-size: 22px;
+                        font-weight: 500;
+                        color: #fff;
+                        small {
+                            font-size: 15px;
+                            color: #fff;
+                            font-weight: 300;
+                            display: block;
+                            margin-top: 15px;
+                        }
+                    }
+                    > .btn-link {
+                        display: inline-block;
+                        width: 170px;
+                        height: 40px;
+                        font-size: 13px;
+                        font-weight: 300;
+                        line-height: 36px;
+                        color: #fff;
+                        text-align: left;
+                        margin-top: 30px;
+                        padding: 0 14px;
+                        border: 2px solid #fff;
+                        text-decoration: none;
+                        &:after {
+                            font-family: "fontello";
+                            float: right;
+                            content: "\E805";
+                        }
+                    }
+                }
+                &.method {
+                    background-image: url(/assets/images/main/bg_gift_xs_participation01.jpg);
+                }
+                &.participation {
+                    background-image: url(/assets/images/main/bg_gift_xs_participation02.jpg);
+                }
+                &.online {
+                    background-image: url(/assets/images/main/bg_gift_xs_participation03.jpg);
+                }
+            }
+            & ~ li {
+                .details {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        padding: 30px 0;
+        ul {
+            > li {
+                & ~ li {
+                    .details {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        padding: 60px 0;
+        ul { 
+            > li {
+                .details {
+                    margin: 0 !important;
+                    .vertical-box {
+                        @include transition();
+                        .icon-img {
+                            display: block;
+                            margin-bottom: 25px;
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                        h3 {
+                            font-size: 20px;
+                            small {
+                                margin-top: 10px;
+                            }
+                        }
+                        .btn-link {
+                            display: none;
+                        }
+                        &:hover {
+                            background-color: rgba(147, 167, 199, .85);
+                            box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.2);
+                            .icon-img {
+                                display: none;
+                            }
+                            .btn-link {
+                                display: block;
+                                margin: 0 auto;
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                    &.method {
+                        background-image: url(/assets/images/main/bg_gift_lg_participation01.jpg);
+                    }
+                    &.participation {
+                        background-image: url(/assets/images/main/bg_gift_lg_participation02.jpg);
+                    }
+                    &.online {
+                        background-image: url(/assets/images/main/bg_gift_lg_participation03.jpg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
