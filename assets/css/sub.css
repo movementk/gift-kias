@@ -1050,4 +1050,37 @@ section .section-content {
         .page-link > li dl dd a {
           font-size: 14px; } }
 
+.paging {
+  text-align: center; }
+  .paging .pagination {
+    margin: 0;
+    border-radius: 0; }
+    .paging .pagination li a {
+      width: 32px;
+      font-size: 13px;
+      color: #aaa;
+      font-weight: 400;
+      text-align: center;
+      line-height: 30px;
+      padding: 0;
+      border-radius: 0;
+      border-color: #d8d8d8;
+      font-family: 'Roboto', sans-serif; }
+      .paging .pagination li a:hover, .paging .pagination li a:focus {
+        background: none; }
+    .paging .pagination li.active a {
+      color: #fff;
+      border-color: #143883;
+      background-color: #143883; }
+    .paging .pagination li.prev a {
+      margin-right: 5px; }
+    .paging .pagination li.next a {
+      margin-left: 5px; }
+  @media (min-width: 768px) {
+    .paging .pagination li.prev a {
+      margin-right: 0px; }
+    .paging .pagination li.next a {
+      margin-left: 0px;
+      border-left: 0; } }
+
 /*# sourceMappingURL=sub.css.map */

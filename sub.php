@@ -288,6 +288,53 @@
                                     </dl>
                                 </li>
                             </ul>
+                            
+                            <br><br>
+                            
+                            <!-- page-link -->
+                            <nav aria-label="Page navigation" class="paging">
+                                <ul class="pagination">
+                                    <li class="first">
+                                        <a href="#" aria-label="Previous">
+                                            <i class="icon-angle-double-left">
+                                                <span class="sr-only">처음</span>
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li class="prev">
+                                        <a href="#" aria-label="Previous">
+                                            <i class="icon-angle-left">
+                                                <span class="sr-only">이전</span>
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">01</a></li>
+                                    <li class="active"><a href="#">02</a></li>
+                                    <li><a href="#">03</a></li>
+                                    <li><a href="#">04</a></li>
+                                    <li><a href="#">05</a></li>
+                                    <li class="hidden-xs"><a href="#">06</a></li>
+                                    <li class="hidden-xs"><a href="#">07</a></li>
+                                    <li class="hidden-xs"><a href="#">08</a></li>
+                                    <li class="hidden-xs"><a href="#">09</a></li>
+                                    <li class="hidden-xs"><a href="#">10</a></li>
+                                    <li class="next">
+                                        <a href="#" aria-label="Next">
+                                            <i class="icon-angle-right">
+                                                <span class="sr-only">다음</span>
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li class="last">
+                                        <a href="#" aria-label="Next">
+                                            <i class="icon-angle-double-right">
+                                                <span class="sr-only">마지막</span>
+                                            </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            
                         </div>
                     </div>
                 </div>
