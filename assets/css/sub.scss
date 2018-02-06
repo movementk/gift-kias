@@ -527,18 +527,435 @@ section {
     }
 }
 
+.table {
+    margin-bottom: 0;
+}
+
+// 게시판 타입1
+.default-borad {
+    border-top: 2px solid #143883;
+    .table {
+        table-layout: fixed;
+        border: 0;
+        thead {
+            tr {
+                th {
+                    padding: 15px 0;
+                    font-size: 14px;
+                    color: #143883;
+                    font-weight: 400;
+                    text-align: center;
+                    border: 0;
+                    border-bottom: 1px solid #143883;
+                    @media(min-width: $sm) {
+                        font-size: 16px;
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    font-size: 13px;
+                    color: #666;
+                    text-align: center;
+                    padding: 15px 0;
+                    border: 0;
+                    border-bottom: 1px solid #dfdfdf;
+                    &.subject {
+                        a {
+                            display: block;
+                            color: #666;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+                    }
+                    &.num, &.date, &.hit {
+                        @include roboto();
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// responsive-table
+.table-responsive {
+    margin-bottom: 0;
+    border: 0;
+    border-top: 2px solid #143883;
+    .table {
+        border: 0;
+        thead {
+            tr {
+                th {
+                    font-size: 12px;
+                    color: #143883;
+                    padding: 15px 10px;
+                    font-weight: 400;
+                    text-align: center;
+                    border: 0;
+                    border-bottom: 1px solid #143883;
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    font-size: 12px;
+                    color: #666;
+                    vertical-align: middle;
+                    text-align: center;
+                    padding: 15px 20px;
+                    border: 0;
+                    border-left: 1px solid #dfdfdf;
+                    border-bottom: 1px solid #dfdfdf;
+                    &:first-child {
+                        border-left: 0;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 14px;
+                        padding: 20px;
+                    }
+                }
+                &.bold-bg {
+                    td {
+                        background-color: #f6f6f8;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
+// 버튼 리스트
+.btn-responsive {
+    text-align: center;
+    p {
+        font-size: 0;
+        .btn {
+            display: inline-block;
+            font-size: 15px;
+        }
+        ~ p {
+            margin-top: 10px;
+        }
+    }
+    @media(min-width: $sm) {
+        overflow: hidden;
+        p {
+            float: left;
+            & ~ p {
+                float: right;
+                margin-top: 0;
+            }
+            .btn-sm {
+                width: 170px;
+            }
+            .btn-lg {
+                width: 170px;
+            }
+        }
+    }
+}
 
+.btn-area {
+    text-align: center;
+    p {
+        font-size: 0;
+        .btn {
+            font-size: 15px;
+            display: inline-block;
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        text-align: right;
+    }
+}
 
+.btn {
+    &.btn-sm {
+        width: 145px;
+        height: 50px;
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &.btn-white {
+            color: #333;
+            line-height: 48px;
+            border: 1px solid #aaa;
+        }
+        &.btn-blue {
+            color: #fff;
+            border: 0;
+            line-height: 50px;
+            background-color: #143883;
+        }
+    }
+    &.btn-lg {
+        width: 300px;
+        &.btn-white {
+            color: #333;
+            line-height: 48px;
+            border: 1px solid #aaa;
+        }
+        &.btn-blue {
+            color: #fff;
+            border: 0;
+            line-height: 50px;
+            background-color: #143883;
+        }
+    }
+    @media(min-width: $sm) {
+        &.btn-sm {
+            width: 170px;
+        }
+    }
+}
 
+// 게시판 뷰
+.board-view {
+    .view-header {
+        .board-title {
+            font-size: 15px;
+            color: #143883;
+            font-weight: 400;
+            line-height: 24px;
+            padding: 25px 10px;
+            border-top: 2px solid #143883;
+            border-bottom: 1px solid #143883;
+        }
+        .borad-info {
+            padding: 20px 10px;
+            border-bottom: 1px solid #dfdfdf;
+            > ul {
+                > li {
+                    display: inline-block;
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: 300;
+                    &:after {
+                        position: relative;
+                        top: -2px;
+                        font-size: 10px;
+                        display: inline-block;
+                        margin: 0 7px;
+                        content: "|";
+                    }
+                    &:last-child {
+                        &:after {
+                            content: "";
+                            margin: 0;
+                        }
+                    }
+                    > dl {
+                        display: inline-block;
+                        @include roboto();
+                        dt {
+                            display: inline-block;
+                            color: #666;
+                            font-weight: 300;
+                            &:after {
+                                content: " :";
+                            }
+                        }
+                        dd {
+                            display: inline-block;
+                            color: #666;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .view-body {
+        font-size: 12px;
+        color: #666;
+        line-height: 30px;
+        font-weight: 300;
+        padding: 40px 10px 160px;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .attach {
+        overflow: hidden;
+        padding: 25px 10px;
+        border-bottom: 1px solid #dfdfdf;
+        dt {
+            float: left;
+            font-size: 12px;
+            width: 70px;
+            color: #666;
+            line-height: 26px;
+        }
+        dd {
+            float: left;
+            font-size: 12px;
+            a {
+                display: block;
+                color: #999;
+                line-height: 26px;
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        .view-header {
+            .board-title {
+                font-size: 16px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .borad-info {
+                padding-left: 30px;
+                padding-right: 30px;
+                > ul {
+                    > li {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .view-body {
+            font-size: 14px;
+            line-height: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .attach {
+            padding: 20px 30px;
+            dt {
+                font-size: 13px;
+            }
+            dd {
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
 
+// 답변
+.reply {
+    padding: 30px 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #f6f6f8;
+    h6 {
+        display: inline-block;
+        font-size: 13px;
+        color: #f56462;
+        font-weight: 400;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #f56462;
+    }
+    p {
+        display: block;
+        font-size: 12px;
+        color: #666;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    @media(min-width: $sm) {
+        padding: 30px;
+        p {
+            font-size: 13px;
+            line-height: 26px;
+        }
+    }
+}
 
-
-
-
-
-
+// 이전다음글
+.page-link {
+    border-top: 2px solid #143883;
+    > li {
+        padding: 20px 10px;
+        display: block;
+        border-bottom: 1px solid #ccc;
+        dl {
+            position: relative;
+            padding-left: 90px;
+            dt {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 90px;
+                font-size: 13px;
+                color: #143883;
+                font-weight: 400;
+                &:after {
+                    float: right;
+                    font-family: "fontello";
+                    margin-right: 30px;
+                }
+            }
+            dd {
+                a {
+                    display: block;
+                    font-size: 13px;
+                    color: #666;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+        &.prev-link {
+            dl {
+                dt {
+                    &:after {
+                        content: "\E807";
+                    }
+                }
+            }
+        }
+        &.next-link {
+            dl {
+                dt {
+                    &:after {
+                        content: "\E80B";
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        > li {
+            padding-left: 30px;
+            padding-right: 30px;
+            dl {
+                padding-left: 140px;
+                dt {
+                    width: 140px;
+                    font-size: 15px;
+                    &:after {
+                        margin-right: 60px;
+                    }
+                }
+                dd {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -17,8 +17,10 @@ ul, ol {
   margin-bottom: 0;
   list-style: none; }
 
-a:hover, a:focus {
-  text-decoration: none; }
+a {
+  color: #666; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 .container,
 .container-fluid {
@@ -630,7 +632,6 @@ section .section-content {
   .section-content .fund-application h5 {
     font-size: 33px; }
   .section-content .fund-application p {
-<<<<<<< HEAD
     font-size: 16px;
     line-height: 32px; } }
 
@@ -762,39 +763,333 @@ section .section-content {
     .faq-list .panel .panel-body {
       font-size: 14px;
       line-height: 28px; } }
-=======
-    font-size: 16px; } }
-.section-content .fund-list {
-  margin-top: 55px; }
-  .section-content .fund-list ul li .fund-info {
-    margin: 0 auto;
-    margin-top: 20px;
-    border: 1px solid #ccc; }
-    .section-content .fund-list ul li .fund-info figure {
-      border-bottom: 1px solid #ccc;
+  .faq-list .fund-list {
+    margin-top: 55px; }
+    .faq-list .fund-list ul li .fund-info {
+      margin: 0 auto;
+      margin-top: 20px;
+      border: 1px solid #ccc; }
+      .faq-list .fund-list ul li .fund-info figure {
+        border-bottom: 1px solid #ccc;
+        overflow: hidden; }
+        .faq-list .fund-list ul li .fund-info figure img {
+          width: 100%; }
+      .faq-list .fund-list ul li .fund-info .details {
+        padding: 30px; }
+        .faq-list .fund-list ul li .fund-info .details h6 {
+          font-size: 17px;
+          color: #143883;
+          margin-bottom: 15px; }
+        .faq-list .fund-list ul li .fund-info .details p {
+          font-size: 13px;
+          color: #555;
+          line-height: 22px; }
+  @media (min-width: 768px) {
+    .faq-list .fund-list ul li .fund-info {
+      margin-top: 0; }
+      .faq-list .fund-list ul li .fund-info figure {
+        height: 170px; }
+        .faq-list .fund-list ul li .fund-info figure > img {
+          width: 100%;
+          height: 100%; }
+    .faq-list .fund-list ul li:last-child .fund-info {
+      margin-right: 0; } }
+
+.table {
+  margin-bottom: 0; }
+
+.default-borad {
+  border-top: 2px solid #143883; }
+  .default-borad .table {
+    table-layout: fixed;
+    border: 0; }
+    .default-borad .table thead tr th {
+      padding: 15px 0;
+      font-size: 14px;
+      color: #143883;
+      font-weight: 400;
+      text-align: center;
+      border: 0;
+      border-bottom: 1px solid #143883; }
+      @media (min-width: 768px) {
+        .default-borad .table thead tr th {
+          font-size: 16px;
+          padding: 20px 0; } }
+    .default-borad .table tbody tr td {
+      font-size: 13px;
+      color: #666;
+      text-align: center;
+      padding: 15px 0;
+      border: 0;
+      border-bottom: 1px solid #dfdfdf; }
+      .default-borad .table tbody tr td.subject a {
+        display: block;
+        color: #666;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      .default-borad .table tbody tr td.num, .default-borad .table tbody tr td.date, .default-borad .table tbody tr td.hit {
+        font-family: 'Roboto', sans-serif; }
+      @media (min-width: 768px) {
+        .default-borad .table tbody tr td {
+          font-size: 15px;
+          padding: 20px 0; } }
+
+.table-responsive {
+  margin-bottom: 0;
+  border: 0;
+  border-top: 2px solid #143883; }
+  .table-responsive .table {
+    border: 0; }
+    .table-responsive .table thead tr th {
+      font-size: 12px;
+      color: #143883;
+      padding: 15px 10px;
+      font-weight: 400;
+      text-align: center;
+      border: 0;
+      border-bottom: 1px solid #143883; }
+      @media (min-width: 768px) {
+        .table-responsive .table thead tr th {
+          font-size: 15px;
+          padding: 20px 0; } }
+    .table-responsive .table tbody tr td {
+      font-size: 12px;
+      color: #666;
+      vertical-align: middle;
+      text-align: center;
+      padding: 15px 20px;
+      border: 0;
+      border-left: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf; }
+      .table-responsive .table tbody tr td:first-child {
+        border-left: 0; }
+      @media (min-width: 768px) {
+        .table-responsive .table tbody tr td {
+          font-size: 14px;
+          padding: 20px; } }
+    .table-responsive .table tbody tr.bold-bg td {
+      background-color: #f6f6f8; }
+
+.btn-responsive {
+  text-align: center; }
+  .btn-responsive p {
+    font-size: 0; }
+    .btn-responsive p .btn {
+      display: inline-block;
+      font-size: 15px; }
+    .btn-responsive p ~ p {
+      margin-top: 10px; }
+  @media (min-width: 768px) {
+    .btn-responsive {
       overflow: hidden; }
-      .section-content .fund-list ul li .fund-info figure img {
-        width: 100%; }
-    .section-content .fund-list ul li .fund-info .details {
-      padding: 30px; }
-      .section-content .fund-list ul li .fund-info .details h6 {
-        font-size: 17px;
-        color: #143883;
-        margin-bottom: 15px; }
-      .section-content .fund-list ul li .fund-info .details p {
-        font-size: 13px;
-        color: #555;
-        line-height: 22px; }
+      .btn-responsive p {
+        float: left; }
+        .btn-responsive p ~ p {
+          float: right;
+          margin-top: 0; }
+        .btn-responsive p .btn-sm {
+          width: 170px; }
+        .btn-responsive p .btn-lg {
+          width: 170px; } }
+
+.btn-area {
+  text-align: center; }
+  .btn-area p {
+    font-size: 0; }
+    .btn-area p .btn {
+      font-size: 15px;
+      display: inline-block;
+      margin-right: 10px; }
+      .btn-area p .btn:last-child {
+        margin-right: 0; }
+  @media (min-width: 768px) {
+    .btn-area {
+      text-align: right; } }
+
+.btn.btn-sm {
+  width: 145px;
+  height: 50px;
+  margin-right: 10px; }
+  .btn.btn-sm:last-child {
+    margin-right: 0; }
+  .btn.btn-sm.btn-white {
+    color: #333;
+    line-height: 48px;
+    border: 1px solid #aaa; }
+  .btn.btn-sm.btn-blue {
+    color: #fff;
+    border: 0;
+    line-height: 50px;
+    background-color: #143883; }
+.btn.btn-lg {
+  width: 300px; }
+  .btn.btn-lg.btn-white {
+    color: #333;
+    line-height: 48px;
+    border: 1px solid #aaa; }
+  .btn.btn-lg.btn-blue {
+    color: #fff;
+    border: 0;
+    line-height: 50px;
+    background-color: #143883; }
 @media (min-width: 768px) {
-  .section-content .fund-list ul li .fund-info {
-    margin-top: 0; }
-    .section-content .fund-list ul li .fund-info figure {
-      height: 170px; }
-      .section-content .fund-list ul li .fund-info figure > img {
-        width: 100%;
-        height: 100%; }
-  .section-content .fund-list ul li:last-child .fund-info {
-    margin-right: 0; } }
->>>>>>> 523036fc636ece9b0eb70de96a68af5c0f0545b9
+  .btn.btn-sm {
+    width: 170px; } }
+
+.board-view .view-header .board-title {
+  font-size: 15px;
+  color: #143883;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 25px 10px;
+  border-top: 2px solid #143883;
+  border-bottom: 1px solid #143883; }
+.board-view .view-header .borad-info {
+  padding: 20px 10px;
+  border-bottom: 1px solid #dfdfdf; }
+  .board-view .view-header .borad-info > ul > li {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    font-weight: 300; }
+    .board-view .view-header .borad-info > ul > li:after {
+      position: relative;
+      top: -2px;
+      font-size: 10px;
+      display: inline-block;
+      margin: 0 7px;
+      content: "|"; }
+    .board-view .view-header .borad-info > ul > li:last-child:after {
+      content: "";
+      margin: 0; }
+    .board-view .view-header .borad-info > ul > li > dl {
+      display: inline-block;
+      font-family: 'Roboto', sans-serif; }
+      .board-view .view-header .borad-info > ul > li > dl dt {
+        display: inline-block;
+        color: #666;
+        font-weight: 300; }
+        .board-view .view-header .borad-info > ul > li > dl dt:after {
+          content: " :"; }
+      .board-view .view-header .borad-info > ul > li > dl dd {
+        display: inline-block;
+        color: #666;
+        font-weight: 300; }
+.board-view .view-body {
+  font-size: 12px;
+  color: #666;
+  line-height: 30px;
+  font-weight: 300;
+  padding: 40px 10px 160px;
+  border-bottom: 1px solid #dfdfdf; }
+.board-view .attach {
+  overflow: hidden;
+  padding: 25px 10px;
+  border-bottom: 1px solid #dfdfdf; }
+  .board-view .attach dt {
+    float: left;
+    font-size: 12px;
+    width: 70px;
+    color: #666;
+    line-height: 26px; }
+  .board-view .attach dd {
+    float: left;
+    font-size: 12px; }
+    .board-view .attach dd a {
+      display: block;
+      color: #999;
+      line-height: 26px; }
+@media (min-width: 768px) {
+  .board-view .view-header .board-title {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .board-view .view-header .borad-info {
+    padding-left: 30px;
+    padding-right: 30px; }
+    .board-view .view-header .borad-info > ul > li {
+      font-size: 13px; }
+  .board-view .view-body {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .board-view .attach {
+    padding: 20px 30px; }
+    .board-view .attach dt {
+      font-size: 13px; }
+    .board-view .attach dd a {
+      font-size: 13px; } }
+
+.reply {
+  padding: 30px 20px;
+  border: 1px solid #dfdfdf;
+  background-color: #f6f6f8; }
+  .reply h6 {
+    display: inline-block;
+    font-size: 13px;
+    color: #f56462;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f56462; }
+  .reply p {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-top: 20px; }
+  @media (min-width: 768px) {
+    .reply {
+      padding: 30px; }
+      .reply p {
+        font-size: 13px;
+        line-height: 26px; } }
+
+.page-link {
+  border-top: 2px solid #143883; }
+  .page-link > li {
+    padding: 20px 10px;
+    display: block;
+    border-bottom: 1px solid #ccc; }
+    .page-link > li dl {
+      position: relative;
+      padding-left: 90px; }
+      .page-link > li dl dt {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90px;
+        font-size: 13px;
+        color: #143883;
+        font-weight: 400; }
+        .page-link > li dl dt:after {
+          float: right;
+          font-family: "fontello";
+          margin-right: 30px; }
+      .page-link > li dl dd a {
+        display: block;
+        font-size: 13px;
+        color: #666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+    .page-link > li.prev-link dl dt:after {
+      content: "\E807"; }
+    .page-link > li.next-link dl dt:after {
+      content: "\E80B"; }
+  @media (min-width: 768px) {
+    .page-link > li {
+      padding-left: 30px;
+      padding-right: 30px; }
+      .page-link > li dl {
+        padding-left: 140px; }
+        .page-link > li dl dt {
+          width: 140px;
+          font-size: 15px; }
+          .page-link > li dl dt:after {
+            margin-right: 60px; }
+        .page-link > li dl dd a {
+          font-size: 14px; } }
 
 /*# sourceMappingURL=sub.css.map */

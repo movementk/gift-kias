@@ -71,6 +71,12 @@
       "css": "down-open",
       "code": 59402,
       "src": "entypo"
+    },
+    {
+      "uid": "2d6150442079cbda7df64522dc24f482",
+      "css": "down-dir",
+      "code": 59403,
+      "src": "fontawesome"
     }
   ]
 }
