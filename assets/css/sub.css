@@ -593,48 +593,6 @@ section .section-content {
   section .section-content {
     margin-top: 65px; } }
 
-.section-content .fund-application h5 {
-  font-size: 18px;
-  color: #333;
-  line-height: 30px;
-  font-weight: 300;
-  margin-bottom: 35px; }
-  .section-content .fund-application h5 i {
-    color: #143883;
-    font-style: normal; }
-.section-content .fund-application p {
-  font-size: 13px;
-  line-height: 28px;
-  color: #555;
-  word-break: break-all; }
-  .section-content .fund-application p.note {
-    display: block;
-    font-sizs: 16px;
-    color: #333;
-    line-height: 32px;
-    font-weight: 300;
-    margin-top: 45px;
-    margin-bottom: 40px; }
-    .section-content .fund-application p.note span {
-      padding-bottom: 7px;
-      border-bottom: 1px solid #333; }
-@media (min-width: 768px) {
-  .section-content .fund-application h5 {
-    font-size: 32px;
-    line-height: 50px; }
-  .section-content .fund-application p {
-    font-size: 15px;
-    line-height: 30px; }
-    .section-content .fund-application p.note {
-      font-size: 20px;
-      line-height: 38px; } }
-@media (min-width: 992px) {
-  .section-content .fund-application h5 {
-    font-size: 33px; }
-  .section-content .fund-application p {
-    font-size: 16px;
-    line-height: 32px; } }
-
 .sub-title {
   font-size: 16px;
   color: #111;
