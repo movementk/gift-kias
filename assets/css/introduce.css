@@ -594,24 +594,24 @@ a {
   .faq .section-content .faq-list {
     margin-top: 50px; } }
 
-.directions .section-content .table-warp {
+.directions .section-content .table-wrap {
   margin-top: 25px; }
-  .directions .section-content .table-warp .type-2 tbody tr td > ul li {
+  .directions .section-content .table-wrap .type-2 tbody tr td > ul li {
     font-size: 12px;
     color: #666; }
-    .directions .section-content .table-warp .type-2 tbody tr td > ul li a {
+    .directions .section-content .table-wrap .type-2 tbody tr td > ul li a {
       color: #666; }
-  .directions .section-content .table-warp .type-2 tbody tr td dl dt {
+  .directions .section-content .table-wrap .type-2 tbody tr td dl dt {
     font-size: 13px;
     color: #333;
     font-weight: 500; }
-    .directions .section-content .table-warp .type-2 tbody tr td dl dt:nth-of-type(2) {
+    .directions .section-content .table-wrap .type-2 tbody tr td dl dt:nth-of-type(2) {
       margin-top: 30px; }
-  .directions .section-content .table-warp .type-2 tbody tr td dl dd {
+  .directions .section-content .table-wrap .type-2 tbody tr td dl dd {
     font-size: 14px;
     color: #666;
     margin-top: 5px; }
-    .directions .section-content .table-warp .type-2 tbody tr td dl dd > span {
+    .directions .section-content .table-wrap .type-2 tbody tr td dl dd > span {
       display: inline-block;
       width: 30px;
       height: 15px;
@@ -621,18 +621,18 @@ a {
       text-align: center;
       margin-right: 5px;
       background-color: #395cb4; }
-    .directions .section-content .table-warp .type-2 tbody tr td dl dd > i {
+    .directions .section-content .table-wrap .type-2 tbody tr td dl dd > i {
       font-style: normal;
       color: #395cb4;
       font-weight: 500;
       font-family: 'Roboto', sans-serif; }
-    .directions .section-content .table-warp .type-2 tbody tr td dl dd .info li {
+    .directions .section-content .table-wrap .type-2 tbody tr td dl dd .info li {
       position: relative;
       font-size: 12px;
       line-height: 18px;
       margin-top: 5px;
       padding-left: 25px; }
-      .directions .section-content .table-warp .type-2 tbody tr td dl dd .info li > span {
+      .directions .section-content .table-wrap .type-2 tbody tr td dl dd .info li > span {
         position: absolute;
         display: inline-block;
         top: 5px;
@@ -647,16 +647,16 @@ a {
         border-radius: 50%;
         background-color: #003499;
         font-family: 'Roboto', sans-serif; }
-      .directions .section-content .table-warp .type-2 tbody tr td dl dd .info li i {
+      .directions .section-content .table-wrap .type-2 tbody tr td dl dd .info li i {
         font-style: normal;
         font-size: 12px;
         font-weight: 500;
         line-height: 28px; }
-      .directions .section-content .table-warp .type-2 tbody tr td dl dd .info li.blue > i {
+      .directions .section-content .table-wrap .type-2 tbody tr td dl dd .info li.blue > i {
         color: #003499; }
-      .directions .section-content .table-warp .type-2 tbody tr td dl dd .info li.brown span {
+      .directions .section-content .table-wrap .type-2 tbody tr td dl dd .info li.brown span {
         background-color: #9a4e0f; }
-      .directions .section-content .table-warp .type-2 tbody tr td dl dd .info li.brown > i {
+      .directions .section-content .table-wrap .type-2 tbody tr td dl dd .info li.brown > i {
         color: #9a4e0f; }
 @media (min-width: 768px) {
   .directions .section-content .table-warp {

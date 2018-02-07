@@ -48,7 +48,7 @@
                                          <img src="/assets/images/introduce/img_map.jpg" class="img-responsive" alt="">
                                      </figure>
                                      
-                                     <div class="table-warp">
+                                     <div class="table-wrap">
                                         <table class="table type-2">
                                             <tbody>
                                                 <tr>
