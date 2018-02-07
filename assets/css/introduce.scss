@@ -232,6 +232,7 @@
                         }
                         figcaption {
                             border-top: 1px solid #ccc;
+                            height: 130px;
                             padding: 25px 30px 30px;
                             dl {
                                 dt {
@@ -244,6 +245,7 @@
                                     font-size: 13px;
                                     color: #555;
                                     line-height: 22px;
+                                    letter-spacing: -.5px;
                                 }
                             }   
                         }
@@ -308,27 +310,48 @@
 //faq
 .faq {
     .section-content {
-        p {
-            font-size: 14px;
-            line-height: 26px;
-            color: #333;
-            font-weight: 400;
-            a {
-                color: #f4781f;
+        article {
+            .article-header {
+                p {
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #333;
+                    font-weight: 300;
+                    a {
+                        color: #f4781f;
+                    }
+                }
             }
-        }
-        .faq-list {
-            margin-top: 60px;
+            .article-content {
+                margin-top: 60px;
+            }
         }
     }
     @media(min-width: $sm) {
-       .section-content {
-            p {
-                font-size: 16px;
-                line-height: 32px;
+        .section-content {
+            article {
+                .article-header {
+                    p {
+                        font-size: 16px;
+                        line-height: 32px;
+                    }
+                }
+                .article-content {
+                    margin-top: 50px;
+                }
             }
-            .faq-list {
-                margin-top: 50px;
+        } 
+    }
+    @media(min-width: $lg) {
+        .section-content {
+            article {
+                .article-header {
+                    p {
+                        a {
+                            cursor: auto;
+                        }
+                    }
+                }
             }
         } 
     }
@@ -337,6 +360,9 @@
 // 찾아오시는길
 .directions {
     .section-content {
+        .maps {
+            border: 1px solid #dfdfdf;
+        }
         .table-wrap {
             margin-top: 25px;
             .type-2 {
@@ -357,7 +383,7 @@
                                     font-size: 13px;
                                     color: #333;
                                     font-weight: 500;
-                                    &:nth-of-type(2) {
+                                    & ~ dt {
                                         margin-top: 30px;
                                     }
                                 }
@@ -382,7 +408,7 @@
                                         font-weight: 500;
                                         @include roboto;
                                     }
-                                    .info {
+                                    .subway {
                                         li {
                                             position: relative;
                                             font-size: 12px;
@@ -411,12 +437,12 @@
                                                 font-weight: 500;
                                                 line-height: 28px;
                                             }
-                                            &.blue {
+                                            &.line-1 {
                                                 > i {
                                                     color: #003499;
                                                 }
                                             }
-                                            &.brown {
+                                            &.line-6 {
                                                 span {
                                                     background-color: #9a4e0f;
                                                 }
@@ -434,7 +460,7 @@
             }
         }
         @media(min-width: $sm) {
-            .table-warp {
+            .table-wrap {
                 margin-top: 30px;
                 .type-2 {
                     tbody {
@@ -453,13 +479,13 @@
                                 dl {
                                     dt {
                                         font-size: 14px;
-                                        &:nth-of-type(2) {
-                                            margin-top: 40px;
+                                        & ~ dt {
+                                            margin-top: 35px;
                                         }
                                     }
                                     dd {
                                         font-size: 14px;
-                                        .info {
+                                        .subway {
                                             li {
                                                 font-size: 14px;
                                                 line-height: 28px;
@@ -467,6 +493,25 @@
                                                     font-size: 14px;
                                                 }
                                             }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            .table-wrap {
+                .type-2 {
+                    tbody {
+                        tr {
+                            td {
+                                > ul {
+                                    li {
+                                        a {
+                                            cursor: auto;   
                                         }
                                     }
                                 }
