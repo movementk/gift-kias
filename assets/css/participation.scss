@@ -1,0 +1,74 @@
+@import 'common';
+
+// 참여하기 공통
+.participation {
+    .page-header {
+        background-image: url(/assets/images/participation/bg_page_header.jpg);
+    }
+    .page-wrap {
+        .lnb-nav {
+            ul {
+                li {
+                    width: 33.33%;
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        .page-wrap {
+            .lnb-nav {
+                ul {
+                    li {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//기부 방법
+.donation-way {
+    .section-content {
+        ul {
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
