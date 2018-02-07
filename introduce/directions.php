@@ -44,11 +44,10 @@
                                     <h4 class="section-title">찾아오시는 길</h4>
                                 </div>
                                 <div class="section-content">
-                                     <figure>
-                                         <img src="/assets/images/introduce/img_map.jpg" class="img-responsive" alt="">
-                                     </figure>
-                                     
-                                     <div class="table-wrap">
+                                    <div class="maps">
+                                        <img src="/assets/images/introduce/img_map.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="table-wrap">
                                         <table class="table type-2">
                                             <tbody>
                                                 <tr>
@@ -63,9 +62,9 @@
                                                     <td>
                                                         <ul>
                                                             <li>
-                                                                T.<a href="tel:029583780">02-958-3780</a>
+                                                                T. <a href="tel:029583780">02-958-3780</a>
                                                             </li>
-                                                            <li>F.02-958–3770</li>
+                                                            <li>F. 02-958–3770</li>
                                                         </ul>
                                                     </td>
                                                 </tr>
@@ -80,16 +79,16 @@
                                                             </dd>
                                                             <dt>지하철 이용 시</dt>
                                                             <dd>
-                                                                <ul class="info">
-                                                                    <li class="blue">
+                                                                <ul class="subway">
+                                                                    <li class="line-1">
                                                                         <span>1</span>
                                                                         <i>호선 청량리역</i> 2번 출구에서<br class="visible-xs"> 201번 버스이용
                                                                     </li>
-                                                                    <li class="blue">
+                                                                    <li class="line-1">
                                                                         <span>1</span>
                                                                         <i>호선 회기역</i> 1번 출구에서 273번 버스,<br class="visible-xs"> 2번 출구에서 201번 버스이용 
                                                                     </li>
-                                                                    <li class="brown">
+                                                                    <li class="line-6">
                                                                         <span>6</span>
                                                                         <i >호선 고려대역</i> 2번 출구에서<br class="visible-xs"> 273번 버스이용 
                                                                     </li>    
