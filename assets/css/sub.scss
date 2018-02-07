@@ -576,6 +576,109 @@ section {
     }
 }
 
+//게시판 타입 2
+.table-warp {
+    border-top: 2px solid #143883;
+    .type-2 {
+        tbody {
+            tr {
+                th {
+                    width: 110px;
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: 500;
+                    padding: 20px 20px 40px;
+                    border-bottom: 1px solid #dfdfdf;
+                    background-color: #f6f6f8;
+                }
+                td {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 24px;
+                    border-bottom: 1px solid #dfdfdf;
+                    padding: 20px 25px;
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+       .type-2 {
+            tbody {
+                tr {
+                    th {
+                        width: 170px;
+                        font-size: 15px;
+                        line-height: normal;
+                        padding: 20px 20px;
+                    } 
+                    td {
+                        font-size: 14px;
+                        line-height: normal;
+                        padding: 20px 30px;
+                    }
+                }
+            }
+        } 
+    }
+    @media (min-width: $lg) {
+       .type-2 {
+            tbody {
+                tr {
+                    th {
+                        width: 170px;
+                        padding: 20px 20px;
+                    }
+                    td {
+                        padding: 20px 30px;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 버튼 리스트
 .btn-responsive {
@@ -954,7 +1057,6 @@ section {
         }
     }
 }
-
 
 
 

@@ -109,7 +109,7 @@
                             
                             <br><br>
                             
-                            <!-- table-type -->
+                            <!-- table-type 1-->
                             <div class="table-warp default-borad">
                                 <table class="table table-bordered">
                                     <thead>
@@ -128,6 +128,23 @@
                                             </td>
                                             <td class="date">2</td>
                                             <td class="hit">3</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <br><br>
+                            
+                            <!-- table-type 2-->
+                            <div class="table-warp">
+                                <table class="table type-2">
+                                    <tbody>
+                                        <tr>
+                                            <th>주소</th>
+                                            <td>
+                                                서울시 동대문구 회기로 85 
+                                                고등과학원 제1호관 1432호
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
