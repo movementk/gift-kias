@@ -19,7 +19,7 @@
             <li>FAQ</li>
         </ol>
     </div>
-    <main id="content" class="faq"><!-- 페이지명 클래스 -->
+    <main id="content">
         <div class="container-fluid">
             <div class="page-warp">
                 <div class="row">
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <div class="sub-content"><!-- sub content -->
-                            <section>
+                            <section class="faq"><!-- 페이지명 클래스 -->
                                 <div class="section-header">
                                     <h4 class="section-title">FAQ</h4>
                                 </div>

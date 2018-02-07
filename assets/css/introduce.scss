@@ -1,15 +1,17 @@
 @import 'common';
 
-//인사말
+//introduce page-header
 .introduce {
     .page-header {
         background-image: url(/assets/images/introduce/bg_page_header.jpg);
     }
 }
+
+//인사말
 .greeting {
-    .sub-content {
-        section {
-            .section-content {
+    .section-content {
+        article {
+            .article-header {
                 figure {
                     padding-top: 10px;
                     figcaption {
@@ -24,44 +26,44 @@
                         }
                     }
                 }
-                .greeting-list {
-                    ul {
-                        li {
-                            padding-top: 50px;
-                            &:nth-of-type(1) {
-                                padding-top: 0;
-                            }
-                            h5 {
-                                font-size: 18px;
-                                color: #143883;
-                                line-height: 30px;
-                                letter-spacing: -1.2px;
-                                &:before {
-                                    content: "";
-                                    display: block;
-                                    width: 45px;
-                                    height: 2px;
-                                    margin-bottom: 15px;
-                                    background-color: #143883;
-                                }
-                            }
-                            p {
-                                font-size: 13px;
-                                line-height: 24px;
-                                color: #555;
-                                padding-top: 25px;
-
+            }
+            .article-content {
+                ul {
+                    li {
+                        padding-top: 50px;
+                        &:nth-of-type(1) {
+                            padding-top: 0;
+                        }
+                        h5 {
+                            font-size: 18px;
+                            color: #143883;
+                            line-height: 30px;
+                            letter-spacing: -1.2px;
+                            &:before {
+                                content: "";
+                                display: block;
+                                width: 45px;
+                                height: 2px;
+                                margin-bottom: 15px;
+                                background-color: #143883;
                             }
                         }
+                        p {
+                            font-size: 13px;
+                            line-height: 24px;
+                            color: #555;
+                            padding-top: 25px;
+
+                        }
                     }
-                }
+                }        
             }
         }
     }
     @media(min-width: $sm) {
-        .sub-content {
-            section {
-                .section-content {
+        .section-content {
+            article {
+                .article-header {
                     figure {
                         font-size: 0;
                         padding-top: 0;
@@ -75,37 +77,37 @@
                             width: 50%;
                             font-size: 25px;
                             line-height: 45px;
-                            letter-spacing: -.5px;
+                            letter-spacing: -1px;
                             vertical-align: middle;
                             margin-top: 0;
                             margin-bottom: 0;
                             padding-left: 30px;
-                            
+
                         }
                     }
-                    .greeting-list {
-                        ul {
-                            li {
-                                padding-top: 90px;
-                                &:nth-of-type(1) {
-                                    padding-top: 0;
+                }
+                .article-content {
+                    ul {
+                        li {
+                            padding-top: 90px;
+                            &:nth-of-type(1) {
+                                padding-top: 0;
+                            }
+                            h5 {
+                                font-size: 20px;
+                                letter-spacing: -1.2px;
+                                margin-top: 10px;
+                                &:before {
+                                    content: "";
+                                    display: block;
+                                    width: 200px;
+                                    margin-bottom: 20px;
                                 }
-                                h5 {
-                                    font-size: 20px;
-                                    letter-spacing: -1.2px;
-                                    &:before {
-                                        content: "";
-                                        display: block;
-                                        width: 200px;
-                                        margin-bottom: 20px;
-                                    }
-                                }
-                                p {
-                                    font-size: 15px;
-                                    line-height: 30px;
-                                    padding-top: 0;
-                                    margin-top: -10px;
-                                }
+                            }
+                            p {
+                                font-size: 15px;
+                                line-height: 30px;
+                                padding-top: 0;
                             }
                         }
                     }
@@ -113,10 +115,10 @@
             }
         }
     }
-    @media(min-width: $lg) {
-        .sub-content {
-            section {
-                .section-content {
+    @media(min-width: $md) {
+        .section-content {
+            article {
+                .article-header {
                     figure {
                         img {
                             padding-right: 10px;
@@ -128,18 +130,18 @@
                             pading-left: 20px;
                         }
                     }
-                    .greeting-list {
-                        ul {
-                            li {
-                                h5 {
-                                    letter-spacing: -2px;
-                                    &:before {
-                                        width: 100%;
-                                    }
+                }
+                .article-content { 
+                    ul {
+                        li {
+                            h5 {
+                                letter-spacing: -2px;
+                                &:before {
+                                    width: 100%;
                                 }
-                                p {
-                                    padding-left: 60px;
-                                }
+                            }
+                            p {
+                                padding-left: 60px;
                             }
                         }
                     }
@@ -151,148 +153,157 @@
 
 // 기금용도
 .usage {
-    section {
-        .section-content {
-            .summary {
-                h5 {
-                    font-size: 18px;
-                    line-height: 30px;
-                    color: #333;
+    .section-content {
+        .summary {
+            h5 {
+                font-size: 18px;
+                line-height: 30px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 25px;
+                i {
+                    font-style: normal;
+                    color: #143883;
+                }
+            }
+            p {
+                font-size: 13px;
+                line-height: 28px;
+                color: #555;
+                &.emphasis {
+                    font-size: 16px;
+                    color: #333; 
+                    line-height: 32px;
                     font-weight: 400;
+                    padding-top: 30px;
                     margin-bottom: 25px;
-                    i {
-                        font-style: normal;
-                        color: #143883;
+                    span {
+                        display: inline-block;
+                        border-bottom: 1px solid #999;
                     }
+                }
+            }
+        }
+        @media(min-width: $sm) {
+           .summary {
+                h5 {
+                    font-size: 32px;
+                    line-height: 50px;
+                    margin-bottom: 60px;
                 }
                 p {
-                    font-size: 13px;
-                    line-height: 28px;
-                    color: #555;
+                    font-size: 15px;
+                    line-height: 30px;
                     &.emphasis {
-                        font-size: 16px;
-                        color: #333; 
-                        line-height: 32px;
-                        font-weight: 400;
-                        padding-top: 30px;
-                        padding-bottom: 10px;
-                        margin-bottom: 25px;
-                        span {
-                            display: inline-block;
-                            border-bottom: 1px solid #999;
+                        font-size: 20px;
+                        line-height: 38px;
+                        padding-top: 45px;
+                        margin-bottom: 35px;
+                    }
+                }
+            } 
+        }
+        @media(min-width: $lg) {
+           .summary {
+                h5 {
+                    font-size: 33px;
+                    margin-bottom: 65px;
+                }
+                p {
+                    font-size:  16px;
+                    line-height: 32px;
+                    &.emphasis {
+                        font-size: 20px;
+                        line-height: 38px;
+                        padding-top: 45px;
+                        margin-bottom: 35px;
+                    }
+                }
+            } 
+        }
+        .fund-list {
+            padding-top: 50px;
+            ul {
+                li {
+                    figure {
+                        border: 1px solid #ccc;
+                        img {
+                            width: 100%;
+                        }
+                        figcaption {
+                            border-top: 1px solid #ccc;
+                            padding: 25px 30px 30px;
+                            dl {
+                                dt {
+                                    font-size: 16px;
+                                    color: #143883;
+                                    font-weight: 500;
+                                    padding-bottom: 20px;
+                                }
+                                dd {
+                                    font-size: 13px;
+                                    color: #555;
+                                    line-height: 22px;
+                                }
+                            }   
+                        }
+                    }
+                    & ~ li {
+                        figure {
+                            margin-top: 20px;
                         }
                     }
                 }
             }
-            @media(min-width: $sm) {
-               .summary {
-                    h5 {
-                        font-size: 32px;
-                        line-height: 50px;
-                        margin-bottom: 60px;
-                    }
-                    p {
-                        font-size: 15px;
-                        line-height: 30px;
-                        &.emphasis {
-                            font-size: 20px;
-                            line-height: 38px;
-                            padding-top: 45px;
-                            margin-bottom: 35px;
-                        }
-                    }
-                } 
-            }
-            @media(min-width: $lg) {
-               .summary {
-                    h5 {
-                        font-size: 33px;
-                        margin-bottom: 65px;
-                    }
-                    p {
-                        font-size:  16px;
-                        line-height: 32px;
-                        &.emphasis {
-                            font-size: 20px;
-                            line-height: 38px;
-                            padding-top: 45px;
-                            margin-bottom: 35px;
-                        }
-                    }
-                } 
-            }
+        }
+        @media(min-width: $sm) {
             .fund-list {
-                padding-top: 50px;
+                padding-top: 80px;
                 ul {
                     li {
                         figure {
-                            border: 1px solid #ccc;
-                            img {
-                                width: 100%;
-                            }
-                        }
-                        dl {
-                            padding: 30px;
-                            border: 1px solid #ccc;
-                            border-top: 0;
-                            dt {
-                                font-size: 16px;
-                                color: #143883;
-                                padding-bottom: 20px;
-                            }
-                            dd {
-                                font-size: 13px;
-                                color: #555;
-                                line-height: 22px;
+                            figcaption {
+                                dl {
+                                    dt {
+                                        font-size: 17px;
+                                    }
+                                    dd {
+                                        font-size: 13px;
+                                    }
+                                }
                             }
                         }
                         & ~ li {
                             figure {
-                                margin-top: 20px;
+                                margin-top: 0;
                             }
                         }
                     }
                 }
-            }
-            @media(min-width: $sm) {
-                .fund-list {
-                    padding-top: 80px;
-                    ul {
-                        li {
-                            dl {
-                                dt {
-                                    font-size: 17px;
-                                }
-                                dd {
-                                    font-size: 13px;
-                                }
-                            }
-                            & ~ li {
-                                figure {
-                                    margin-top: 0;
+            }  
+        }
+        @media(min-width: $lg) {
+            .fund-list {
+                padding-top: 95px;
+                ul {
+                    li {
+                        figure {
+                            figcaption {
+                                dl {
+                                    dd {
+                                        font-size: 14px;
+                                    }
                                 }
                             }
                         }
                     }
-                }  
-            }
-            @media(min-width: $lg) {
-                .fund-list {
-                    padding-top: 95px;
-                    ul {
-                        li {
-                            dl {
-                                dd {
-                                    font-size: 14px;
-                                }
-                            }
-                        }
-                    }
-                }  
-            }
+                }
+            }  
         }
     }
 }
+
+
 
 //faq
 .faq {

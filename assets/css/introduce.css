@@ -413,170 +413,169 @@ a {
 .introduce .page-header {
   background-image: url(/assets/images/introduce/bg_page_header.jpg); }
 
-.greeting .sub-content section .section-content figure {
+.greeting .section-content article .article-header figure {
   padding-top: 10px; }
-  .greeting .sub-content section .section-content figure figcaption {
+  .greeting .section-content article .article-header figure figcaption {
     font-size: 20px;
     line-height: 32px;
     color: #333;
     margin-top: 45px;
     margin-bottom: 60px; }
-    .greeting .sub-content section .section-content figure figcaption b {
+    .greeting .section-content article .article-header figure figcaption b {
       color: #143883;
       font-weight: 500; }
-.greeting .sub-content section .section-content .greeting-list ul li {
+.greeting .section-content article .article-content ul li {
   padding-top: 50px; }
-  .greeting .sub-content section .section-content .greeting-list ul li:nth-of-type(1) {
+  .greeting .section-content article .article-content ul li:nth-of-type(1) {
     padding-top: 0; }
-  .greeting .sub-content section .section-content .greeting-list ul li h5 {
+  .greeting .section-content article .article-content ul li h5 {
     font-size: 18px;
     color: #143883;
     line-height: 30px;
     letter-spacing: -1.2px; }
-    .greeting .sub-content section .section-content .greeting-list ul li h5:before {
+    .greeting .section-content article .article-content ul li h5:before {
       content: "";
       display: block;
       width: 45px;
       height: 2px;
       margin-bottom: 15px;
       background-color: #143883; }
-  .greeting .sub-content section .section-content .greeting-list ul li p {
+  .greeting .section-content article .article-content ul li p {
     font-size: 13px;
     line-height: 24px;
     color: #555;
     padding-top: 25px; }
 @media (min-width: 768px) {
-  .greeting .sub-content section .section-content figure {
+  .greeting .section-content article .article-header figure {
     font-size: 0;
     padding-top: 0;
     margin-bottom: 100px; }
-    .greeting .sub-content section .section-content figure img {
+    .greeting .section-content article .article-header figure img {
       display: inline-block;
       width: 50%; }
-    .greeting .sub-content section .section-content figure figcaption {
+    .greeting .section-content article .article-header figure figcaption {
       display: inline-block;
       width: 50%;
       font-size: 25px;
       line-height: 45px;
-      letter-spacing: -.5px;
+      letter-spacing: -1px;
       vertical-align: middle;
       margin-top: 0;
       margin-bottom: 0;
       padding-left: 30px; }
-  .greeting .sub-content section .section-content .greeting-list ul li {
+  .greeting .section-content article .article-content ul li {
     padding-top: 90px; }
-    .greeting .sub-content section .section-content .greeting-list ul li:nth-of-type(1) {
+    .greeting .section-content article .article-content ul li:nth-of-type(1) {
       padding-top: 0; }
-    .greeting .sub-content section .section-content .greeting-list ul li h5 {
+    .greeting .section-content article .article-content ul li h5 {
       font-size: 20px;
-      letter-spacing: -1.2px; }
-      .greeting .sub-content section .section-content .greeting-list ul li h5:before {
+      letter-spacing: -1.2px;
+      margin-top: 10px; }
+      .greeting .section-content article .article-content ul li h5:before {
         content: "";
         display: block;
         width: 200px;
         margin-bottom: 20px; }
-    .greeting .sub-content section .section-content .greeting-list ul li p {
+    .greeting .section-content article .article-content ul li p {
       font-size: 15px;
       line-height: 30px;
-      padding-top: 0;
-      margin-top: -10px; } }
-@media (min-width: 1200px) {
-  .greeting .sub-content section .section-content figure img {
+      padding-top: 0; } }
+@media (min-width: 992px) {
+  .greeting .section-content article .article-header figure img {
     padding-right: 10px; }
-  .greeting .sub-content section .section-content figure figcaption {
+  .greeting .section-content article .article-header figure figcaption {
     font-size: 28px;
     line-height: 45px;
     margin-top: 50px;
     pading-left: 20px; }
-  .greeting .sub-content section .section-content .greeting-list ul li h5 {
+  .greeting .section-content article .article-content ul li h5 {
     letter-spacing: -2px; }
-    .greeting .sub-content section .section-content .greeting-list ul li h5:before {
+    .greeting .section-content article .article-content ul li h5:before {
       width: 100%; }
-  .greeting .sub-content section .section-content .greeting-list ul li p {
+  .greeting .section-content article .article-content ul li p {
     padding-left: 60px; } }
 
-.usage section .section-content .summary h5 {
+.usage .section-content .summary h5 {
   font-size: 18px;
   line-height: 30px;
   color: #333;
   font-weight: 400;
   margin-bottom: 25px; }
-  .usage section .section-content .summary h5 i {
+  .usage .section-content .summary h5 i {
     font-style: normal;
     color: #143883; }
-.usage section .section-content .summary p {
+.usage .section-content .summary p {
   font-size: 13px;
   line-height: 28px;
   color: #555; }
-  .usage section .section-content .summary p.emphasis {
+  .usage .section-content .summary p.emphasis {
     font-size: 16px;
     color: #333;
     line-height: 32px;
     font-weight: 400;
     padding-top: 30px;
-    padding-bottom: 10px;
     margin-bottom: 25px; }
-    .usage section .section-content .summary p.emphasis span {
+    .usage .section-content .summary p.emphasis span {
       display: inline-block;
       border-bottom: 1px solid #999; }
 @media (min-width: 768px) {
-  .usage section .section-content .summary h5 {
+  .usage .section-content .summary h5 {
     font-size: 32px;
     line-height: 50px;
     margin-bottom: 60px; }
-  .usage section .section-content .summary p {
+  .usage .section-content .summary p {
     font-size: 15px;
     line-height: 30px; }
-    .usage section .section-content .summary p.emphasis {
+    .usage .section-content .summary p.emphasis {
       font-size: 20px;
       line-height: 38px;
       padding-top: 45px;
       margin-bottom: 35px; } }
 @media (min-width: 1200px) {
-  .usage section .section-content .summary h5 {
+  .usage .section-content .summary h5 {
     font-size: 33px;
     margin-bottom: 65px; }
-  .usage section .section-content .summary p {
+  .usage .section-content .summary p {
     font-size: 16px;
     line-height: 32px; }
-    .usage section .section-content .summary p.emphasis {
+    .usage .section-content .summary p.emphasis {
       font-size: 20px;
       line-height: 38px;
       padding-top: 45px;
       margin-bottom: 35px; } }
-.usage section .section-content .fund-list {
+.usage .section-content .fund-list {
   padding-top: 50px; }
-  .usage section .section-content .fund-list ul li figure {
+  .usage .section-content .fund-list ul li figure {
     border: 1px solid #ccc; }
-    .usage section .section-content .fund-list ul li figure img {
+    .usage .section-content .fund-list ul li figure img {
       width: 100%; }
-  .usage section .section-content .fund-list ul li dl {
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-top: 0; }
-    .usage section .section-content .fund-list ul li dl dt {
-      font-size: 16px;
-      color: #143883;
-      padding-bottom: 20px; }
-    .usage section .section-content .fund-list ul li dl dd {
-      font-size: 13px;
-      color: #555;
-      line-height: 22px; }
-  .usage section .section-content .fund-list ul li ~ li figure {
+    .usage .section-content .fund-list ul li figure figcaption {
+      border-top: 1px solid #ccc;
+      padding: 25px 30px 30px; }
+      .usage .section-content .fund-list ul li figure figcaption dl dt {
+        font-size: 16px;
+        color: #143883;
+        font-weight: 500;
+        padding-bottom: 20px; }
+      .usage .section-content .fund-list ul li figure figcaption dl dd {
+        font-size: 13px;
+        color: #555;
+        line-height: 22px; }
+  .usage .section-content .fund-list ul li ~ li figure {
     margin-top: 20px; }
 @media (min-width: 768px) {
-  .usage section .section-content .fund-list {
+  .usage .section-content .fund-list {
     padding-top: 80px; }
-    .usage section .section-content .fund-list ul li dl dt {
+    .usage .section-content .fund-list ul li figure figcaption dl dt {
       font-size: 17px; }
-    .usage section .section-content .fund-list ul li dl dd {
+    .usage .section-content .fund-list ul li figure figcaption dl dd {
       font-size: 13px; }
-    .usage section .section-content .fund-list ul li ~ li figure {
+    .usage .section-content .fund-list ul li ~ li figure {
       margin-top: 0; } }
 @media (min-width: 1200px) {
-  .usage section .section-content .fund-list {
+  .usage .section-content .fund-list {
     padding-top: 95px; }
-    .usage section .section-content .fund-list ul li dl dd {
+    .usage .section-content .fund-list ul li figure figcaption dl dd {
       font-size: 14px; } }
 
 .faq .section-content p {
