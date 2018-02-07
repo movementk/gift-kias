@@ -19,7 +19,7 @@
             <li>기금용도</li>
         </ol>
     </div>
-    <main id="content" class="usage"><!-- 페이지명 클래스 -->
+    <main id="content">
         <div class="container-fluid">
             <div class="page-warp">
                 <div class="row">
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <div class="sub-content"><!-- sub content -->
-                            <section>
+                            <section class="usage"><!-- 페이지명 클래스 -->
                                 <div class="section-header">
                                     <h4 class="section-title">기금용도</h4>
                                 </div>
@@ -70,32 +70,38 @@
                                     </div>
                                     <div class="fund-list">
                                         <ul class="row">
-                                            <li class="col-xs-12 col-sm-4 col-lg-4">
+                                            <li class="col-xs-12 col-sm-4">
                                                 <figure>
                                                     <img src="/assets/images/introduce/img_fund_list01.jpg" class="img-responsive" alt="">
+                                                    <figcaption>
+                                                        <dl>
+                                                            <dt>발전기금</dt>
+                                                            <dd>KIAS의 우선사업에 활용하도록<br> 용도를 위임한 기금입니다.</dd>
+                                                        </dl>
+                                                    </figcaption>
                                                 </figure>
-                                                <dl>
-                                                    <dt>발전기금</dt>
-                                                    <dd>KIAS의 우선사업에 활용하도록<br> 용도를 위임한 기금입니다.</dd>
-                                                </dl>
                                             </li>
-                                            <li class="col-xs-12 col-sm-4 col-lg-4">
+                                            <li class="col-xs-12 col-sm-4">
                                                 <figure>
                                                     <img src="/assets/images/introduce/img_fund_list02.jpg" class="img-responsive" alt="">
+                                                    <figcaption>
+                                                        <dl>
+                                                            <dt>특정목적기금</dt>
+                                                            <dd>석학유치. 인재육성, 국제교류,<br> 장서확충</dd>
+                                                        </dl>
+                                                    </figcaption>
                                                 </figure>
-                                                <dl>
-                                                    <dt>특정목적기금</dt>
-                                                    <dd>석학유치. 인재육성, 국제교류,<br> 장서확충</dd>
-                                                </dl>
                                             </li>
-                                            <li class="col-xs-12 col-sm-4 col-lg-4">
+                                            <li class="col-xs-12 col-sm-4">
                                                 <figure>
                                                     <img src="/assets/images/introduce/img_fund_list03.jpg" class="img-responsive" alt="">
+                                                    <figcaption>
+                                                        <dl>
+                                                            <dt>지정기금</dt>
+                                                            <dd>기부자의 지정용도에 따라<br> 운영합니다.</dd>
+                                                        </dl>
+                                                    </figcaption>
                                                 </figure>
-                                                <dl>
-                                                    <dt>지정기금</dt>
-                                                    <dd>기부자의 지정용도에 따라<br> 운영합니다.</dd>
-                                                </dl>
                                             </li>
                                         </ul>
                                     </div>

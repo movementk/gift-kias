@@ -19,7 +19,7 @@
             <li>찾아오시는 길</li>
         </ol>
     </div>
-    <main id="content" class="directions"><!-- 페이지명 클래스 -->
+    <main id="content">
         <div class="container-fluid">
             <div class="page-warp">
                 <div class="row">
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <div class="sub-content"><!-- sub content -->
-                            <section>
+                            <section class="directions"><!-- 페이지명 클래스 -->
                                 <div class="section-header">
                                     <h4 class="section-title">찾아오시는 길</h4>
                                 </div>
