@@ -36,14 +36,90 @@
                         </nav>
                     </div>
                     <div class="col-xs-12 col-lg-9">
-                        <section class="inquiry-list"> <!-- 페이지명 클래스 -->
-                            <div class="section-header">
-                                
-                            </div>
-                            <div class="section-content">
-                                
-                            </div>
-                        </section>
+                        <div class="sub-content">
+                            <section class="inquiry-list"> <!-- 페이지명 클래스 -->
+                                <div class="section-header">
+                                    <h4 class="section-title">기부금 내역조회</h4>
+                                </div>
+                                <div class="section-content">
+                                    <div class="table-wrap default-borad">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>번호</th>
+                                                    <th>제목</th>
+                                                    <th>작성일</th>
+                                                    <th>조회수</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="num">1</td>
+                                                    <td class="subject">
+                                                        <a href="#">공지사항 제목 노출 영역입니다.공지사항 제목 노출 영역입니다.공지사항 제목 노출 영역입니다.공지사항 제목 노출 영역입니다.</a>
+                                                    </td>
+                                                    <td class="date">2</td>
+                                                    <td class="hit">3</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <nav aria-label="Page navigation" class="paging">
+                                        <ul class="pagination">
+                                            <li class="first">
+                                                <a href="#" aria-label="Previous">
+                                                    <i class="icon-angle-double-left">
+                                                        <span class="sr-only">처음</span>
+                                                    </i>
+                                                </a>
+                                            </li>
+                                            <li class="prev">
+                                                <a href="#" aria-label="Previous">
+                                                    <i class="icon-angle-left">
+                                                        <span class="sr-only">이전</span>
+                                                    </i>
+                                                </a>
+                                            </li>
+                                            <li><a href="#">01</a></li>
+                                            <li class="active"><a href="#">02</a></li>
+                                            <li><a href="#">03</a></li>
+                                            <li><a href="#">04</a></li>
+                                            <li><a href="#">05</a></li>
+                                            <li class="hidden-xs"><a href="#">06</a></li>
+                                            <li class="hidden-xs"><a href="#">07</a></li>
+                                            <li class="hidden-xs"><a href="#">08</a></li>
+                                            <li class="hidden-xs"><a href="#">09</a></li>
+                                            <li class="hidden-xs"><a href="#">10</a></li>
+                                            <li class="next">
+                                                <a href="#" aria-label="Next">
+                                                    <i class="icon-angle-right">
+                                                        <span class="sr-only">다음</span>
+                                                    </i>
+                                                </a>
+                                            </li>
+                                            <li class="last">
+                                                <a href="#" aria-label="Next">
+                                                    <i class="icon-angle-double-right">
+                                                        <span class="sr-only">마지막</span>
+                                                    </i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <div class="search-form">
+                                        <form action="#">
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>선택</option>
+                                                </select>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <button type="submit" class="btn btn-search">검색</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>

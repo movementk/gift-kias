@@ -829,9 +829,9 @@ section .section-content {
     .table-responsive .table tbody tr.bold-bg td {
       background-color: #f6f6f8; }
 
-.table-warp {
+.table-wrap {
   border-top: 2px solid #143883; }
-  .table-warp .type-2 tbody tr th {
+  .table-wrap .type-2 tbody tr th {
     width: 110px;
     font-size: 13px;
     color: #333;
@@ -839,27 +839,27 @@ section .section-content {
     padding: 20px 20px 40px;
     border-bottom: 1px solid #dfdfdf;
     background-color: #f6f6f8; }
-  .table-warp .type-2 tbody tr td {
+  .table-wrap .type-2 tbody tr td {
     font-size: 12px;
     color: #666;
     line-height: 24px;
     border-bottom: 1px solid #dfdfdf;
     padding: 20px 25px; }
   @media (min-width: 768px) {
-    .table-warp .type-2 tbody tr th {
+    .table-wrap .type-2 tbody tr th {
       width: 170px;
       font-size: 15px;
       line-height: normal;
       padding: 20px 20px; }
-    .table-warp .type-2 tbody tr td {
+    .table-wrap .type-2 tbody tr td {
       font-size: 14px;
       line-height: normal;
       padding: 20px 30px; } }
   @media (min-width: 1200px) {
-    .table-warp .type-2 tbody tr th {
+    .table-wrap .type-2 tbody tr th {
       width: 170px;
       padding: 20px 20px; }
-    .table-warp .type-2 tbody tr td {
+    .table-wrap .type-2 tbody tr td {
       padding: 20px 30px; } }
 
 .btn-responsive {

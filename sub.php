@@ -110,7 +110,7 @@
                             <br><br>
                             
                             <!-- table-type 1-->
-                            <div class="table-warp default-borad">
+                            <div class="table-wrap default-borad">
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
@@ -136,7 +136,7 @@
                             <br><br>
                             
                             <!-- table-type 2-->
-                            <div class="table-warp">
+                            <div class="table-wrap">
                                 <table class="table type-2">
                                     <tbody>
                                         <tr>

@@ -5,7 +5,60 @@
     .page-header {
         background-image: url(/assets/images/member/bg_page_header.jpg);
     }
-    .page-wrap {
-        
+    .lnb-nav {
+        ul {
+            li {
+                width: 50%;
+                @media(min-width: $lg) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 기부금 내역조회
+.inquiry-list {
+    .section-content {
+        .table-wrap {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            &:nth-of-type(1) {
+                                display: none;
+                            }
+                            &:nth-of-type(2) {
+                                
+                            }
+                            &:nth-of-type(3) {
+                                
+                            }
+                            &:nth-of-type(4) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            &:nth-of-type(1) {
+                                display: none;
+                            }
+                            &:nth-of-type(2) {
+                                
+                            }
+                            &:nth-of-type(3) {
+                                
+                            }
+                            &:nth-of-type(4) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

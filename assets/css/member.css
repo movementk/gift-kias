@@ -412,5 +412,19 @@ a {
 
 .member .page-header {
   background-image: url(/assets/images/member/bg_page_header.jpg); }
+.member .lnb-nav ul li {
+  width: 50%; }
+  @media (min-width: 1200px) {
+    .member .lnb-nav ul li {
+      width: 100%; } }
+
+.inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+  display: none; }
+.inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+  display: none; }
+.inquiry-list .section-content .table-wrap .table tbody tr td:nth-of-type(1) {
+  display: none; }
+.inquiry-list .section-content .table-wrap .table tbody tr td:nth-of-type(4) {
+  display: none; }
 
 /*# sourceMappingURL=member.css.map */
