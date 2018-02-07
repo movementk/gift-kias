@@ -20,7 +20,7 @@
     </div>
     <main id="content" class=""><!-- 페이지명 클래스 -->
         <div class="container-fluid">
-            <div class="page-warp">
+            <div class="page-wrap">
                 <div class="row">
                     <div class="col-xs-12 col-lg-3">
                         <nav class="lnb-nav">

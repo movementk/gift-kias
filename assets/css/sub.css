@@ -466,15 +466,15 @@ a {
       .page-header .breadcrumb > li {
         font-size: 15px; } }
 
-.page-warp .lnb-nav {
+.page-wrap .lnb-nav {
   margin: 0 -10px; }
-  .page-warp .lnb-nav ul {
+  .page-wrap .lnb-nav ul {
     width: 100%;
     font-size: 0; }
-    .page-warp .lnb-nav ul li {
+    .page-wrap .lnb-nav ul li {
       display: inline-block;
       width: 25%; }
-      .page-warp .lnb-nav ul li a {
+      .page-wrap .lnb-nav ul li a {
         display: block;
         font-size: 12px;
         color: #fff;
@@ -483,45 +483,45 @@ a {
         text-align: center;
         background-color: #143883;
         border-right: 1px solid #5b74a8; }
-      .page-warp .lnb-nav ul li.active a {
+      .page-wrap .lnb-nav ul li.active a {
         color: #143883;
         background-color: #fff; }
-      .page-warp .lnb-nav ul li:last-child a {
+      .page-wrap .lnb-nav ul li:last-child a {
         border-right: 0; }
-.page-warp .sub-content {
+.page-wrap .sub-content {
   padding-top: 50px; }
 @media (min-width: 768px) {
-  .page-warp .lnb-nav {
+  .page-wrap .lnb-nav {
     margin: 0 -20px; }
-    .page-warp .lnb-nav ul li a {
+    .page-wrap .lnb-nav ul li a {
       padding: 17px 0;
       font-size: 17px; }
-  .page-warp .sub-content {
+  .page-wrap .sub-content {
     padding-top: 85px; } }
 @media (min-width: 1200px) {
-  .page-warp {
+  .page-wrap {
     padding-top: 50px; }
-    .page-warp .lnb-nav {
+    .page-wrap .lnb-nav {
       margin: 0;
       padding-right: 40px; }
-      .page-warp .lnb-nav .lnb-title {
+      .page-wrap .lnb-nav .lnb-title {
         font-size: 28px;
         font-weight: 500;
         color: #fff;
         text-align: center;
         padding: 35px 0 25px;
         background-color: #143883; }
-        .page-warp .lnb-nav .lnb-title small {
+        .page-wrap .lnb-nav .lnb-title small {
           font-size: 12px;
           color: #2364e4;
           display: block;
           margin-top: 10px; }
-      .page-warp .lnb-nav ul {
+      .page-wrap .lnb-nav ul {
         border: 1px solid #ccc; }
-        .page-warp .lnb-nav ul li {
+        .page-wrap .lnb-nav ul li {
           display: block;
           width: 100%; }
-          .page-warp .lnb-nav ul li a {
+          .page-wrap .lnb-nav ul li a {
             text-align: left;
             font-size: 15px;
             color: #666;
@@ -529,19 +529,19 @@ a {
             border-right: 0;
             background-color: #fff;
             border-bottom: 1px solid #ccc; }
-            .page-warp .lnb-nav ul li a:after {
+            .page-wrap .lnb-nav ul li a:after {
               position: relative;
               top: 2px;
               font-size: 13px;
               float: right;
               font-family: "fontello";
               content: "\E800"; }
-          .page-warp .lnb-nav ul li.active a {
+          .page-wrap .lnb-nav ul li.active a {
             color: #143883;
             background-color: #eaeaee; }
-          .page-warp .lnb-nav ul li:last-child a {
+          .page-wrap .lnb-nav ul li:last-child a {
             border-bottom: 0; }
-    .page-warp .sub-content {
+    .page-wrap .sub-content {
       padding-top: 20px; } }
 
 .form-group {

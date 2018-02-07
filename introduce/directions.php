@@ -21,7 +21,7 @@
     </div>
     <main id="content">
         <div class="container-fluid">
-            <div class="page-warp">
+            <div class="page-wrap">
                 <div class="row">
                     <div class="col-xs-12 col-lg-3">
                         <nav class="lnb-nav">
