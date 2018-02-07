@@ -608,7 +608,36 @@ body {
     }
 }
 
-
+// quick top
+#quick-top {
+    display: none;
+    .top {
+        position: fixed;
+        right: 50%;
+        bottom: 80px;
+        display: block;
+        width: 60px;
+        height: 60px;
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 50%;
+        padding: 3px 0;
+        margin-right: -680px;
+        background-color: #5e5e5f;
+        &:before {
+            position: relative;
+            top: 3px;
+            display: block;
+            margin: 0 auto;
+            content: "\E807";
+            font-family: "fontello";
+        }
+    }
+    @media(min-width: $lg) {
+        display: block;
+    }
+}
 
 
 

@@ -30,4 +30,20 @@
         }
         e.preventDefault();
     });
+    // 퀵배너 및 탑 관련
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() >= 150) {
+            $('#quick-top').show('slow');
+        } else {
+            $('#quick-top').hide('slow');
+        }
+    });
+    
+    // 퀵 탑 관련
+    $(document).on('click', '#quick-top .top', function(e) {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        });
+        e.preventDefault();
+    });
 })(jQuery);

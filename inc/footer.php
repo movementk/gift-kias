@@ -1,3 +1,7 @@
+<!-- Quick Top -->
+<div id="quick-top">
+    <a href="#" class="top">TOP</a>
+</div>
 <article class="donation-information">
     <div class="container">
         <ul class="row">

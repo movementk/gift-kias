@@ -205,8 +205,175 @@
     }
 }
 
+// 소개
+.introduce {
+    color: #fff;
+    text-align: center;
+    padding: 76px 0;
+    background-image: url(/assets/images/main/bg_introduce.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    small {
+        display: block;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 38px;
+    }
+    p {
+        font-style: italic;
+        font-weight: 300;
+        line-height: 22px;
+        margin-top: 40px;
+        @include roboto();
+    }
+    @media(min-width: $sm) {
+        padding: 100px 0;
+        background-position: 60% 50%;
+        small {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 50px;
+            strong {
+                font-size: 52px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    @media(min-width: $md) {
+        padding: 96px 0;
+        background-position: 50% 50%;
+    }
+}
 
-
+// 소식
+.notice {
+    padding: 60px 0;
+    .section-header {
+        text-align: center;
+        padding-bottom: 40px;
+        h3 {
+            font-size: 24px;
+            color: #333;
+            font-weight: bold;
+            @include roboto();
+        }
+    }
+    .section-content {
+        ul {
+            li {
+                a {
+                    display: block;
+                    figure {
+                        figcaption {
+                            padding-bottom: 20px;
+                            b {
+                                display: block;
+                                font-size: 36px;
+                                color: #d0d0d0;
+                                @include roboto();
+                                margin-bottom: 10px;
+                            }
+                            p {
+                                display: block;
+                                font-size: 14px;
+                                color: #666;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                margin-bottom: 15px;
+                            }
+                            .date {
+                                font-size: 13px;
+                                color: #aaa;
+                                @include roboto();
+                            }
+                        }
+                        .img-responsive {
+                            width: 100%;
+                        }
+                    }
+                }
+                & ~ li {
+                    a {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        padding-bottom: 80px;
+        .section-header {
+            padding-bottom: 50px;
+            h3 {
+                font-size: 35px;
+            }
+        }
+        .section-content {
+            ul {
+                li {
+                    a {
+                        figure {
+                            figcaption {
+                                padding-bottom: 30px;
+                                b {
+                                    font-size: 45px;
+                                }
+                                p {
+                                    font-size: 16px;
+                                    margin-bottom: 25px;
+                                }
+                            }
+                        }
+                    }
+                    & ~ li {
+                        a {
+                            margin-top: 60px;
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        a {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        .section-header {
+            padding-bottom: 60px;
+        }
+        .section-content {
+            ul {
+                li {
+                    a {
+                        figure {
+                            figcaption {
+                                padding-bottom: 40px;
+                            }
+                        }
+                    }
+                    & ~ li {
+                        a {
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

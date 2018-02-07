@@ -874,4 +874,31 @@ body {
         .bank > div.bank-details dl dd:last-child {
           margin-bottom: 0; }
 
+#quick-top {
+  display: none; }
+  #quick-top .top {
+    position: fixed;
+    right: 50%;
+    bottom: 80px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px 0;
+    margin-right: -680px;
+    background-color: #5e5e5f; }
+    #quick-top .top:before {
+      position: relative;
+      top: 3px;
+      display: block;
+      margin: 0 auto;
+      content: "\E807";
+      font-family: "fontello"; }
+  @media (min-width: 1200px) {
+    #quick-top {
+      display: block; } }
+
 /*# sourceMappingURL=default.css.map */

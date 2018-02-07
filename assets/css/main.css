@@ -565,4 +565,107 @@ a {
         .gift-participation ul > li .details.online {
           background-image: url(/assets/images/main/bg_gift_lg_participation03.jpg); } }
 
+.introduce {
+  color: #fff;
+  text-align: center;
+  padding: 76px 0;
+  background-image: url(/assets/images/main/bg_introduce.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  .introduce small {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px; }
+  .introduce h3 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 38px; }
+  .introduce p {
+    font-style: italic;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif; }
+  @media (min-width: 768px) {
+    .introduce {
+      padding: 100px 0;
+      background-position: 60% 50%; }
+      .introduce small {
+        font-size: 24px;
+        margin-bottom: 15px; }
+      .introduce h3 {
+        font-size: 50px; }
+        .introduce h3 strong {
+          font-size: 52px; }
+      .introduce p {
+        font-size: 14px; } }
+  @media (min-width: 992px) {
+    .introduce {
+      padding: 96px 0;
+      background-position: 50% 50%; } }
+
+.notice {
+  padding: 60px 0; }
+  .notice .section-header {
+    text-align: center;
+    padding-bottom: 40px; }
+    .notice .section-header h3 {
+      font-size: 24px;
+      color: #333;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif; }
+  .notice .section-content ul li a {
+    display: block; }
+    .notice .section-content ul li a figure figcaption {
+      padding-bottom: 20px; }
+      .notice .section-content ul li a figure figcaption b {
+        display: block;
+        font-size: 36px;
+        color: #d0d0d0;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 10px; }
+      .notice .section-content ul li a figure figcaption p {
+        display: block;
+        font-size: 14px;
+        color: #666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-bottom: 15px; }
+      .notice .section-content ul li a figure figcaption .date {
+        font-size: 13px;
+        color: #aaa;
+        font-family: 'Roboto', sans-serif; }
+    .notice .section-content ul li a figure .img-responsive {
+      width: 100%; }
+  .notice .section-content ul li ~ li a {
+    margin-top: 30px; }
+  @media (min-width: 768px) {
+    .notice {
+      padding-bottom: 80px; }
+      .notice .section-header {
+        padding-bottom: 50px; }
+        .notice .section-header h3 {
+          font-size: 35px; }
+      .notice .section-content ul li a figure figcaption {
+        padding-bottom: 30px; }
+        .notice .section-content ul li a figure figcaption b {
+          font-size: 45px; }
+        .notice .section-content ul li a figure figcaption p {
+          font-size: 16px;
+          margin-bottom: 25px; }
+      .notice .section-content ul li ~ li a {
+        margin-top: 60px; }
+      .notice .section-content ul li:nth-of-type(2) a {
+        margin-top: 0; } }
+  @media (min-width: 1200px) {
+    .notice .section-header {
+      padding-bottom: 60px; }
+    .notice .section-content ul li a figure figcaption {
+      padding-bottom: 40px; }
+    .notice .section-content ul li ~ li a {
+      margin-top: 0px; } }
+
 /*# sourceMappingURL=main.css.map */
