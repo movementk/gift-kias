@@ -1,0 +1,185 @@
+@import 'common';
+
+.donator {
+    .page-header {
+        background-image: url(/assets/images/donator/bg_page_header.jpg);
+    }
+    .page-wrap {
+        .lnb-nav {
+            ul {
+                li {
+                    width: 33.33%;
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        .page-wrap {
+            .lnb-nav {
+                ul {
+                    li {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//기부자 명단
+.donator-list {
+    .section-content {
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #333;
+        }
+        .table-wrap {
+            margin-top: 30px;
+            .table {
+                thead {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            padding: 20px 0;
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 45px;
+        }
+    }
+    @media(min-width: $sm) {
+        .section-content {
+            p {
+                font-size: 16px;
+                line-height: 32px;
+            }
+            .table-wrap {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                padding: 20px 0;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 45px;
+            }
+        }   
+    }
+    @media(min-width: $lg) {
+        .section-content {
+            .table-wrap {
+                margin-top: 50px;
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                &:first-child {
+                                    width: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 50px;
+            }
+        }   
+    }
+}
+
+//기부자 예우
+.donator-respect {
+    .section-content {
+        article {
+            .article-header {
+                > p {
+                    font-size: 15px;
+                    line-height: 28px;
+                    color: #333;
+                    & ~ p {
+                        margin-top: 35px;
+                    }
+                }
+                .respect-list {
+                    margin-top: 30px;
+                    padding: 30px 15px 35px;
+                    background-color: #f6f6f8;
+                    border: 1px solid #e1e1e1;
+                    border-radius: 10px;
+                    h5 {
+                        font-size: 15px;
+                        color: #1a49a0;
+                        line-height: 24px;
+                        span {
+                            display: inline-block;
+                            border-bottom: 1px solid #889fcc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
