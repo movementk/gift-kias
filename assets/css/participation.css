@@ -416,7 +416,6 @@ a {
   width: 33.33%; }
 @media (min-width: 1200px) {
   .participation .page-wrap .lnb-nav ul li {
-    display: block;
     width: 100%; } }
 
 .donation-way .section-content > ul > li > p {
@@ -438,21 +437,20 @@ a {
     .donation-way .section-content > ul > li > .agreement-list li ~ li {
       margin-top: 60px; }
     .donation-way .section-content > ul > li > .agreement-list li > div {
+      display: table;
       width: 145px;
       height: 145px;
       margin: 0 auto;
       background-color: #aeb9d2;
       border-radius: 50%;
       box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.15) inset; }
-      .donation-way .section-content > ul > li > .agreement-list li > div img {
-        display: block;
-        margin: 0 auto;
-        padding-top: 46px; }
+      .donation-way .section-content > ul > li > .agreement-list li > div figure {
+        display: table-cell;
+        vertical-align: middle; }
     .donation-way .section-content > ul > li > .agreement-list li h6 {
       font-size: 17px;
       color: #143883;
       font-weight: 400;
-      letter-spacing: -.1px;
       margin-top: 35px;
       margin-bottom: 15px; }
     .donation-way .section-content > ul > li > .agreement-list li > p {
@@ -478,8 +476,6 @@ a {
     .donation-way .section-content > ul > li > .agreement-list li > div {
       width: 170px;
       height: 170px; }
-      .donation-way .section-content > ul > li > .agreement-list li > div img {
-        padding-top: 55px; }
     .donation-way .section-content > ul > li > .agreement-list li h6 {
       margin-top: 40px; } }
 .donation-way .section-content > ul > li > .method-list {
@@ -515,12 +511,10 @@ a {
     font-size: 16px; }
   .donation-way .section-content > ul > li > .method-list li dl dd {
     display: inline-block;
-    font-size: 16px;
-    line-height: normal; } }
+    font-size: 16px; } }
 @media (min-width: 768px) {
   .donation-way .section-content > ul > li > p {
-    font-size: 16px;
-    line-height: normal; }
+    font-size: 16px; }
   .donation-way .section-content > ul > li ~ li {
     margin-top: 80px; } }
 @media (min-width: 1200px) {
@@ -575,8 +569,7 @@ a {
       margin-top: 15px; }
 @media (min-width: 768px) {
   .donation-start .section-content article .article-header h5 {
-    font-size: 24px;
-    line-height: normal; }
+    font-size: 24px; }
   .donation-start .section-content article .article-content ol li ~ li {
     margin-top: 0; }
   .donation-start .section-content article .article-content ol li figure figcaption > p {
@@ -664,18 +657,13 @@ a {
   .agreement .section-content .terms .article-content {
     margin-top: 40px; }
     .agreement .section-content .terms .article-content ul li {
+      overflow: hidden;
       margin-bottom: 30px; }
       .agreement .section-content .terms .article-content ul li:last-child {
         margin-bottom: 40px; }
     .agreement .section-content .terms .article-content ul h5 {
-      display: inline-block;
-      line-height: normal; }
-      .agreement .section-content .terms .article-content ul h5:before {
-        position: absolute;
-        top: 3px;
-        left: 0; }
+      float: left; }
     .agreement .section-content .terms .article-content ul .form-group {
-      display: inline-block;
       float: right;
       margin-top: 0; }
       .agreement .section-content .terms .article-content ul .form-group label {
@@ -683,13 +671,13 @@ a {
         .agreement .section-content .terms .article-content ul .form-group label:last-child {
           margin-right: 0; }
     .agreement .section-content .terms .article-content .check {
+      overflow: hidden;
       padding: 30px 0; }
       .agreement .section-content .terms .article-content .check h5 {
-        display: inline-block; }
+        float: left; }
       .agreement .section-content .terms .article-content .check .form-group {
-        display: inline-block;
-        margin-top: 0;
-        float: right; }
+        float: right;
+        margin-top: 0; }
         .agreement .section-content .terms .article-content .check .form-group label {
           margin-right: 35px; }
           .agreement .section-content .terms .article-content .check .form-group label:last-child {
