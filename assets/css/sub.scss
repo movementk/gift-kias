@@ -192,9 +192,11 @@
 }
 label {
     font-weight: 400;
+    margin-bottom: 0;
 }
 .form-control {
     font-size: 13px;
+    color: #d8d8d8;
     border-radius: 0;
     box-shadow: none !important;
     border: 1px solid #dee1e2;
@@ -502,12 +504,17 @@ section {
                     border: 0;
                     border-bottom: 1px solid #dfdfdf;
                     &.subject {
+                        text-align: left;
                         a {
                             display: block;
                             color: #666;
                             white-space: nowrap;
                             text-overflow: ellipsis;
                             overflow: hidden;
+                            padding-left: 10px;
+                            @media(min-width: $sm) {
+                                padding-left: 20px;
+                            }
                         }
                     }
                     &.num, &.date, &.hit {

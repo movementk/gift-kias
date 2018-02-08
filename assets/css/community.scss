@@ -1,0 +1,289 @@
+@import 'common';
+
+// 공통
+.community {
+    .page-header {
+        background-image: url(/assets/images/member/bg_page_header.jpg);
+    }
+    .lnb-nav {
+        ul {
+            li {
+                width: 50%;
+                @media(min-width: $lg) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+// 게시판 리스트
+.board-list {
+    .section-content {
+        .table-wrap {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            &:nth-of-type(1) {
+                                display: none;
+                            }
+                            &:nth-of-type(2) {
+                                
+                            }
+                            &:nth-of-type(3) {
+                                width: 100px;
+                            }
+                            &:nth-of-type(4) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            &:nth-of-type(1) {
+                                display: none;
+                            }
+                            &:nth-of-type(2) {
+                                
+                            }
+                            &:nth-of-type(3) {
+                                
+                            }
+                            &:nth-of-type(4) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin: 40px 0;
+        }
+    }
+    @media(min-width: $sm) {
+        .section-content {
+            .table-wrap {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                &:nth-of-type(1) {
+                                    display: table-cell;
+                                    width: 80px;
+                                }
+                                &:nth-of-type(2) {
+
+                                }
+                                &:nth-of-type(3) {
+                                    width: 130px;
+                                }
+                                &:nth-of-type(4) {
+                                    display: table-cell;
+                                    width: 100px;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                &:nth-of-type(1) {
+                                    display: table-cell;
+                                }
+                                &:nth-of-type(2) {
+
+                                }
+                                &:nth-of-type(3) {
+
+                                }
+                                &:nth-of-type(4) {
+                                    display: table-cell;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin: 60px 0 55px;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .section-content {
+            .paging {
+                margin: 50px 0;
+            }
+        }
+    }
+}
+
+// 게시판 뷰
+.view-common {
+    .section-content {
+        .board-view {
+            .reply {
+                margin-top: 30px;
+            }
+            .btn-responsive {
+                margin-top: 35px;
+            }
+            .page-link {
+                margin-top: 50px;
+            }
+            @media(min-width: $sm) {
+                .btn-responsive {
+                    margin-top: 30px;
+                }
+                .page-link {
+                    margin-top: 60px;
+                }
+            }
+        }
+    }
+}
+
+// 게시판 쓰기
+.write-common {
+    .section-content {
+        .table-wrap {
+            .table {
+                tbody {
+                    tr {
+                        th {
+                            font-weight: 400;
+                            padding: 10px;
+                            vertical-align: middle;
+                            &.v-top {
+                                padding-top: 20px;
+                                vertical-align: top;
+                            }
+                        }
+                        td {
+                            padding: 10px;
+                            .form-group {
+                                .form-control {
+                                    color: #666;
+                                    & ~ .form-control {
+                                        margin-top: 10px;
+                                    }
+                                }
+                                textarea {
+                                    height: 190px !important;
+                                }
+                            }
+                            &.attach {
+                                .form-group {
+                                    position: relative;
+                                    padding-right: 80px;
+                                    label {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        width: 70px;
+                                        height: 34px;
+                                        font-size: 13px;
+                                        text-align: center;
+                                        line-height: 32px;
+                                        cursor: pointer;
+                                        border: 1px solid #dfdfdf;
+                                        background-color: #f6f6f8;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+        }
+        @media(min-width: $sm) {
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            &:nth-of-type(1) {
+                                th {
+                                    &.v-top {
+                                        padding-top: 0;
+                                        vertical-align: middle;
+                                    }
+                                }
+                            }
+                            th {
+                                padding-left: 20px;
+                            }
+                            td {
+                                padding-left: 30px;
+                                padding-right: 30px;
+                                .form-group {
+                                    .form-control {
+                                        color: #666;
+                                        & ~ .form-control {
+                                            margin-top: 10px;
+                                        }
+                                    }
+                                    textarea {
+                                        height: 360px !important;
+                                    }
+                                }
+                                &.subject {
+                                    .form-group {
+                                        position: relative;
+                                        padding-left: 170px;
+                                        select {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 160px;
+                                        }
+                                    }
+                                }
+                                &.attach {
+                                    .form-group {
+                                        padding-right: 120px;
+                                        label {
+                                            width: 110px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

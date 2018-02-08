@@ -548,10 +548,12 @@ a {
   margin: 0; }
 
 label {
-  font-weight: 400; }
+  font-weight: 400;
+  margin-bottom: 0; }
 
 .form-control {
   font-size: 13px;
+  color: #d8d8d8;
   border-radius: 0;
   box-shadow: none !important;
   border: 1px solid #dee1e2; }
@@ -780,12 +782,18 @@ section .section-content {
       padding: 15px 0;
       border: 0;
       border-bottom: 1px solid #dfdfdf; }
-      .default-borad .table tbody tr td.subject a {
-        display: block;
-        color: #666;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden; }
+      .default-borad .table tbody tr td.subject {
+        text-align: left; }
+        .default-borad .table tbody tr td.subject a {
+          display: block;
+          color: #666;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          padding-left: 10px; }
+          @media (min-width: 768px) {
+            .default-borad .table tbody tr td.subject a {
+              padding-left: 20px; } }
       .default-borad .table tbody tr td.num, .default-borad .table tbody tr td.date, .default-borad .table tbody tr td.hit {
         font-family: 'Roboto', sans-serif; }
       @media (min-width: 768px) {

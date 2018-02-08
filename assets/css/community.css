@@ -410,104 +410,117 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
-.member .page-header {
+.community .page-header {
   background-image: url(/assets/images/member/bg_page_header.jpg); }
-.member .lnb-nav ul li {
+.community .lnb-nav ul li {
   width: 50%; }
   @media (min-width: 1200px) {
-    .member .lnb-nav ul li {
+    .community .lnb-nav ul li {
       width: 100%; } }
 
-.inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+.board-list .section-content .table-wrap .table thead tr th:nth-of-type(1) {
   display: none; }
-.inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+.board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
   width: 100px; }
-.inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+.board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
   display: none; }
-.inquiry-list .section-content .table-wrap .table tbody tr td:nth-of-type(1) {
+.board-list .section-content .table-wrap .table tbody tr td:nth-of-type(1) {
   display: none; }
-.inquiry-list .section-content .table-wrap .table tbody tr td:nth-of-type(4) {
+.board-list .section-content .table-wrap .table tbody tr td:nth-of-type(4) {
   display: none; }
-.inquiry-list .section-content .paging {
+.board-list .section-content .paging {
   margin: 40px 0; }
 @media (min-width: 768px) {
-  .inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+  .board-list .section-content .table-wrap .table thead tr th:nth-of-type(1) {
     display: table-cell;
     width: 80px; }
-  .inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+  .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
     width: 130px; }
-  .inquiry-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+  .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
     display: table-cell;
     width: 100px; }
-  .inquiry-list .section-content .table-wrap .table tbody tr td:nth-of-type(1) {
+  .board-list .section-content .table-wrap .table tbody tr td:nth-of-type(1) {
     display: table-cell; }
-  .inquiry-list .section-content .table-wrap .table tbody tr td:nth-of-type(4) {
+  .board-list .section-content .table-wrap .table tbody tr td:nth-of-type(4) {
     display: table-cell; }
-  .inquiry-list .section-content .paging {
+  .board-list .section-content .paging {
     margin: 60px 0 55px; } }
 @media (min-width: 992px) {
-  .inquiry-list .section-content .paging {
+  .board-list .section-content .paging {
     margin: 50px 0; } }
 
-.breakdown .section-content {
-  margin-top: 55px; }
-  .breakdown .section-content .identification {
-    text-align: center; }
-    .breakdown .section-content .identification .article-header figure {
-      margin-bottom: 40px; }
-      .breakdown .section-content .identification .article-header figure img {
-        display: block;
-        margin: 0 auto;
-        width: 78px; }
-    .breakdown .section-content .identification .article-header h5 {
-      font-size: 18px;
-      color: #111;
-      font-weight: 500;
-      margin-bottom: 30px; }
-    .breakdown .section-content .identification .article-header p {
-      font-size: 13px;
-      color: #666;
-      line-height: 22px;
-      word-break: keep-all; }
-      .breakdown .section-content .identification .article-header p.attention {
-        color: #e46b6b; }
-        .breakdown .section-content .identification .article-header p.attention:before {
-          content: "* "; }
-    .breakdown .section-content .identification .article-content {
-      width: 300px;
-      margin: 0 auto;
-      margin-top: 30px; }
-      .breakdown .section-content .identification .article-content .form-group .form-control ~ .form-control {
-        margin-top: 10px; }
-      .breakdown .section-content .identification .article-content .btn-area {
-        margin-top: 20px;
-        text-align: center; }
-        .breakdown .section-content .identification .article-content .btn-area p .btn {
-          height: 40px;
-          line-height: 40px; }
+.view-common .section-content .board-view .reply {
+  margin-top: 30px; }
+.view-common .section-content .board-view .btn-responsive {
+  margin-top: 35px; }
+.view-common .section-content .board-view .page-link {
+  margin-top: 50px; }
 @media (min-width: 768px) {
-  .breakdown .section-content {
-    margin-top: 90px;
-    padding-bottom: 60px; }
-    .breakdown .section-content .identification .article-header figure {
-      margin-bottom: 40px; }
-      .breakdown .section-content .identification .article-header figure img {
-        width: 90px; }
-    .breakdown .section-content .identification .article-header h5 {
-      font-size: 22px; }
-    .breakdown .section-content .identification .article-header p {
-      font-size: 15px;
-      line-height: 24px; }
-    .breakdown .section-content .identification .article-content {
-      width: 330px;
-      margin: 0 auto;
-      margin-top: 30px; }
-      .breakdown .section-content .identification .article-content .form-group .form-control ~ .form-control {
-        margin-top: 10px; }
-      .breakdown .section-content .identification .article-content .btn-area {
-        margin-top: 20px;
-        text-align: center; }
-        .breakdown .section-content .identification .article-content .btn-area p .btn {
-          width: 130px; } }
+  .view-common .section-content .board-view .btn-responsive {
+    margin-top: 30px; }
+  .view-common .section-content .board-view .page-link {
+    margin-top: 60px; } }
 
-/*# sourceMappingURL=member.css.map */
+.write-common .section-content .table-wrap .table tbody tr th {
+  font-weight: 400;
+  padding: 10px;
+  vertical-align: middle; }
+  .write-common .section-content .table-wrap .table tbody tr th.v-top {
+    padding-top: 20px;
+    vertical-align: top; }
+.write-common .section-content .table-wrap .table tbody tr td {
+  padding: 10px; }
+  .write-common .section-content .table-wrap .table tbody tr td .form-group .form-control {
+    color: #666; }
+    .write-common .section-content .table-wrap .table tbody tr td .form-group .form-control ~ .form-control {
+      margin-top: 10px; }
+  .write-common .section-content .table-wrap .table tbody tr td .form-group textarea {
+    height: 190px !important; }
+  .write-common .section-content .table-wrap .table tbody tr td.attach .form-group {
+    position: relative;
+    padding-right: 80px; }
+    .write-common .section-content .table-wrap .table tbody tr td.attach .form-group label {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 70px;
+      height: 34px;
+      font-size: 13px;
+      text-align: center;
+      line-height: 32px;
+      cursor: pointer;
+      border: 1px solid #dfdfdf;
+      background-color: #f6f6f8; }
+.write-common .section-content .btn-area {
+  margin-top: 30px; }
+@media (min-width: 768px) {
+  .write-common .section-content .table-wrap .table tbody tr:nth-of-type(1) th.v-top {
+    padding-top: 0;
+    vertical-align: middle; }
+  .write-common .section-content .table-wrap .table tbody tr th {
+    padding-left: 20px; }
+  .write-common .section-content .table-wrap .table tbody tr td {
+    padding-left: 30px;
+    padding-right: 30px; }
+    .write-common .section-content .table-wrap .table tbody tr td .form-group .form-control {
+      color: #666; }
+      .write-common .section-content .table-wrap .table tbody tr td .form-group .form-control ~ .form-control {
+        margin-top: 10px; }
+    .write-common .section-content .table-wrap .table tbody tr td .form-group textarea {
+      height: 360px !important; }
+    .write-common .section-content .table-wrap .table tbody tr td.subject .form-group {
+      position: relative;
+      padding-left: 170px; }
+      .write-common .section-content .table-wrap .table tbody tr td.subject .form-group select {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 160px; }
+    .write-common .section-content .table-wrap .table tbody tr td.attach .form-group {
+      padding-right: 120px; }
+      .write-common .section-content .table-wrap .table tbody tr td.attach .form-group label {
+        width: 110px; }
+  .write-common .section-content .btn-area {
+    margin-top: 40px; } }
+
+/*# sourceMappingURL=community.css.map */
