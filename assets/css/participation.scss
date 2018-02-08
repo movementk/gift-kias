@@ -31,22 +31,525 @@
 //기부 방법
 .donation-way {
     .section-content {
-        ul {
-            
+        > ul {
+            > li {
+                > p {
+                    font-size: 13px;
+                    line-height: 24px;
+                    color: #555;
+                    margin-top: 30px;
+                } 
+                & ~ li {
+                    margin-top: 70px;
+                }
+                > .agreement-list {
+                    margin-top: 10px;
+                    padding: 50px 50px 100px;
+                    background-color: #f6f6f8;
+                    border: 1px solid #e1e1e1;
+                    border-radius: 10px; 
+                    li {
+                        margin: 0 auto;
+                        text-align: center;
+                        & ~ li {
+                            margin-top: 60px;  
+                        }
+                        > div {
+                            width: 145px;
+                            height: 145px;
+                            margin: 0 auto;
+                            background-color: #aeb9d2;
+                            border-radius: 50%;
+                            box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.15) inset;
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                                padding-top: 46px;
+                            }
+                        }
+                        h6 {
+                            font-size: 17px;
+                            color: #143883;
+                            font-weight: 400;
+                            letter-spacing: -.1px;
+                            margin-top: 35px;
+                            margin-bottom: 15px;
+                        }
+                        > p {
+                            font-size: 13px;
+                            line-height: 22px;
+                            color: #555;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    .agreement-list {
+                        font-size:0 ;
+                        margin-top: 25px;
+                        padding: 60px 0 90px 0;
+                        li {
+                            display: inline-block;
+                            width: 33.33%;
+                            vertical-align: top;
+                            & ~ li {
+                                margin-top: 0;  
+                            }
+                            > p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $lg) {
+                    > .agreement-list {
+                        padding: 60px 0 70px 0;
+                        li {
+                            > div {
+                                width: 170px;
+                                height: 170px;
+                                img {
+                                    padding-top: 55px;
+                                }
+                            }
+                            h6 {
+                                margin-top: 40px;
+                            }
+                        }
+                    }
+                }
+                > .method-list {
+                    margin-top: 30px;
+                    li {
+                        position: relative;
+                        margin-top: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 1px;
+                            left: 0;
+                            display: inline-block;
+                            content: "\E808";
+                            font-size: 18px;
+                            font-family: "fontello";
+                            color: #1a49a0;
+                        }
+                        dl {
+                            padding-left: 15px;
+                            dt {
+                                display: inline-block;
+                                font-size: 13px;
+                                color: #1a49a0;
+                                font-weight: 500;
+                            }
+                            dd {
+                                display: inline;
+                                font-size: 13px;
+                                line-height: 24px;
+                                color: #555;
+                                &:before {
+                                    content: " : ";
+                                } 
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    > .method-list {
+                        li {
+                            dl {
+                                dt {
+                                    font-size: 16px;
+                                }
+                                dd {
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    line-height: normal;
+                                }
+                            }
+                        }
+                    }  
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            > ul {
+                > li {
+                    > p {
+                        font-size: 16px;
+                        line-height: normal;
+                    } 
+                    & ~ li {
+                        margin-top: 80px;
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            > ul {
+                > li {
+                    > p {
+                        font-size: 16px;
+                    } 
+                    & ~ li {
+                        margin-top: 80px;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+//기부시작
+.donation-start {
+    .section-content {
+        article {
+            .article-header {
+                h5 {
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #143883;
+                    font-weight: 300;
+                    b {
+                        font-weight: 500;
+                    }
+                }
+            }
+            .article-content {
+                margin-top: 40px;
+                ol {
+                    li {
+                        & ~ li {
+                            margin-top: 40px;
+                        }
+                        figure {
+                            img {
+                                width: 100%;
+                            }
+                            figcaption {
+                                margin-top: 20px;
+                                h6 {
+                                    position: relative;
+                                    font-size: 18px;
+                                    color: #666;
+                                    font-weight: 400;
+                                    letter-spacing: -.5px;
+                                    padding-left: 25px;
+                                    span {
+                                        position: absolute;
+                                        top: 2px;
+                                        left: 0;
+                                        display: inline-block;
+                                        width: 16px;
+                                        height: 16px;
+                                        font-size: 10px;
+                                        color: #fff;
+                                        line-height: 16px;
+                                        font-weight: bold;
+                                        text-align: center;
+                                        border-radius: 50%;
+                                        background-color: #143883;
+                                        margin-right: 10px;
+                                        @include roboto();
+                                    }
+                                }
+                                > p {
+                                    font-size: 13px;
+                                    color: #555;
+                                    line-height: 24px;
+                                    letter-spacing: -.5px;
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                .article-header {
+                    h5 {
+                        font-size: 24px;
+                        line-height: normal;
+                    }
+                }
+                .article-content {
+                    ol {
+                        li {
+                            & ~ li {
+                                margin-top: 0;
+                            }
+                            figure {
+                                figcaption {
+                                    > p {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}
+ 
+
+//온라인 약정
+.agreement {
+    .section-content {
+        .terms{
+            .article-header {
+                .content {
+                    height: 380px;
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: #666;
+                    margin-top: 20px;
+                    overflow-y: scroll;
+                    padding: 30px;
+                    border: 1px solid #dfdfdf;
+                    background-color: #f6f6f8;
+                }
+            }
+            .article-content {
+                margin-top: 40px;
+                ul {
+                    li {
+                    margin-bottom: 35px;
+                    }
+                    h5 {
+                        position: relative;
+                        display: inline-block;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #333;
+                        padding-left: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: inline-block;
+                            content: "\E808";
+                            font-family: "fontello";
+                            color: #1a49a0;
+                        }
+                    }
+                    .form-group {
+                        margin-top: 25px;
+                        text-align: right;
+                        label {
+                            margin-right: 35px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            input {
+                                position: relative;
+                                top: 2px;
+                                font-size: 14px;
+                                color: #666;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .check {
+                    padding: 20px 0;
+                    border-top: 1px solid #dfdfdf;
+                    border-bottom: 1px solid #dfdfdf;
+                    h5 {
+                        position: relative;
+                        display: inline-block;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #333;
+                        padding-left: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: inline-block;
+                            content: "\E808";
+                            font-family: "fontello";
+                            color: #1a49a0;
+                        }
+                    }
+                    .form-group {
+                        margin-top: 25px;
+                        text-align: right;
+                        label {
+                            margin-right: 35px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            input {
+                                position: relative;
+                                top: 2px;
+                                font-size: 14px;
+                                color: #666;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    margin-top: 20px;
+                }
+            }
+            @media(min-width: $sm) {
+                .article-header {
+                    .content {
+                        font-size: 14px;
+                    }
+                }
+                .article-content {
+                    margin-top: 40px;
+                    ul {
+                        li {
+                            margin-bottom: 30px;
+                            &:last-child {
+                                margin-bottom: 40px;
+                            }
+                        }
+                        h5 {
+                            display: inline-block;
+                            line-height: normal;
+                            &:before {
+                                position: absolute;
+                                top: 3px;
+                                left: 0;
+                            }
+                        }
+                        .form-group {
+                            display: inline-block;
+                            float: right;
+                            margin-top: 0;
+                            label {
+                                margin-right: 30px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                    .check {
+                        padding: 30px 0;
+                        h5 {
+                            display: inline-block;
+                        }
+                        .form-group {
+                            display: inline-block;
+                            margin-top: 0;
+                            float: right;
+                            label {
+                                margin-right: 35px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                                input {
+                                    position: relative;
+                                    top: 2px;
+                                    font-size: 14px;
+                                    color: #666;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        margin-top: 60px;
+                        p {
+                            .btn {
+                                margin-right: 30px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
-
-
-
-
-
-
-
-
-
-
+// 온라인약정 완료
+.success {
+    .section-content {
+        .confirm-box {
+            text-align: center;
+            padding: 50px 15px;
+            background-color: #f6f6f8;
+            border: 1px solid #dfdfdf;
+            figure {
+                width: 85px;
+                margin: 0 auto;
+                text-align: center;
+                img{
+                    width: 100%;
+                }
+            }
+            > strong {
+                display: block;
+                font-size: 18px;
+                color: #111;
+                margin-top: 40px;
+                margin-bottom: 30px;
+            }
+            > .summary {
+                font-size: 13px;
+                color: #666;
+                line-height: 25px;
+                b {
+                    color: #333;
+                    font-weight: 500;
+                }
+                i {
+                    font-style: normal;
+                    color: #143883;
+                    font-weight: 500;
+                    @include roboto();
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 75px;
+            text-align: center;
+        }
+        @media(min-width: $sm) {
+            .confirm-box {
+                padding: 65px 15px 70px;
+                figure {
+                    width: 109px;
+                }
+                > strong {
+                    font-size: 22px;
+                    margin-top: 30px;
+                    margin-bottom: 40px;
+                }
+                > .summary {
+                    font-size: 14px;
+                    i {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 65px;
+                p {
+                    .btn {
+                        margin-right: 30px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            .btn-area {
+                margin-top: 60px;
+            }
+        }
+    }
+}
 
 
 
