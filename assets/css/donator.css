@@ -467,5 +467,28 @@ a {
     .donator-respect .section-content article .article-header .respect-list h5 span {
       display: inline-block;
       border-bottom: 1px solid #889fcc; }
+  .donator-respect .section-content article .article-header .respect-list ul {
+    margin-top: 25px; }
+    .donator-respect .section-content article .article-header .respect-list ul li {
+      position: relative;
+      font-size: 13px;
+      line-height: 24px;
+      color: #666;
+      padding-left: 15px; }
+      .donator-respect .section-content article .article-header .respect-list ul li:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        content: "\E808";
+        font-size: 18px;
+        font-family: "fontello";
+        color: #1a49a0; }
+      .donator-respect .section-content article .article-header .respect-list ul li ~ li {
+        margin-top: 10px; }
+.donator-respect .section-content article .article-content {
+  margin-top: 40px; }
+  .donator-respect .section-content article .article-content .table-responsive {
+    margin-top: 20px; }
 
 /*# sourceMappingURL=donator.css.map */

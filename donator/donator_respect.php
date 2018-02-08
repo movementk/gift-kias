@@ -67,7 +67,70 @@
                                             </div>
                                         </div>
                                         <div class="article-content">
-                                            
+                                            <h5 class="sub-title">기부자 예우(안)</h5>
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>구분</th>
+                                                            <th>예우내용</th>
+                                                            <th>1억원 이상</th>
+                                                            <th>5천만원 이상</th>
+                                                            <th>1천만원 이상</th>
+                                                            <th>5백만원 이상</th>
+                                                            <th>1백만원 이상</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td colspan="2">기본예우</td>
+                                                            <td colspan="5">기부금 영수증, 감사장, 정기간행물, 연하장</td>
+                                                        </tr>
+                                                        <tr class="bold-bg">
+                                                            <td rowspan="3">네이밍</td>
+                                                            <td>과학의 지평 성명 게제(간행물)</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                        </tr>
+                                                        <tr class="bold-bg">
+                                                            <td>과학의 지평 성명 게제(간행물)</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                        </tr>
+                                                        <tr class="bold-bg">
+                                                            <td>과학의 지평 성명 게제(간행물)</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td rowspan="2">간행물 및<br>기념품</td>
+                                                            <td>간행물 발송</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>간행물 발송</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </article>
                                 </div>
