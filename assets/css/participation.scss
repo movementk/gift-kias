@@ -19,7 +19,6 @@
             .lnb-nav {
                 ul {
                     li {
-                        display: block;
                         width: 100%;
                     }
                 }
@@ -55,23 +54,22 @@
                             margin-top: 60px;  
                         }
                         > div {
+                            display: table;
                             width: 145px;
                             height: 145px;
                             margin: 0 auto;
                             background-color: #aeb9d2;
                             border-radius: 50%;
                             box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.15) inset;
-                            img {
-                                display: block;
-                                margin: 0 auto;
-                                padding-top: 46px;
+                            figure {
+                                display: table-cell;
+                                vertical-align: middle;
                             }
                         }
                         h6 {
                             font-size: 17px;
                             color: #143883;
                             font-weight: 400;
-                            letter-spacing: -.1px;
                             margin-top: 35px;
                             margin-bottom: 15px;
                         }
@@ -107,9 +105,6 @@
                             > div {
                                 width: 170px;
                                 height: 170px;
-                                img {
-                                    padding-top: 55px;
-                                }
                             }
                             h6 {
                                 margin-top: 40px;
@@ -162,7 +157,6 @@
                                 dd {
                                     display: inline-block;
                                     font-size: 16px;
-                                    line-height: normal;
                                 }
                             }
                         }
@@ -175,7 +169,6 @@
                 > li {
                     > p {
                         font-size: 16px;
-                        line-height: normal;
                     } 
                     & ~ li {
                         margin-top: 80px;
@@ -267,7 +260,6 @@
                 .article-header {
                     h5 {
                         font-size: 24px;
-                        line-height: normal;
                     }
                 }
                 .article-content {
@@ -403,22 +395,16 @@
                     margin-top: 40px;
                     ul {
                         li {
+                            overflow: hidden;
                             margin-bottom: 30px;
                             &:last-child {
                                 margin-bottom: 40px;
                             }
                         }
                         h5 {
-                            display: inline-block;
-                            line-height: normal;
-                            &:before {
-                                position: absolute;
-                                top: 3px;
-                                left: 0;
-                            }
+                            float: left;
                         }
                         .form-group {
-                            display: inline-block;
                             float: right;
                             margin-top: 0;
                             label {
@@ -430,14 +416,14 @@
                         }
                     }
                     .check {
+                        overflow: hidden;
                         padding: 30px 0;
                         h5 {
-                            display: inline-block;
+                            float: left;
                         }
                         .form-group {
-                            display: inline-block;
-                            margin-top: 0;
                             float: right;
+                            margin-top: 0;
                             label {
                                 margin-right: 35px;
                                 &:last-child {

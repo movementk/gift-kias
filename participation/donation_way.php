@@ -65,7 +65,9 @@
                                             <ul class="agreement-list">
                                                 <li>
                                                     <div>
-                                                        <img src="/assets/images/introduce/img_agreement01.png" alt="">
+                                                        <figure>
+                                                            <img src="/assets/images/introduce/img_agreement01.png" alt="">
+                                                        </figure>
                                                     </div>
                                                     <h6>온라인 약정</h6>
                                                     <p>
@@ -77,7 +79,9 @@
                                                 </li>
                                                 <li>
                                                     <div>
-                                                        <img src="/assets/images/introduce/img_agreement02.png" alt="">
+                                                        <figure>
+                                                            <img src="/assets/images/introduce/img_agreement02.png" alt="">
+                                                        </figure>
                                                     </div>
                                                     <h6>우편 · E-mail · Fax 약정</h6>
                                                     <p>
@@ -89,7 +93,9 @@
                                                 </li>
                                                 <li>
                                                     <div>
-                                                        <img src="/assets/images/introduce/img_agreement03.png" alt="">
+                                                        <figure>
+                                                            <img src="/assets/images/introduce/img_agreement03.png" alt="">
+                                                        </figure>
                                                     </div>
                                                     <h6>직접방문</h6>
                                                     <p>
