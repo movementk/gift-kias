@@ -442,7 +442,7 @@ a {
     margin-top: 45px; } }
 @media (min-width: 1200px) {
   .donator-list .section-content .table-wrap {
-    margin-top: 50px; }
+    margin-top: 45px; }
     .donator-list .section-content .table-wrap .table thead tr th:first-child {
       width: 100px; }
   .donator-list .section-content .paging {
@@ -490,5 +490,165 @@ a {
   margin-top: 40px; }
   .donator-respect .section-content article .article-content .table-responsive {
     margin-top: 20px; }
+    .donator-respect .section-content article .article-content .table-responsive .table {
+      min-width: 870px; }
+      .donator-respect .section-content article .article-content .table-responsive .table tbody tr td {
+        letter-spacing: -.7px;
+        line-height: 25px; }
+      .donator-respect .section-content article .article-content .table-responsive .table tbody tr.current-state td:first-child ~ td {
+        font-size: 13px;
+        vertical-align: top; }
+@media (min-width: 768px) {
+  .donator-respect .section-content article .article-header > p {
+    font-size: 16px;
+    line-height: 32px; }
+    .donator-respect .section-content article .article-header > p ~ p {
+      margin-top: 30px; }
+  .donator-respect .section-content article .article-header .respect-list {
+    margin-top: 45px;
+    padding: 30px 15px 30px 30px; }
+    .donator-respect .section-content article .article-header .respect-list h5 {
+      font-size: 16px;
+      line-height: 32px; }
+    .donator-respect .section-content article .article-header .respect-list ul li {
+      font-size: 15px;
+      line-height: 32px; }
+      .donator-respect .section-content article .article-header .respect-list ul li ~ li {
+        margin-top: 0; }
+  .donator-respect .section-content article .article-content {
+    margin-top: 60px; }
+    .donator-respect .section-content article .article-content .table-responsive {
+      margin-top: 30px; } }
+@media (min-width: 1200px) {
+  .donator-respect .section-content article .article-header .respect-list {
+    padding: 30px 35px 30px 30px; }
+    .donator-respect .section-content article .article-header .respect-list ul li {
+      letter-spacing: -.2px; }
+  .donator-respect .section-content article .article-content {
+    margin-top: 90px; } }
+
+.tax-favor .section-content .benefit-step .article-content > ul {
+  margin-top: 65px; }
+  .tax-favor .section-content .benefit-step .article-content > ul li {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 70px; }
+    .tax-favor .section-content .benefit-step .article-content > ul li:last-child {
+      padding-bottom: 0; }
+      .tax-favor .section-content .benefit-step .article-content > ul li:last-child:after {
+        display: none; }
+    .tax-favor .section-content .benefit-step .article-content > ul li:after {
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      margin-right: -15px;
+      display: block;
+      content: "\E80C";
+      font-family: "fontello";
+      transform: rotate(90deg);
+      margin-top: 30px;
+      font-size: 40px;
+      color: #95a1aa; }
+    .tax-favor .section-content .benefit-step .article-content > ul li figure {
+      margin-top: 30px; }
+      .tax-favor .section-content .benefit-step .article-content > ul li figure img {
+        width: 160px;
+        height: 160px;
+        margin: 0 auto; }
+      .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption strong {
+        display: block;
+        font-size: 17px;
+        color: #143883;
+        font-weight: 400;
+        margin-top: 35px;
+        margin-bottom: 5px; }
+      .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption p {
+        font-size: 14px;
+        color: #555; }
+      .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption dl {
+        text-align: center; }
+        .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption dl dt {
+          display: inline;
+          font-size: 14px;
+          color: #555;
+          font-weight: 300;
+          letter-spacing: -.5px; }
+          .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption dl dt:after {
+            content: " : "; }
+        .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption dl dd {
+          display: inline;
+          font-size: 14px;
+          color: #555;
+          line-height: 22px; }
+          .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption dl dd:after {
+            display: block;
+            content: ""; }
+@media (min-width: 768px) {
+  .tax-favor .section-content .benefit-step .article-content > ul {
+    font-size: 0;
+    margin-top: 40px; }
+    .tax-favor .section-content .benefit-step .article-content > ul li {
+      display: inline-block;
+      width: 33.33%;
+      vertical-align: top;
+      padding-bottom: 0; }
+      .tax-favor .section-content .benefit-step .article-content > ul li:after {
+        position: absolute;
+        top: 55px;
+        right: 0;
+        margin-right: -15px;
+        transform: rotate(0);
+        margin-top: 0; }
+      .tax-favor .section-content .benefit-step .article-content > ul li figure {
+        margin-top: 0; }
+        .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption strong {
+          margin-bottom: 10px; } }
+@media (min-width: 992px) {
+  .tax-favor .section-content .benefit-step .article-content > ul li figure img {
+    width: 170px;
+    height: 170px; } }
+.tax-favor .section-content .donors-list {
+  margin-top: 90px; }
+  .tax-favor .section-content .donors-list .article-content ul {
+    margin-top: 30px; }
+    .tax-favor .section-content .donors-list .article-content ul li {
+      margin-top: 30px; }
+      .tax-favor .section-content .donors-list .article-content ul li:first-child {
+        margin-top: 0; }
+      .tax-favor .section-content .donors-list .article-content ul li dl dt {
+        position: relative;
+        font-size: 13px;
+        color: #143883;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 15px; }
+        .tax-favor .section-content .donors-list .article-content ul li dl dt:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: inline-block;
+          content: "\E808";
+          font-size: 18px;
+          font-family: "fontello";
+          color: #1a49a0; }
+      .tax-favor .section-content .donors-list .article-content ul li dl dd {
+        padding-left: 15px;
+        font-size: 13px;
+        line-height: 24px;
+        color: #555;
+        margin-top: 10px; }
+@media (min-width: 768px) {
+  .tax-favor .section-content .donors-list {
+    margin-top: 70px; }
+    .tax-favor .section-content .donors-list .article-content ul {
+      margin-top: 40px; }
+      .tax-favor .section-content .donors-list .article-content ul li dl dt {
+        font-size: 16px; }
+      .tax-favor .section-content .donors-list .article-content ul li dl dd {
+        font-size: 16px; } }
+@media (min-width: 992px) {
+  .tax-favor .section-content .donors-list {
+    margin-top: 100px; } }
 
 /*# sourceMappingURL=donator.css.map */
