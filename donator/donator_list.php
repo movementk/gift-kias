@@ -32,7 +32,7 @@
                             <ul>
                                 <li class="active"><a href="/donator/donator_list.php">기부자 명단</a></li>
                                 <li><a href="/donator/donator_respect.php">기부자 예우</a></li>
-                                <li><a href="#">세제 혜택</a></li>
+                                <li><a href="/donator/tax_favor.php">세제 혜택</a></li>
                             </ul>
                         </nav>
                     </div>

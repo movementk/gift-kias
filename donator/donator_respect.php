@@ -31,8 +31,8 @@
                             </h3>
                             <ul>
                                 <li><a href="/donator/donator_list.php">기부자 명단</a></li>
-                                <li class="active"><a href="/donator/donator_respect.php">기부자 예우</a></li>
-                                <li><a href="#">세제 혜택</a></li>
+                                <li class="active"><a href="/donator/donator_respect.php">기부자 예우</a><li>
+                                <li><a href="/donator/tax_favor.php">세제 혜택</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -46,7 +46,7 @@
                                     <article>
                                         <div class="article-header">
                                             <p>
-                                                당신의 큰 사랑에 고등과학원이 모든 정성으로 보답하겠습니다.
+                                                당신의 큰 사랑에 고등과학원이 모든 정성으로 보답하겠습니다.<br class="hidden-xs">
                                                 고등과학원이 세계최고수준의 기관으로 발전하는데 동참해 주신 분들의 뜻을 기리고자 합니다.    
                                             </p>
                                             <p>
@@ -96,7 +96,7 @@
                                                             <td>●</td>
                                                         </tr>
                                                         <tr class="bold-bg">
-                                                            <td>과학의 지평 성명 게제(간행물)</td>
+                                                            <td>홈페이지 기부자 성명 게재</td>
                                                             <td>●</td>
                                                             <td>●</td>
                                                             <td>●</td>
@@ -104,12 +104,12 @@
                                                             <td>●</td>
                                                         </tr>
                                                         <tr class="bold-bg">
-                                                            <td>과학의 지평 성명 게제(간행물)</td>
+                                                            <td>시설물/기부명칭 부여</td>
                                                             <td>●</td>
                                                             <td>●</td>
                                                             <td>●</td>
-                                                            <td>●</td>
-                                                            <td>●</td>
+                                                            <td></td>
+                                                            <td></td>
                                                         </tr>
                                                         <tr>
                                                             <td rowspan="2">간행물 및<br>기념품</td>
@@ -121,12 +121,64 @@
                                                             <td>●</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>간행물 발송</td>
+                                                            <td>명절 기념품</td>
                                                             <td>●</td>
                                                             <td>●</td>
                                                             <td>●</td>
                                                             <td>●</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr class="bold-bg">
+                                                            <td rowspan="3">주요행사</td>
+                                                            <td>약정식 행사</td>
                                                             <td>●</td>
+                                                            <td>●</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr class="bold-bg">
+                                                            <td>원내 주요행사 초청</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr class="bold-bg">
+                                                            <td>연1회 원장초청 오찬 초대</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td>●</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr class="current-state">
+                                                            <td>기부금액별<br>현황</td>
+                                                            <td></td>
+                                                            <td>
+                                                                이건희 삼성회장,<br>
+                                                                故 명효철 전원장
+                                                            </td>
+                                                            <td>-</td>
+                                                            <td>
+                                                                좋은책 신사고,<br>
+                                                                김두철 전원장,<br>
+                                                                김재완, 박창범,<br>
+                                                                박형규
+                                                            </td>
+                                                            <td>
+                                                                김만원 전원장,<br>
+                                                                최윤서, 최재경,<br>
+                                                                한종규
+                                                            </td>
+                                                            <td>
+                                                                곽시종, 김윤배,<br>
+                                                                김호일, 독고윤,<br>
+                                                                박영아, 오용근,<br>
+                                                                이창영, 임채호,<br>
+                                                                정형채, 하미순
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
