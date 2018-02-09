@@ -20,7 +20,19 @@
                         in the 21st Century
                     </p>
                 </li>
-                <li style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);">
+                <li style="background-image: url(/assets/images/main/img_jumbo_slider02.jpg);">
+                    <h2>
+                        <small>대한민국 기초과학의 미래</small>
+                        미래를 위한 선물 KIAS
+                    </h2>
+                    <hr>
+                    <p>
+                        Korea institute for Advanced Study<br>
+                        Cradle of Great Scientific minds<br class="visible-xs">
+                        in the 21st Century
+                    </p>
+                </li>
+                <li style="background-image: url(/assets/images/main/img_jumbo_slider03.jpg);">
                     <h2>
                         <small>대한민국 기초과학의 미래</small>
                         미래를 위한 선물 KIAS
@@ -158,10 +170,8 @@
         $(function($){
             $(document).ready(function(){
                 $('.jumbotron > ul').bxSlider({
-//                    nextText: '<i class="icon-right-open-big"><span class="sr-only">다음 슬라이드</span></i>',
-//                    prevText: '<i class="icon-left-open-big"><span class="sr-only">이전 슬라이드</span></i>'
-                    pager: false,
-                    controls: false
+                    nextText: '<i class="icon-right-open-big"><span class="sr-only">다음 슬라이드</span></i>',
+                    prevText: '<i class="icon-left-open-big"><span class="sr-only">이전 슬라이드</span></i>',
                 });
             });
         }(jQuery));

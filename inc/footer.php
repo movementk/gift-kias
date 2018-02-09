@@ -6,7 +6,7 @@
     <div class="container">
         <ul class="row">
             <li class="col-xs-6 col-sm-3">
-                <a href="#">
+                <a href="/member/inquiry_list.php">
                     <h3>기부금 내역조회</h3>
                     <p class="visible-lg">
                         당신의 기부금 내역을 조회하실수<br>있습니다.
@@ -22,7 +22,7 @@
                 </a>
             </li>
             <li class="col-xs-6 col-sm-3">
-                <a href="#">
+                <a href="/donator/donator_respect.php">
                     <h3>기부자 예우</h3>
                     <p class="visible-lg">
                         당신의 큰 사랑에 모든 정성으로<br>보답하겠습니다.
@@ -30,7 +30,7 @@
                 </a>
             </li>
             <li class="col-xs-6 col-sm-3">
-                <a href="#">
+                <a href="/donator/tax_favor.php">
                     <h3>세제혜택</h3>
                     <p class="visible-lg">
                         출연되는 기부금은 세제혜택을<br>받으실 수 있습니다.

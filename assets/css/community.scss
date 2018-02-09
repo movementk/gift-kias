@@ -62,8 +62,11 @@
                 }
             }
         }
+        .btn-area {
+            margin-top: 20px;
+        }
         .paging {
-            margin: 40px 0;
+            margin: 20px 0 40px;
         }
     }
     @media(min-width: $sm) {
@@ -110,15 +113,18 @@
                     }
                 }
             }
+            .btn-area {
+                margin-top: 30px;
+            }
             .paging {
-                margin: 60px 0 55px;
+                margin: 30px 0 55px;
             }
         }
     }
     @media(min-width: $md) {
         .section-content {
             .paging {
-                margin: 50px 0;
+                margin: 20px 0 50px;
             }
         }
     }
@@ -267,6 +273,85 @@
     }
 }
 
+// 비밀번호 확인
+.pw-confirm {
+    .pw-form {
+        padding-top: 30px;
+        .article-header {
+            figure {
+                img {
+                    display: block;
+                    width: 62px;
+                    margin: 0 auto;
+                }
+                figcaption {
+                    text-align: center;
+                    margin-top: 40px;
+                    h5 {
+                        font-size: 18px;
+                        color: #111;
+                        margin-bottom: 30px;
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #666;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+        .article-content {
+            margin-top: 30px;
+            .form-group {
+                width: 300px;
+                margin: 0 auto;
+            }
+            .btn-area {
+                margin-top: 20px;
+                p {
+                    .btn-sm {
+                        height: 40px;
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            padding-top: 50px;
+            .article-header {
+                figure {
+                    img {
+                        width: 88px;
+                    }
+                    figcaption {
+                        margin-top: 50px;
+                        h5 {
+                            font-size: 22px;
+                        }
+                        p {
+                            font-size: 15px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                .form-group {
+                    width: 330px;
+                }
+                .btn-area {
+                    text-align: center;
+                    margin-top: 40px;
+                    p {
+                        .btn-sm {
+                            width: 130px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

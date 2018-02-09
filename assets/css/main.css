@@ -411,6 +411,7 @@ a {
           padding-right: 15px; } }
 
 .jumbotron {
+  position: relative;
   padding: 0;
   margin: 0;
   border-radius: 0;
@@ -467,6 +468,62 @@ a {
             margin-bottom: 20px; }
         .jumbotron ul li hr {
           margin: 30px auto; } }
+  .jumbotron .bx-controls .bx-controls-direction {
+    display: none; }
+  .jumbotron .bx-controls .bx-pager {
+    position: absolute;
+    bottom: 20px;
+    height: 12px;
+    width: 100%;
+    text-align: center; }
+    .jumbotron .bx-controls .bx-pager .bx-pager-item {
+      display: inline-block;
+      text-indent: -9999px;
+      margin: 0 5px; }
+      .jumbotron .bx-controls .bx-pager .bx-pager-item > a {
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 1px solid #d9d9d8; }
+        .jumbotron .bx-controls .bx-pager .bx-pager-item > a.active {
+          background-color: #d9d9d8; }
+  @media (min-width: 768px) {
+    .jumbotron .bx-controls .bx-pager {
+      bottom: 30px;
+      height: 18px; }
+      .jumbotron .bx-controls .bx-pager .bx-pager-item > a {
+        width: 18px;
+        height: 18px; } }
+  @media (min-width: 1200px) {
+    .jumbotron .bx-controls .bx-controls-direction {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1290px;
+      margin-top: -23px;
+      margin-left: -645px;
+      overflow: hidden;
+      display: block; }
+      .jumbotron .bx-controls .bx-controls-direction > a {
+        font-size: 45px;
+        color: rgba(255, 255, 255, 0.4);
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        .jumbotron .bx-controls .bx-controls-direction > a i:before {
+          margin: 0; }
+        .jumbotron .bx-controls .bx-controls-direction > a.bx-prev {
+          float: left; }
+        .jumbotron .bx-controls .bx-controls-direction > a.bx-next {
+          float: right; }
+        .jumbotron .bx-controls .bx-controls-direction > a:hover, .jumbotron .bx-controls .bx-controls-direction > a:focus {
+          color: #fff; } }
 
 .gift-participation {
   padding: 30px 0; }

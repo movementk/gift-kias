@@ -30,7 +30,7 @@
                                 <small>MY PAGE</small>
                             </h3>
                             <ul>
-                                <li class="active"><a href="#">기부금 내역조회</a></li>
+                                <li class="active"><a href="/member/inquiry_list.php">기부금 내역조회</a></li>
                                 <li><a href="#">기부자 정보수정</a></li>
                             </ul>
                         </nav>
@@ -56,7 +56,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -64,7 +64,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -72,7 +72,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -80,7 +80,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -88,7 +88,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -96,7 +96,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -104,7 +104,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -112,7 +112,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -120,7 +120,7 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
@@ -128,13 +128,18 @@
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
                                                     <td class="subject">
-                                                        <a href="#">공지사항 제목 노출 영역입니다.</a>
+                                                        <a href="/member/inquiry_view.php">공지사항 제목 노출 영역입니다.</a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>
+                                    </div>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="/member/inquiry_write.php" class="btn btn-sm btn-blue" role="button">글쓰기</a>
+                                        </p>
                                     </div>
                                     <nav aria-label="Page navigation" class="paging">
                                         <ul class="pagination">

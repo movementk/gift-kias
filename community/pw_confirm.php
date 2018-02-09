@@ -1,22 +1,22 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
-<link href="/assets/css/member.css" rel="stylesheet">
+<link href="/assets/css/community.css" rel="stylesheet">
 </head>
-<body class="sub member"> <!-- 폴더별 클래스 -->
+<body class="sub community"> <!-- 폴더별 클래스 -->
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/nav-aisde.php'); ?>
     <!-- Content Start -->
     <!-- 페이지 헤더 -->
     <div class="page-header">
-        <h2 class="page-title">MY PAGE</h2>
+        <h2 class="page-title">COMMUNITY</h2>
         <ol class="breadcrumb">
             <li>
                 <a href="/">
                     <i class="icon-home"><span class="sr-only">메인으로</span></i>
                 </a>
             </li>
-            <li>마이페이지</li>
-            <li>기부금내역조회</li>
+            <li>커뮤니티</li>
+            <li>Q&amp;A</li>
         </ol>
     </div>
     <main id="content">
@@ -26,42 +26,44 @@
                     <div class="col-xs-12 col-lg-3">
                         <nav class="lnb-nav">
                             <h3 class="lnb-title visible-lg">
-                                마이 페이지
-                                <small>MY PAGE</small>
+                                커뮤니티
+                                <small>COMMUNITY</small>
                             </h3>
                             <ul>
-                                <li class="active"><a href="/member/inquiry_list.php">기부금 내역조회</a></li>
-                                <li><a href="#">기부자 정보수정</a></li>
+                                <li><a href="/community/notice_list.php">공지사항</a></li>
+                                <li class="active"><a href="/community/qna_list.php">Q&amp;A</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <div class="sub-content">
-                            <section class="breakdown"> <!-- 페이지명 클래스 -->
+                            <section class="pw-confirm"> <!-- 페이지명 클래스 -->
                                 <div class="section-header">
-                                    <h4 class="section-title">기부금 내역조회</h4>
+                                    <h4 class="section-title">Q&amp;A</h4>
                                 </div>
                                 <div class="section-content">
-                                    <article class="identification">
+                                    <article class="pw-form">
                                         <div class="article-header">
                                             <figure>
-                                                <img src="/assets/images/member/icon_breakdown.jpg" alt="">
+                                                <img src="/assets/images/community/img_lock.jpg" alt="">
+                                                <figcaption>
+                                                    <h5>비밀번호 확인</h5>
+                                                    <p>
+                                                        개인정보를 보호하기 위해 비밀번호를 한번 더 확인합니다.<br class="hidden-xs"> 타인에게 비밀번호가 노출되지 않도록 항상 주의하세요.
+                                                    </p>
+                                                </figcaption>
                                             </figure>
-                                            <h5>내역 조회</h5>
-                                            <p>이름과 후원코드 번호를 이용하여 기부하신 내역을 조회 할 수 있습니다.</p>
-                                            <p class="attention">무기명으로 기부하신 내역은 조회 할 수 없습니다</p>
                                         </div>
                                         <div class="article-content">
                                             <form action="#">
                                                 <div class="form-group">
-                                                    <input type="text" id="u-name" class="form-control" placeholder="이름">
-                                                    <label for="u-name" class="sr-only">이름</label>
-                                                    <input type="text" id="u-code" class="form-control" placeholder="후원코드">
-                                                    <label for="u-code" class="sr-only">후원코드</label>
+                                                    <input type="password" id="u-pw" class="form-control">
+                                                    <label for="u-pw" class="sr-only">비밀번호 확</label>
                                                 </div>
                                                 <div class="btn-area">
                                                     <p>
-                                                        <button type="submit" class="btn btn-lg btn-blue">확인</button>
+                                                        <a href="#" class="btn btn-sm btn-white" role="button">취소하기</a>
+                                                        <button type="submit" class="btn btn-sm btn-blue">확인</button>
                                                     </p>
                                                 </div>
                                             </form>

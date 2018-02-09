@@ -86,7 +86,7 @@
                                                 <a href="#" class="btn btn-sm btn-white" role="button">삭제하기</a>
                                             </p>
                                             <p>
-                                                <a href="#" class="btn btn-lg btn-blue" role="button">목록으로</a>
+                                                <a href="/community/notice_list.php" class="btn btn-lg btn-blue" role="button">목록으로</a>
                                             </p>
                                         </div>
                                         <ul class="page-link">
