@@ -31,7 +31,7 @@
                             </h3>
                             <ul>
                                 <li><a href="/donator/donator_list.php">기부자 명단</a></li>
-                                <li class="active"><a href="/donator/donator_respect.php">기부자 예우</a><li>
+                                <li class="active"><a href="/donator/donator_respect.php">기부자 예우</a></li>
                                 <li><a href="/donator/tax_favor.php">세제 혜택</a></li>
                             </ul>
                         </nav>
@@ -56,7 +56,7 @@
                                                  다음과 같은 정성으로 보답하고자 합니다.  
                                             </p>
                                             <div class="respect-list">
-                                                <h5><span>기부자 예우 항목</span></h5>
+                                                <h5>기부자 예우 항목</h5>
                                                 <ul>
                                                     <li>출현하신 분들의 성함을 고등과학원의 기록으로 영구 보존합니다.</li>
                                                     <li>기금 출연에 따른 원장 명의의 감사장과 기념품을 드립니다.</li>

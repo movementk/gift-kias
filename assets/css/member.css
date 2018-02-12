@@ -588,4 +588,30 @@ a {
   .inquiry-write .section-content .btn-area {
     margin-top: 40px; } }
 
+.agreement .section-content .terms {
+  height: 380px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #666;
+  overflow-y: scroll;
+  padding: 30px;
+  border: 1px solid #dfdfdf;
+  background-color: #f6f6f8; }
+@media (min-width: 768px) {
+  .agreement .section-content .terms {
+    font-size: 14px; } }
+
+.privacy .section-content .terms {
+  height: 380px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #666;
+  overflow-y: scroll;
+  padding: 30px;
+  border: 1px solid #dfdfdf;
+  background-color: #f6f6f8; }
+@media (min-width: 768px) {
+  .privacy .section-content .terms {
+    font-size: 14px; } }
+
 /*# sourceMappingURL=member.css.map */

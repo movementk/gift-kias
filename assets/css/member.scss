@@ -377,11 +377,47 @@
     }
 }
 
+// 이용약관
+.agreement {
+    .section-content {
+        .terms {
+            height: 380px;
+            font-size: 13px;
+            line-height: 22px;
+            color: #666;
+            overflow-y: scroll;
+            padding: 30px;
+            border: 1px solid #dfdfdf;
+            background-color: #f6f6f8;
+        }
+        @media(min-width: $sm) {
+            .terms {
+                font-size: 14px;
+            }
+        }
+    }
+}
 
-
-
-
-
+// 개인정보처리방침
+.privacy {
+    .section-content {
+        .terms {
+            height: 380px;
+            font-size: 13px;
+            line-height: 22px;
+            color: #666;
+            overflow-y: scroll;
+            padding: 30px;
+            border: 1px solid #dfdfdf;
+            background-color: #f6f6f8;
+        }
+        @media(min-width: $sm) {
+            .terms {
+                font-size: 14px;
+            }
+        }
+    }
+}
 
 
 
