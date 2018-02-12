@@ -1,22 +1,22 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
-<link href="/assets/css/community.css" rel="stylesheet">
+<link href="/assets/css/member.css" rel="stylesheet">
 </head>
-<body class="sub community"> <!-- 폴더별 클래스 -->
+<body class="sub member"> <!-- 폴더별 클래스 -->
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/nav-aisde.php'); ?>
     <!-- Content Start -->
     <!-- 페이지 헤더 -->
     <div class="page-header">
-        <h2 class="page-title">COMMUNITY</h2>
+        <h2 class="page-title">MY PAGE</h2>
         <ol class="breadcrumb">
             <li>
                 <a href="/">
                     <i class="icon-home"><span class="sr-only">메인으로</span></i>
                 </a>
             </li>
-            <li>커뮤니티</li>
-            <li>Q&amp;A</li>
+            <li>마이페이지</li>
+            <li>기부금내역조회</li>
         </ol>
     </div>
     <main id="content">
@@ -26,20 +26,20 @@
                     <div class="col-xs-12 col-lg-3">
                         <nav class="lnb-nav">
                             <h3 class="lnb-title visible-lg">
-                                커뮤니티
-                                <small>COMMUNITY</small>
+                                마이 페이지
+                                <small>MY PAGE</small>
                             </h3>
                             <ul>
-                                <li><a href="/community/notice_list.php">공지사항</a></li>
-                                <li class="active"><a href="/community/qna_list.php">Q&amp;A</a></li>
+                                <li class="active"><a href="/member/inquiry_list.php">기부금 내역조회</a></li>
+                                <li><a href="#">기부자 정보수정</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <div class="sub-content">
-                            <section class="qna-view view-common"> <!-- 페이지명 클래스 -->
+                            <section class="inquiry-view"> <!-- 페이지명 클래스 -->
                                 <div class="section-header">
-                                    <h4 class="section-title">Q&amp;A</h4>
+                                    <h4 class="section-title">기부금 내역조회</h4>
                                 </div>
                                 <div class="section-content">
                                     <article class="board-view">
@@ -86,7 +86,7 @@
                                                 <a href="#" class="btn btn-sm btn-white" role="button">삭제하기</a>
                                             </p>
                                             <p>
-                                                <a href="/community/qna_list.php" class="btn btn-lg btn-blue" role="button">목록으로</a>
+                                                <a href="/member/inquiry_list.php" class="btn btn-lg btn-blue" role="button">목록으로</a>
                                             </p>
                                         </div>
                                         <ul class="page-link">

@@ -1,6 +1,7 @@
 @import 'common';
 
 .jumbotron {
+    position: relative;
     padding: 0;
     margin: 0;
     border-radius: 0;
@@ -67,6 +68,76 @@
                 }
                 hr {
                     margin: 30px auto;
+                }
+            }
+        }
+    }
+    .bx-controls {
+        .bx-controls-direction {
+            display: none;
+        }
+        .bx-pager {
+            position: absolute;
+            bottom: 20px;
+            height: 12px;
+            width: 100%;
+            text-align: center;
+            .bx-pager-item {
+                display: inline-block;
+                text-indent: -9999px;
+                margin: 0 5px;
+                > a {
+                    display: block;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    border: 1px solid #d9d9d8;
+                    &.active {
+                        background-color: #d9d9d8;
+                    }
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            .bx-pager { 
+                bottom: 30px;
+                height: 18px;
+                .bx-pager-item {
+                    > a {
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            .bx-controls-direction {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 1290px;
+                margin-top: -23px;
+                margin-left: -645px;
+                overflow: hidden;
+                display: block;
+                > a {
+                    font-size: 45px;
+                    color: rgba(255, 255, 255, .4);
+                    @include transition();
+                    i {
+                        &:before {
+                            margin: 0;
+                        }
+                    }
+                    &.bx-prev {
+                        float: left;
+                    }
+                    &.bx-next {
+                        float: right;
+                    }
+                    &:hover, &:focus {
+                        color: #fff;
+                    }
                 }
             }
         }
