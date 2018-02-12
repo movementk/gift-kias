@@ -1193,13 +1193,16 @@ section .section-content {
       letter-spacing: -1px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td .attention:before {
         content: "*"; }
-    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group {
-      margin-top: 15px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group .form-control:nth-of-type(1) {
-        display: inline-block;
-        width: 93%;
-        margin-bottom: 5px; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group label {
+      margin-bottom: 10px; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group ~ .form-group {
+      margin-top: 10px; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group .form-control:nth-of-type(1) {
+      display: inline-block;
+      width: 93%;
+      margin-bottom: 5px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr label {
+      vertical-align: top;
       margin-bottom: 15px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr .form-group {
       position: relative;
@@ -1218,16 +1221,17 @@ section .section-content {
         color: #666;
         border: 1px solid #dfdfdf;
         background-color: #f6f6f8; }
+      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr .form-group .addr-details > .form-control {
+        margin-top: 10px;
+        display: block; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact label {
       display: block;
       margin-bottom: 10px; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .form-group ~ .form-group {
+      margin-top: 10px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .form-group .form-control {
       display: inline-block;
       width: 28%; }
-    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .choice {
-      margin-top: 10px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .choice label {
-        display: inline-block; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.email .form-group .form-control ~ .form-control {
       margin-top: 5px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.email .form-group .form-control:nth-of-type(2) {
@@ -1389,6 +1393,26 @@ section .section-content {
   margin-top: 10px; }
   .write-form .section-content .write-item article .article-content .table-wrap .note:before {
     content: "*"; }
+.write-form .section-content .write-item .agree {
+  margin-top: 20px; }
+  .write-form .section-content .write-item .agree label input {
+    position: relative;
+    top: 1px;
+    margin-right: 5px; }
+  .write-form .section-content .write-item .agree p {
+    margin-top: 50px;
+    text-align: right; }
+  .write-form .section-content .write-item .agree .form-group {
+    margin-top: 20px;
+    text-align: right; }
+    .write-form .section-content .write-item .agree .form-group label .form-control {
+      display: inline-block;
+      width: 60px;
+      border: 1px solid #fff; }
+    .write-form .section-content .write-item .agree .form-group ~ .form-group .form-control {
+      width: 150px; }
+.write-form .section-content .write-item .btn-area {
+  margin-top: 70px; }
 @media (min-width: 768px) {
   .write-form .section-content .write-item article .article-header {
     overflow: hidden;
@@ -1421,8 +1445,10 @@ section .section-content {
       width: 170px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group {
       display: inline-block;
-      margin-left: 15px;
       margin-top: 0; }
+      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group label {
+        margin: 0;
+        width: 100px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group .form-control {
         display: inline-block;
         width: 120px !important;
@@ -1432,9 +1458,9 @@ section .section-content {
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr label {
       margin-bottom: 0; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr .form-group {
-      display: inline-block;
-      padding-left: 0;
-      margin-left: 15px; }
+      display: block;
+      margin-top: 10px;
+      padding-left: 0; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr .form-group .form-control {
         display: inline-block;
         width: 130px; }
@@ -1443,13 +1469,14 @@ section .section-content {
         vertical-align: top;
         margin: 0;
         margin-left: 10px; }
+      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr .form-group .addr-details .form-control {
+        width: 100%; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact label {
+      width: 75px;
       display: inline-block;
       margin-bottom: 0; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .form-group {
       display: inline-block; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .form-group label {
-        margin-right: 15px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .form-group .form-control {
         width: 100px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.contact .form-group:first-child {
@@ -1483,6 +1510,8 @@ section .section-content {
         margin-right: 30px; }
         .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.usage > ul > li > ul > li > label .form-control {
           width: 100px; }
+        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.usage > ul > li > ul > li.etc label {
+          margin-left: 0 !important; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.designation .form-group .form-control {
       display: inline-block;
       width: 200px; }

@@ -1,23 +1,22 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
-<link href="/assets/css/member.css" rel="stylesheet">
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link href="/assets/css/participation.css" rel="stylesheet">
 </head>
-<body class="sub member"> <!-- 폴더별 클래스 -->
+<body class="sub participation"> <!-- 폴더별 클래스 -->
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/nav-aisde.php'); ?>
     <!-- Content Start -->
     <!-- 페이지 헤더 -->
     <div class="page-header">
-        <h2 class="page-title">MY PAGE</h2>
+        <h2 class="page-title">DONATION</h2>
         <ol class="breadcrumb">
             <li>
                 <a href="/">
                     <i class="icon-home"><span class="sr-only">메인으로</span></i>
                 </a>
             </li>
-            <li>마이페이지</li>
-            <li>기부자 정보수정</li>
+            <li>참여하기</li>
+            <li>온라인 약정</li>
         </ol>
     </div>
     <main id="content">
@@ -27,18 +26,19 @@
                     <div class="col-xs-12 col-lg-3">
                         <nav class="lnb-nav">
                             <h3 class="lnb-title visible-lg">
-                                마이 페이지
-                                <small>MY PAGE</small>
+                                참여하기
+                                <small>DONATION</small>
                             </h3>
                             <ul>
-                                <li class="active"><a href="/member/inquiry_list.php">기부금 내역조회</a></li>
-                                <li><a href="#">기부자 정보수정</a></li>
+                                <li><a href="/participation/donation_way.php">기부방법</a></li>
+                                <li><a href="/participation/donation_start.php">기부시작</a></li>
+                                <li class="active"><a href="/participation/agreement.php">온라인 약정</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <div class="sub-content">
-                            <section class="write-form modify"> <!-- 페이지명 클래스 -->
+                            <section class="write-form personal-data"> <!-- 페이지명 클래스 -->
                                 <div class="section-header">
                                     <h4 class="section-title">기부자 정보수정</h4>
                                 </div>

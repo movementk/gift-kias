@@ -1117,7 +1117,12 @@ section {
                                         }
                                         &.serial-number {
                                             .form-group {
-                                                margin-top: 15px;
+                                                label {
+                                                    margin-bottom: 10px;
+                                                }
+                                                & ~ .form-group {
+                                                    margin-top: 10px;
+                                                }
                                                 .form-control {
                                                     &:nth-of-type(1) {
                                                         display: inline-block;
@@ -1129,6 +1134,7 @@ section {
                                         }
                                         &.addr {
                                             label {
+                                                vertical-align: top;
                                                 margin-bottom: 15px;
                                             }
                                             .form-group {
@@ -1150,6 +1156,12 @@ section {
                                                     border: 1px solid #dfdfdf;
                                                     background-color: #f6f6f8;
                                                 }
+                                                .addr-details {
+                                                    > .form-control {
+                                                        margin-top: 10px;
+                                                        display: block;
+                                                    }
+                                                }
                                             }
                                         }
                                         &.contact {
@@ -1158,15 +1170,12 @@ section {
                                                 margin-bottom: 10px;
                                             }
                                             .form-group {
+                                                & ~ .form-group {
+                                                    margin-top: 10px;
+                                                }
                                                 .form-control {
                                                     display: inline-block;
                                                     width: 28%;
-                                                }
-                                            }
-                                            .choice {
-                                                margin-top: 10px;
-                                                label {
-                                                    display: inline-block;
                                                 }
                                             }
                                         }
@@ -1433,6 +1442,39 @@ section {
                     }
                 }
             }
+            .agree {
+                margin-top: 20px;
+                label {
+                    input {
+                        position: relative;
+                        top: 1px;
+                        margin-right: 5px;
+                    }
+                }
+                p {
+                    margin-top: 50px;
+                    text-align: right;
+                }
+                .form-group {
+                    margin-top: 20px;
+                    text-align: right;
+                    label {
+                        .form-control {
+                            display: inline-block;
+                            width: 60px;
+                            border: 1px solid #fff;
+                        }
+                    }
+                    & ~ .form-group {
+                        .form-control {
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 70px;
+            }
         }
         @media(min-width: $sm) {
             .write-item {
@@ -1487,8 +1529,11 @@ section {
                                             &.serial-number {
                                                 .form-group {
                                                     display: inline-block;
-                                                    margin-left: 15px;
                                                     margin-top: 0;
+                                                    label {
+                                                        margin: 0;
+                                                        width: 100px;
+                                                    }
                                                     .form-control {
                                                         display: inline-block;
                                                         width: 120px !important;
@@ -1504,9 +1549,9 @@ section {
                                                     margin-bottom: 0;
                                                 }
                                                 .form-group {
-                                                    display: inline-block;
+                                                    display: block;
+                                                    margin-top: 10px;
                                                     padding-left: 0;
-                                                    margin-left: 15px;
                                                     .form-control {
                                                         display: inline-block;
                                                         width: 130px;
@@ -1517,18 +1562,21 @@ section {
                                                         margin: 0;
                                                         margin-left: 10px;
                                                     }
+                                                    .addr-details {
+                                                        .form-control {
+                                                            width: 100%;
+                                                        }
+                                                    }
                                                 }
                                             }
                                             &.contact {
                                                 label {
+                                                    width: 75px;
                                                     display: inline-block;
                                                     margin-bottom: 0;
                                                 }
                                                 .form-group {
                                                     display: inline-block;
-                                                    label {
-                                                        margin-right: 15px;
-                                                    }
                                                     .form-control {
                                                         width: 100px;
                                                     }
@@ -1587,6 +1635,11 @@ section {
                                                                 > label {
                                                                     .form-control {
                                                                         width: 100px;
+                                                                    }
+                                                                }
+                                                                &.etc {
+                                                                    label {
+                                                                        margin-left: 0 !important;
                                                                     }
                                                                 }
                                                             }
@@ -1658,39 +1711,3 @@ section {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
