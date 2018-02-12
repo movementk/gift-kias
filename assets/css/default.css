@@ -516,7 +516,7 @@ body {
   transition-timing-function: linear;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-  background-color: rgba(34, 34, 34, 0.8); }
+  background-color: rgba(34, 34, 34, 0.95); }
 
 #nav > ul {
   font-size: 0; }

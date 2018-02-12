@@ -51,8 +51,8 @@
                     <div class="col-sm-8 col-lg-12">
                         <ul class="policy">
                             <li><a href="/introduce/greeting.php">고등과학원소개</a></li>
-                            <li><a href="#">이용약관</a></li>
-                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="/member/agreement.php">이용약관</a></li>
+                            <li><a href="/member/privacy.php">개인정보취급방침</a></li>
                             <li><a href="#">기부문의</a></li>
                         </ul>
                         <div class="company-info">
@@ -60,7 +60,7 @@
                                 <li>서울시 동대문구 회기로 85(207-43) 고등과학원</li>
                                 <li>TEL : 02-958-3780</li>
                                 <li>FAX : 02-958-3770</li>
-                                <li>E-MAIL : <a href="mailto:sckwak@kias.re.kr">sckwak@kias.re.kr</a></li>
+                                <li>E-MAIL : <a href="msh@kias.re.kr">msh@kias.re.kr</a></li>
                                 <li class="hidden-lg">입금계좌 (우리은행) : 254-040273-01-001</li>
                             </ul>
                             <p class="copyright">(C) 2017 KIAS. ALL RIGHT RESERVED.</p>
