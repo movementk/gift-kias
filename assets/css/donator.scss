@@ -127,13 +127,11 @@
                     border: 1px solid #e1e1e1;
                     border-radius: 10px;
                     h5 {
+                        display: inline-block;
                         font-size: 15px;
                         color: #1a49a0;
                         line-height: 24px;
-                        span {
-                            display: inline-block;
-                            border-bottom: 1px solid #889fcc;
-                        }
+                        border-bottom: 1px solid #889fcc;
                     }
                     ul {
                         margin-top: 25px;
@@ -225,7 +223,7 @@
                         padding: 30px 35px 30px 30px;
                         ul {
                             li {
-                                letter-spacing: -.2px;
+                                letter-spacing: -.5px;
                             }
                         }
                     }
@@ -244,12 +242,16 @@
         .benefit-step {
             .article-content {
                 > ul {
-                    margin-top: 65px;
+                    margin-top: 40px;
                     li {
                         position: relative;
                         text-align: center;
-                        margin: 0 auto;
                         padding-bottom: 70px;
+                        &:first-child {
+                            > figure {
+                                margin-top: 0;
+                            }
+                        }
                         &:last-child {
                             padding-bottom: 0;
                             &:after {
@@ -280,10 +282,10 @@
                                 strong {
                                     display: block;
                                     font-size: 17px;
+//                                    line-height: 24px;
                                     color: #143883;
                                     font-weight: 400;
-                                    margin-top: 35px;
-                                    margin-bottom: 5px;
+                                    margin-top: 20px;
                                 }
                                 p {
                                     font-size: 14px;
@@ -323,7 +325,6 @@
                 .article-content {
                     > ul {
                         font-size: 0;
-                        margin-top: 40px;
                         li {
                             display: inline-block;
                             width: 33.33%;
@@ -339,11 +340,6 @@
                             }
                             figure {
                                 margin-top: 0;
-                                figcaption {
-                                    strong {
-                                        margin-bottom: 10px;
-                                    }
-                                }
                             }
                         }
                     }

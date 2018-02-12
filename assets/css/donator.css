@@ -463,12 +463,11 @@ a {
   border: 1px solid #e1e1e1;
   border-radius: 10px; }
   .donator-respect .section-content article .article-header .respect-list h5 {
+    display: inline-block;
     font-size: 15px;
     color: #1a49a0;
-    line-height: 24px; }
-    .donator-respect .section-content article .article-header .respect-list h5 span {
-      display: inline-block;
-      border-bottom: 1px solid #889fcc; }
+    line-height: 24px;
+    border-bottom: 1px solid #889fcc; }
   .donator-respect .section-content article .article-header .respect-list ul {
     margin-top: 25px; }
     .donator-respect .section-content article .article-header .respect-list ul li {
@@ -522,17 +521,18 @@ a {
   .donator-respect .section-content article .article-header .respect-list {
     padding: 30px 35px 30px 30px; }
     .donator-respect .section-content article .article-header .respect-list ul li {
-      letter-spacing: -.2px; }
+      letter-spacing: -.5px; }
   .donator-respect .section-content article .article-content {
     margin-top: 90px; } }
 
 .tax-favor .section-content .benefit-step .article-content > ul {
-  margin-top: 65px; }
+  margin-top: 40px; }
   .tax-favor .section-content .benefit-step .article-content > ul li {
     position: relative;
     text-align: center;
-    margin: 0 auto;
     padding-bottom: 70px; }
+    .tax-favor .section-content .benefit-step .article-content > ul li:first-child > figure {
+      margin-top: 0; }
     .tax-favor .section-content .benefit-step .article-content > ul li:last-child {
       padding-bottom: 0; }
       .tax-favor .section-content .benefit-step .article-content > ul li:last-child:after {
@@ -560,8 +560,7 @@ a {
         font-size: 17px;
         color: #143883;
         font-weight: 400;
-        margin-top: 35px;
-        margin-bottom: 5px; }
+        margin-top: 20px; }
       .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption p {
         font-size: 14px;
         color: #555; }
@@ -585,8 +584,7 @@ a {
             content: ""; }
 @media (min-width: 768px) {
   .tax-favor .section-content .benefit-step .article-content > ul {
-    font-size: 0;
-    margin-top: 40px; }
+    font-size: 0; }
     .tax-favor .section-content .benefit-step .article-content > ul li {
       display: inline-block;
       width: 33.33%;
@@ -600,9 +598,7 @@ a {
         transform: rotate(0);
         margin-top: 0; }
       .tax-favor .section-content .benefit-step .article-content > ul li figure {
-        margin-top: 0; }
-        .tax-favor .section-content .benefit-step .article-content > ul li figure figcaption strong {
-          margin-bottom: 10px; } }
+        margin-top: 0; } }
 @media (min-width: 992px) {
   .tax-favor .section-content .benefit-step .article-content > ul li figure img {
     width: 170px;
