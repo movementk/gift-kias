@@ -76,17 +76,6 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <h5>제2조 나항의 CMS 인출을 위한 목적에<br class="visible-xs"> 동의하십니까?</h5>
-                                                        <div class="form-group">
-                                                            <label>
-                                                                <input type="radio">동의함
-                                                            </label>
-                                                            <label>
-                                                                <input type="radio">동의하지 않음
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
                                                         <h5>제4조의 우편물을 받기 위한 위탁에<br class="visible-xs"> 동의하십니까?</h5>
                                                         <div class="form-group">
                                                             <label>

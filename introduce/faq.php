@@ -55,18 +55,6 @@
                                         <div class="article-content">
                                             <div class="panel-group faq-list" id="accordion" role="tablist" aria-multiselectable="true">
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading" role="tab" id="faqOne">
-                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-1" aria-expanded="true" aria-controls="faq-list-1">
-                                                            기부금이 필요합니까?
-                                                        </a>
-                                                    </div>
-                                                    <div id="faq-list-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="faqOne">
-                                                        <div class="panel-body">
-                                                            기부금이 필요합니까에 관한 답변이 노출 되는 영역입니다. 기부금이 필요합니까에 관한 답변이 노출되는 영역입니다. 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="panel panel-default">
                                                     <div class="panel-heading" role="tab" id="faqTwo">
                                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-2" aria-expanded="false" aria-controls="faq-list-2">
                                                             기부금의 용도를 지정할수 있습니까?

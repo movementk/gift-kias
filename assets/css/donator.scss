@@ -57,6 +57,9 @@
         .paging {
             margin-top: 45px;
         }
+        .search-form {
+            margin-top: 45px;
+        }
     }
     @media(min-width: $sm) {
         .section-content {
@@ -169,14 +172,14 @@
                                     letter-spacing: -.7px;
                                     line-height: 25px;
                                 }
-                                &.current-state {
-                                    td {
-                                        &:first-child ~ td {
-                                            font-size: 13px;
-                                            vertical-align: top;
-                                        }
-                                    }
-                                }
+//                                &.current-state {
+//                                    td {
+//                                        &:first-child ~ td {
+//                                            font-size: 13px;
+//                                            vertical-align: top;
+//                                        }
+//                                    }
+//                                }
                             }
                         }
                     }
@@ -366,9 +369,9 @@
         .donors-list {
             margin-top: 90px;
             .article-content {
-                ul {
+                > ul {
                     margin-top: 30px;
-                    li {
+                    > li {
                         margin-top: 30px;
                         &:first-child {
                             margin-top: 0;
@@ -380,7 +383,6 @@
                                 color: #143883;
                                 font-weight: 400;
                                 line-height: 24px;
-                                
                                 padding-left: 15px;
                                 &:before {
                                     position: absolute;
@@ -396,9 +398,13 @@
                             dd {
                                 padding-left: 15px;
                                 font-size: 13px;
-                                line-height: 24px;
+                                line-height: 26px;
                                 color: #555;
                                 margin-top: 10px;
+                                ol {
+                                    list-style: decimal;
+                                    padding-left: 20px;
+                                }
                             }
                         }
                     }

@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-sm-8 col-lg-12">
                         <ul class="policy">
-                            <li><a href="#">고등과학원소개</a></li>
+                            <li><a href="/introduce/greeting.php">고등과학원소개</a></li>
                             <li><a href="#">이용약관</a></li>
                             <li><a href="#">개인정보취급방침</a></li>
                             <li><a href="#">기부문의</a></li>
