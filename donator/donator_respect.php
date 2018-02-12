@@ -153,6 +153,7 @@
                                                             <td>●</td>
                                                             <td></td>
                                                         </tr>
+<!--
                                                         <tr class="current-state">
                                                             <td>기부금액별<br>현황</td>
                                                             <td></td>
@@ -180,6 +181,7 @@
                                                                 정형채, 하미순
                                                             </td>
                                                         </tr>
+-->
                                                     </tbody>
                                                 </table>
                                             </div>

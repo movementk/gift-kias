@@ -55,7 +55,7 @@
                                                     <th class="hidden-xs">번호</th>
                                                     <th>이름</th>
                                                     <th class="hidden-xs">기부일자</th>
-                                                    <th>기부자 구분</th>
+<!--                                                    <th>기부자 구분</th>-->
                                                     <th>기부자 용도</th>
                                                 </tr>
                                             </thead>
@@ -64,70 +64,60 @@
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>동문</td>
                                                     <td>일반 발전기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>재학생</td>
                                                     <td>지정 발전기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>학부모</td>
                                                     <td>특정 목적기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>교직원</td>
                                                     <td>일반 발전기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>일반인</td>
                                                     <td>지정 발전기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>동문</td>
                                                     <td>특정 목적기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>재학생</td>
                                                     <td>일반 발전기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>학부모</td>
                                                     <td>지정 발전기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>교직원</td>
                                                     <td>특정 목적기금</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="num hidden-xs">123</td>
                                                     <td>홍길동</td>
                                                     <td class="date hidden-xs">2018-01-01</td>
-                                                    <td>일반인</td>
                                                     <td>일반 발전기금</td>
                                                 </tr>
                                             </tbody>
@@ -174,6 +164,18 @@
                                                 </li>
                                             </ul>
                                         </nav>
+                                        
+                                        <div class="search-form">
+                                            <form action="#">
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option>이름</option>
+                                                    </select>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <button type="submit" class="btn btn-search">검색</button>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </section>

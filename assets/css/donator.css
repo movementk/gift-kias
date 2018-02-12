@@ -431,6 +431,8 @@ a {
     padding: 20px 0; }
 .donator-list .section-content .paging {
   margin-top: 45px; }
+.donator-list .section-content .search-form {
+  margin-top: 45px; }
 @media (min-width: 768px) {
   .donator-list .section-content p {
     font-size: 16px;
@@ -495,9 +497,6 @@ a {
       .donator-respect .section-content article .article-content .table-responsive .table tbody tr td {
         letter-spacing: -.7px;
         line-height: 25px; }
-      .donator-respect .section-content article .article-content .table-responsive .table tbody tr.current-state td:first-child ~ td {
-        font-size: 13px;
-        vertical-align: top; }
 @media (min-width: 768px) {
   .donator-respect .section-content article .article-header > p {
     font-size: 16px;
@@ -610,20 +609,20 @@ a {
     height: 170px; } }
 .tax-favor .section-content .donors-list {
   margin-top: 90px; }
-  .tax-favor .section-content .donors-list .article-content ul {
+  .tax-favor .section-content .donors-list .article-content > ul {
     margin-top: 30px; }
-    .tax-favor .section-content .donors-list .article-content ul li {
+    .tax-favor .section-content .donors-list .article-content > ul > li {
       margin-top: 30px; }
-      .tax-favor .section-content .donors-list .article-content ul li:first-child {
+      .tax-favor .section-content .donors-list .article-content > ul > li:first-child {
         margin-top: 0; }
-      .tax-favor .section-content .donors-list .article-content ul li dl dt {
+      .tax-favor .section-content .donors-list .article-content > ul > li dl dt {
         position: relative;
         font-size: 13px;
         color: #143883;
         font-weight: 400;
         line-height: 24px;
         padding-left: 15px; }
-        .tax-favor .section-content .donors-list .article-content ul li dl dt:before {
+        .tax-favor .section-content .donors-list .article-content > ul > li dl dt:before {
           position: absolute;
           top: 0;
           left: 0;
@@ -632,12 +631,15 @@ a {
           font-size: 18px;
           font-family: "fontello";
           color: #1a49a0; }
-      .tax-favor .section-content .donors-list .article-content ul li dl dd {
+      .tax-favor .section-content .donors-list .article-content > ul > li dl dd {
         padding-left: 15px;
         font-size: 13px;
-        line-height: 24px;
+        line-height: 26px;
         color: #555;
         margin-top: 10px; }
+        .tax-favor .section-content .donors-list .article-content > ul > li dl dd ol {
+          list-style: decimal;
+          padding-left: 20px; }
 @media (min-width: 768px) {
   .tax-favor .section-content .donors-list {
     margin-top: 70px; }
