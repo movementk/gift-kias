@@ -15,7 +15,7 @@
                     <i class="icon-home"><span class="sr-only">메인으로</span></i>
                 </a>
             </li>
-            <li>참여하기</li>
+            <li>기부하기</li>
             <li>기부방법</li>
         </ol>
     </div>
@@ -26,7 +26,7 @@
                     <div class="col-xs-12 col-lg-3">
                         <nav class="lnb-nav">
                             <h3 class="lnb-title visible-lg">
-                                참여하기
+                                기부하기
                                 <small>DONATION</small>
                             </h3>
                             <ul>

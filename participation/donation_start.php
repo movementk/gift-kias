@@ -15,7 +15,7 @@
                     <i class="icon-home"><span class="sr-only">메인으로</span></i>
                 </a>
             </li>
-            <li>참여하기</li>
+            <li>기부하기</li>
             <li>기부시작</li>
         </ol>
     </div>
@@ -26,7 +26,7 @@
                     <div class="col-xs-12 col-lg-3">
                         <nav class="lnb-nav">
                             <h3 class="lnb-title visible-lg">
-                                참여하기
+                                기부하기
                                 <small>DONATION</small>
                             </h3>
                             <ul>
@@ -47,7 +47,7 @@
                                         <div class="article-header">
                                             <h5>
                                                 고등과학원 기부를 간단하게<br class="visible-xs">
-                                                <b>참여하는 방법</b>을 소개해드립니다    
+                                                <b>시작하는 방법</b>을 소개해드립니다    
                                             </h5>
                                         </div>
                                         <div class="article-content">

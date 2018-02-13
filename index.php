@@ -56,10 +56,10 @@
                                     <img src="/assets/images/main/icon_img01.png" alt="">
                                 </p>
                                 <h3>
-                                    기부 참여방법
-                                    <small>기부 참여 방법을 소개해 드립니다.</small>
+                                    기부방법
+                                    <small>기부방법을 소개해 드립니다.</small>
                                 </h3>
-                                <a href="#" class="btn-link">자세히보기</a>
+                                <a href="/participation/donation_way.php" class="btn-link">자세히보기</a>
                             </div>
                         </div>
                     </li>
@@ -70,10 +70,10 @@
                                     <img src="/assets/images/main/icon_img02.png" alt="">
                                 </p>
                                 <h3>
-                                    기부 참여하기
-                                    <small>기부 참여를 환영합니다.</small>
+                                    기부시작
+                                    <small>기부를 시작합니다.</small>
                                 </h3>
-                                <a href="#" class="btn-link">자세히보기</a>
+                                <a href="/participation/donation_start.php" class="btn-link">자세히보기</a>
                             </div>
                         </div>
                     </li>
@@ -87,7 +87,7 @@
                                     온라인 약정
                                     <small>온라인 약정 방법을 소개해 드립니다.</small>
                                 </h3>
-                                <a href="#" class="btn-link">자세히보기</a>
+                                <a href="/participation/agreement.php" class="btn-link">자세히보기</a>
                             </div>
                         </div>
                     </li>
@@ -168,12 +168,25 @@
     <script src="/assets/js/common.js"></script>
     <script>
         $(function($){
-            $(document).ready(function(){
+            $(document).on("ready", function(){
                 $('.jumbotron > ul').bxSlider({
+                    auto: true,
                     nextText: '<i class="icon-right-open-big"><span class="sr-only">다음 슬라이드</span></i>',
                     prevText: '<i class="icon-left-open-big"><span class="sr-only">이전 슬라이드</span></i>',
+                    onSliderLoad: function(currentIndex) {
+                        $("jumbotron").find("h2").css({"visibility":"visible"}).animate({opacity:1});
+                        var $currentElem = $('.jumbotron ul li:not(.bx-clone):eq(0)');
+                        $currentElem.addClass('active');
+                    },
+                    onSlideBefore: function($slideElement, oldIndex, newIndex) {
+                        $('.jumbotron ul .active').removeClass('active');
+                    },
+                    onSlideAfter: function($slideElement, oldIndex, newIndex) {
+                        $slideElement.addClass('active');
+                    }
                 });
-            });
+
+            })
         }(jQuery));
     </script>
 </body>

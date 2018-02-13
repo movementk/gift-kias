@@ -62,19 +62,19 @@
                                                     </div>
                                                     <div id="faq-list-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqTwo">
                                                         <div class="panel-body">
-                                                            기부금이 필요합니까에 관한 답변이 노출 되는 영역입니다. 기부금이 필요합니까에 관한 답변이 노출되는 영역입니다. 
+                                                            일반발전기금 및 지정발전기금 중에서 지정하실 수 있습니다.
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading" role="tab" id="faqThree">
                                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-3" aria-expanded="false" aria-controls="faq-list-3">
-                                                            기부를 하려면 어떻게 해야합니까?
+                                                            기부를 하려면 어떻게 해야 합니까?
                                                         </a>
                                                     </div>
                                                     <div id="faq-list-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqThree">
                                                         <div class="panel-body">
-                                                            기부금이 필요합니까에 관한 답변이 노출 되는 영역입니다. 기부금이 필요합니까에 관한 답변이 노출되는 영역입니다. 
+                                                            전화나 이메일, 게시판에 문의를 주시거나 온라인으로 직접 약정 후 기부가 가능합니다.
                                                         </div>
                                                     </div>
                                                 </div>
@@ -86,43 +86,55 @@
                                                     </div>
                                                     <div id="faq-list-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqFour">
                                                         <div class="panel-body">
-                                                            기부금이 필요합니까에 관한 답변이 노출 되는 영역입니다. 기부금이 필요합니까에 관한 답변이 노출되는 영역입니다. 
+                                                            10,000원 이상의 금액부터 기부가 가능합니다.
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading" role="tab" id="faqFive">
                                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-5" aria-expanded="false" aria-controls="faq-list-5">
-                                                            기부금의 용도를 지정할 수 있습니까?
+                                                            기부금 납부시 약정서를 작성해야만 합니까?
                                                         </a>
                                                     </div>
                                                     <div id="faq-list-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqFive">
                                                         <div class="panel-body">
-                                                            기부금이 필요합니까에 관한 답변이 노출 되는 영역입니다. 기부금이 필요합니까에 관한 답변이 노출되는 영역입니다. 
+                                                            약정서 작성 후 기부금 납입을 하셔야 기부금영수증을 받으실 수 있습니다.
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading" role="tab" id="faqSix">
                                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-6" aria-expanded="false" aria-controls="faq-list-6">
-                                                            기부를 하려면 어떻게 해야합니까?
+                                                            기부자에 대한 혜택이 있습니까?
                                                         </a>
                                                     </div>
                                                     <div id="faq-list-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqSix">
                                                         <div class="panel-body">
-                                                            기부금이 필요합니까에 관한 답변이 노출 되는 영역입니다. 기부금이 필요합니까에 관한 답변이 노출되는 영역입니다. 
+                                                            누적 기부금액에 따라 다양한 혜택이 있습니다. 홈페이지 상단의 [기부자-기부자예우]에서 확인하실 수 있습니다.
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading" role="tab" id="faqSeven">
                                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-7" aria-expanded="false" aria-controls="faq-list-7">
-                                                            금액이 적어도 기부를 할 수 있습니까?
+                                                            기부금 영수증은 받을 수 있습니까?
                                                         </a>
                                                     </div>
                                                     <div id="faq-list-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqSeven">
                                                         <div class="panel-body">
-                                                            기부금이 필요합니까에 관한 답변이 노출 되는 영역입니다. 기부금이 필요합니까에 관한 답변이 노출되는 영역입니다. 
+                                                            무기명 기부를 제외하고는 담당자의 기부금 납입 확인 후 홈페이지 상단의 [마이페이지-기부내역조회-영수증 출력]에서 출력하실 수 있으며, 홈페이지 출력이 어려우신 경우에는 전화 문의 주시면 우편, e-mail, 팩스 등 원하시는 방법으로 보내드립니다.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="faqSeven">
+                                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faq-list-8" aria-expanded="false" aria-controls="faq-list-8">
+                                                            개인정보 변경 시 어떻게 해야 합니까?
+                                                        </a>
+                                                    </div>
+                                                    <div id="faq-list-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqSeven">
+                                                        <div class="panel-body">
+                                                            홈페이지 상단의 [마이페이지-개인정보변경] 에서 변경 가능하시며, 주소 및 연락처와 같은 정보의 변경이 있으실 경우 수정을 해주셔야만 기부자예우의 혜택을 받으실 수 있습니다.
                                                         </div>
                                                     </div>
                                                 </div>

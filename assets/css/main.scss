@@ -19,6 +19,9 @@
                 font-size: 32px;
                 color: #fff;
                 font-weight: 500;
+                @include transition($duration: .9000s);
+                transform: scale(0);
+                -ms-transform: scale(0);
                 small {
                     font-size: 17px;
                     color: #fff;
@@ -31,6 +34,9 @@
                 margin: 25px auto;
                 width: 30px;
                 border-top: 2px solid #bf4b46;
+                @include transition($duration: .9000s);
+                transform: scale(0);
+                -ms-transform: scale(0);
             }
             p {
                 @include roboto();
@@ -39,6 +45,26 @@
                 font-weight: 300;
                 line-height: 18px;
                 font-style: italic;
+                @include transition($duration: .9000s);
+                transform: scale(0);
+                -ms-transform: scale(0);
+            }
+            &.active {
+                h2 {
+                    -ms-transform: scale(1);
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                }
+                hr {
+                    -ms-transform: scale(1);
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                }
+                p {
+                    -ms-transform: scale(1);
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                }
             }
             @media (min-width: $sm) {
                 padding: 220px 0 230px;

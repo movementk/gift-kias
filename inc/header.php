@@ -32,7 +32,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="/participation/donation_way.php">참여하기</a>
+                                <a href="/participation/donation_way.php">기부하기</a>
                                 <ul>
                                     <li><a href="/participation/donation_way.php">기부방법</a></li>
                                     <li><a href="/participation/donation_start.php">기부시작</a></li>

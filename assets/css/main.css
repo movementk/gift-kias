@@ -427,7 +427,17 @@ a {
       display: block;
       font-size: 32px;
       color: #fff;
-      font-weight: 500; }
+      font-weight: 500;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.9s;
+      transition-duration: 0.9s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      transform: scale(0);
+      -ms-transform: scale(0); }
       .jumbotron ul li h2 small {
         font-size: 17px;
         color: #fff;
@@ -437,14 +447,46 @@ a {
     .jumbotron ul li hr {
       margin: 25px auto;
       width: 30px;
-      border-top: 2px solid #bf4b46; }
+      border-top: 2px solid #bf4b46;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.9s;
+      transition-duration: 0.9s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      transform: scale(0);
+      -ms-transform: scale(0); }
     .jumbotron ul li p {
       font-family: 'Roboto', sans-serif;
       font-size: 12px;
       color: #fff;
       font-weight: 300;
       line-height: 18px;
-      font-style: italic; }
+      font-style: italic;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.9s;
+      transition-duration: 0.9s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      transform: scale(0);
+      -ms-transform: scale(0); }
+    .jumbotron ul li.active h2 {
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+    .jumbotron ul li.active hr {
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+    .jumbotron ul li.active p {
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1); }
     @media (min-width: 768px) {
       .jumbotron ul li {
         padding: 220px 0 230px; }
