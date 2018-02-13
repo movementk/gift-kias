@@ -632,10 +632,8 @@ a {
         font-size: 13px;
         line-height: 26px;
         color: #555;
-        margin-top: 10px; }
-        .tax-favor .section-content .donors-list .article-content > ul > li dl dd ol {
-          list-style: decimal;
-          padding-left: 20px; }
+        margin-top: 10px;
+        text-align: justify; }
 @media (min-width: 768px) {
   .tax-favor .section-content .donors-list {
     margin-top: 70px; }

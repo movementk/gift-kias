@@ -561,6 +561,23 @@ a {
         background-color: #143883;
         margin-right: 10px;
         font-family: 'Roboto', sans-serif; }
+    .donation-start .section-content article .article-content ol li figure figcaption .btn-area {
+      margin-top: 20px;
+      text-align: center; }
+      .donation-start .section-content article .article-content ol li figure figcaption .btn-area p .btn-blue {
+        display: block;
+        max-width: 300px;
+        height: 35px;
+        font-size: 16px;
+        color: #143883;
+        line-height: 33px;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid #143883;
+        background-color: #fff; }
+        .donation-start .section-content article .article-content ol li figure figcaption .btn-area p .btn-blue:focus {
+          background-color: #143883;
+          color: #fff; }
     .donation-start .section-content article .article-content ol li figure figcaption > p {
       font-size: 13px;
       color: #555;
@@ -572,8 +589,65 @@ a {
     font-size: 24px; }
   .donation-start .section-content article .article-content ol li ~ li {
     margin-top: 0; }
-  .donation-start .section-content article .article-content ol li figure figcaption > p {
-    font-size: 15px; } }
+  .donation-start .section-content article .article-content ol li figure figcaption {
+    position: relative;
+    height: 160px; }
+    .donation-start .section-content article .article-content ol li figure figcaption > p {
+      font-size: 15px; }
+    .donation-start .section-content article .article-content ol li figure figcaption .btn-area {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      margin: 0; }
+      .donation-start .section-content article .article-content ol li figure figcaption .btn-area p .btn-blue {
+        width: 100%;
+        height: 48px;
+        line-height: 46px; }
+        .donation-start .section-content article .article-content ol li figure figcaption .btn-area p .btn-blue:hover, .donation-start .section-content article .article-content ol li figure figcaption .btn-area p .btn-blue:focus {
+          background-color: #143883;
+          color: #fff; } }
+
+.simple-contract .section-content > p {
+  font-size: 14px;
+  color: #666; }
+  .simple-contract .section-content > p:before {
+    content: "* ";
+    color: #d80000; }
+.simple-contract .section-content .table-wrap {
+  margin-top: 20px; }
+  .simple-contract .section-content .table-wrap .table.type-2 tbody tr th {
+    padding: 15px; }
+    .simple-contract .section-content .table-wrap .table.type-2 tbody tr th.essential:after {
+      content: " *";
+      color: #d80000; }
+  .simple-contract .section-content .table-wrap .table.type-2 tbody tr td {
+    padding: 0;
+    padding: 0 10px;
+    vertical-align: middle; }
+    .simple-contract .section-content .table-wrap .table.type-2 tbody tr td .form-group .form-control {
+      width: 100%; }
+.simple-contract .section-content .btn-area {
+  margin-top: 20px; }
+  .simple-contract .section-content .btn-area p .btn {
+    width: 100%; }
+@media (min-width: 768px) {
+  .simple-contract .section-content .table-wrap {
+    margin-top: 20px; }
+    .simple-contract .section-content .table-wrap .table.type-2 tbody tr th {
+      padding: 15px; }
+      .simple-contract .section-content .table-wrap .table.type-2 tbody tr th.essential:after {
+        content: " *";
+        color: #d80000; }
+    .simple-contract .section-content .table-wrap .table.type-2 tbody tr td {
+      padding: 0;
+      padding-left: 30px;
+      vertical-align: middle; }
+      .simple-contract .section-content .table-wrap .table.type-2 tbody tr td .form-group .form-control {
+        width: 170px; }
+  .simple-contract .section-content .btn-area {
+    margin-top: 30px; }
+    .simple-contract .section-content .btn-area p .btn.btn-sm {
+      width: 170px; } }
 
 .agreement .section-content .terms .article-header .content {
   height: 380px;

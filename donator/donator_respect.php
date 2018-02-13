@@ -55,6 +55,7 @@
                                                 그 소중한 마음을 세계수준의 연구성과 창출과
                                                  다음과 같은 정성으로 보답하고자 합니다.  
                                             </p>
+<!--
                                             <div class="respect-list">
                                                 <h5>기부자 예우 항목</h5>
                                                 <ul>
@@ -65,6 +66,7 @@
                                                     <li>모든 KIAS Friends에게 매년 고등과학원 달력을 발송해 드리고, 우편 또는 홈페이지를 통해 기금의  사용내역에 대해 알려드립니다.</li>
                                                 </ul>
                                             </div>
+-->
                                         </div>
                                         <div class="article-content">
                                             <h5 class="sub-title">기부자 예우</h5>
