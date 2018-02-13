@@ -67,7 +67,7 @@
                                             </div>
                                         </div>
                                         <div class="article-content">
-                                            <h5 class="sub-title">기부자 예우(안)</h5>
+                                            <h5 class="sub-title">기부자 예우</h5>
                                             <div class="table-responsive">
                                                 <table class="table table-bordered">
                                                     <thead>
@@ -87,15 +87,7 @@
                                                             <td colspan="5">기부금 영수증, 감사장, 정기간행물, 연하장</td>
                                                         </tr>
                                                         <tr class="bold-bg">
-                                                            <td rowspan="3">네이밍</td>
-                                                            <td>과학의 지평 성명 게제(간행물)</td>
-                                                            <td>●</td>
-                                                            <td>●</td>
-                                                            <td>●</td>
-                                                            <td>●</td>
-                                                            <td>●</td>
-                                                        </tr>
-                                                        <tr class="bold-bg">
+                                                           <td rowspan="2">네이밍</td>
                                                             <td>홈페이지 기부자 성명 게재</td>
                                                             <td>●</td>
                                                             <td>●</td>
