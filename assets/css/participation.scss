@@ -244,6 +244,28 @@
                                         @include roboto();
                                     }
                                 }
+                                .btn-area {
+                                    margin-top: 20px;
+                                    text-align: center;
+                                    p {
+                                        .btn-blue {
+                                            display: block;
+                                            max-width: 300px;
+                                            height: 35px;
+                                            font-size: 16px; 
+                                            color: #143883;
+                                            line-height: 33px;
+                                            text-align: center;
+                                            margin: 0 auto;
+                                            border: 1px solid #143883;
+                                            background-color: #fff;
+                                            &:focus {
+                                                background-color: #143883;
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                }
                                 > p {
                                     font-size: 13px;
                                     color: #555;
@@ -270,8 +292,27 @@
                             }
                             figure {
                                 figcaption {
+                                    position: relative;
+                                    height: 160px;
                                     > p {
                                         font-size: 15px;
+                                    }
+                                    .btn-area {
+                                        position: absolute;
+                                        bottom: 0;
+                                        width: 100%;
+                                        margin: 0;
+                                        p {
+                                            .btn-blue {
+                                                width: 100%;
+                                                height: 48px;
+                                                line-height: 46px;
+                                                &:hover,&:focus {
+                                                    background-color: #143883;
+                                                    color: #fff;
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -282,9 +323,109 @@
         }
     }
 }
- 
+// 간편약정
+.simple-contract {
+    .section-content {
+        > p {
+            font-size: 14px;
+            color: #666;
+            &:before {
+                content: "* ";
+                color: #d80000;
+            }
+        }
+        .table-wrap {
+            margin-top: 20px;
+            .table.type-2 {
+                tbody {
+                    tr {
+                        th {
+                            padding: 15px;
+                            &.essential {
+                                &:after {
+                                    content: " *";
+                                    color: #d80000;
+                                }
+                            }
+                        }
+                        td {
+                            padding: 0;
+                            padding: 0 10px;
+                            vertical-align: middle;
+                            .form-group {
+                                .form-control {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 20px;
+            p {
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            .table-wrap {
+                margin-top: 20px;
+                .table.type-2 {
+                    tbody {
+                        tr {
+                            th {
+                                padding: 15px;
+                                &.essential {
+                                    &:after {
+                                        content: " *";
+                                        color: #d80000;
+                                    }
+                                }
+                            }
+                            td {
+                                padding: 0;
+                                padding-left: 30px;
+                                vertical-align: middle;
+                                .form-group {
+                                    .form-control {
+                                        width: 170px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                p {
+                    .btn.btn-sm {
+                       width: 170px;
+                    }
+                }
+            }
+        }
+    }
+}
 
-//온라인 약정
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 온라인 약정
 .agreement {
     .section-content {
         .terms{

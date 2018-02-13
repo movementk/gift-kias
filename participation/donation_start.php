@@ -61,8 +61,14 @@
                                                                 간편약정
                                                             </h6>
                                                             <p>간단한 정보 등록 후 담당자의 연락으로 추후 약정 및 기부금 납입</p>
+                                                            <div class="btn-area">
+                                                                <p>
+                                                                    <a href="/participation/simple_contract.php" class="btn-blue">간편약정 바로가기</a>
+                                                                </p>
+                                                            </div>
                                                         </figcaption>
                                                     </figure>
+                                                    
                                                 </li>
                                                 <li class="col-xs-12 col-sm-4">
                                                     <figure>
@@ -73,6 +79,11 @@
                                                                 온라인약정
                                                             </h6>
                                                             <p>홈페이지에서 약정서 등록 후 기부금 납입</p>
+                                                            <div class="btn-area">
+                                                                <p>
+                                                                    <a href="/participation/agreement.php" class="btn-blue">온라인 약정 바로가기</a>
+                                                                </p>
+                                                            </div>
                                                         </figcaption>
                                                     </figure>
                                                 </li>
@@ -85,6 +96,11 @@
                                                                 약정서 다운로드 
                                                             </h6>
                                                             <p>우편, e-mail, 팩스 또는 방문 제출 후 기부금 납입</p>
+                                                            <div class="btn-area">
+                                                                <p>
+                                                                    <a href="/assets/data/kiasf_agreement.hwp" class="btn-blue">약정서 다운로드</a>
+                                                                </p>
+                                                            </div>
                                                         </figcaption>
                                                     </figure>
                                                 </li>
