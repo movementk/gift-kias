@@ -67,17 +67,14 @@
                                                                     <td class="serial-number">
                                                                         <div class="form-group">
                                                                             <label><input type="radio"> 주민번호</label>
-                                                                            <input type="text" id="rrnum-1" class="form-control"> - 
-                                                                            <label for="rrnum-1" class="sr-only">생년월일</label>
-                                                                            <input type="text" id="rrnum-2" class="form-control">
-                                                                            <label for="rrnum-2" class="sr-only">주민번호 뒷자리</label>
-                                                                        </div>
-                                                                        <div class="form-group">
                                                                             <label><input type="radio"> 사업자번호</label>
-                                                                            <input type="text" id="crnum-1" class="form-control"> - 
-                                                                            <label for="crnum-1" class="sr-only">사업자번호</label>
-                                                                            <input type="text" id="crnum-2" class="form-control">
-                                                                            <label for="crnum-2" class="sr-only">사업자번호</label>
+                                                                            <input type="text" id="rrnum-1" class="form-control"> - 
+                                                                            <label for="rrnum-1" class="sr-only">주민번호 및 사업자</label>
+                                                                            <input type="text" id="rrnum-2" class="form-control"> -
+                                                                            <label for="rrnum-2" class="sr-only">주민번호 및 사업자</label>
+                                                                            <input type="text" id="rrnum-3" class="form-control">
+                                                                            <label for="rrnum-3" class="sr-only">주민번호 및 사업자</label>
+                                                                            
                                                                         </div>
                                                                         <p class="attention">
                                                                             귀하의 개인정보는 기부금 납부내역 세무신고 시에 활용하고 다른 목적으로는 사용하지 않습니다.
@@ -110,34 +107,28 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <th class="v-top">연락처</th>
+                                                                    <th class="v-top">전화번호</th>
                                                                     <td class="contact">
                                                                         <div class="form-group">
-                                                                            <label for="u-phone01">휴대폰</label>
+                                                                            <label for="u-phone01" class="sr-only">휴대폰</label>
                                                                             <input type="text" id="u-phone01" class="form-control"> - 
                                                                             <label for="u-phone02" class="sr-only">휴대폰</label>
                                                                             <input type="text" id="u-phone02" class="form-control"> - 
                                                                             <label for="u-phone03" class="sr-only">휴대폰</label>
                                                                             <input type="text" id="u-phone03" class="form-control">
                                                                         </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th class="v-top">휴대폰</th>
+                                                                    <td class="contact">
                                                                         <div class="form-group">
-                                                                            <label><input type="radio"> 자택</label>
-                                                                            <label for="u-contact01" class="sr-only">자택</label>
+                                                                            <label for="u-contact01" class="sr-only">전화번호</label>
                                                                             <input type="text" id="u-contact01" class="form-control"> - 
                                                                             <label for="u-contact02" class="sr-only">연락처</label>
                                                                             <input type="text" id="u-contact02" class="form-control"> - 
                                                                             <label for="u-contact02" class="sr-only">연락처</label>
                                                                             <input type="text" id="u-contact03" class="form-control">
-                                                                            <label for="u-contact03" class="sr-only">연락처</label>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label><input type="radio"> 직장</label>
-                                                                            <label for="u-contact04" class="sr-only">직장</label>
-                                                                            <input type="text" id="u-contact04" class="form-control"> - 
-                                                                            <label for="u-contact05" class="sr-only">연락처</label>
-                                                                            <input type="text" id="u-contact05" class="form-control"> - 
-                                                                            <label for="u-contact06" class="sr-only">연락처</label>
-                                                                            <input type="text" id="u-contact06" class="form-control">
                                                                             <label for="u-contact03" class="sr-only">연락처</label>
                                                                         </div>
                                                                     </td>
@@ -181,7 +172,6 @@
                                                                         <label><input type="radio"> 주식</label>
                                                                         <label><input type="radio"> 유가증권</label>
                                                                         <label><input type="radio"> 현물</label>
-                                                                        <label><input type="radio"> </label>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -247,29 +237,15 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <th>사용방법</th>
+                                                                    <th>사용용도</th>
                                                                     <td class="way">
                                                                         <p>기부금 원금을 보존하여 발생하는 이자로 지원하는 것을 원하십니까?</p>
                                                                         <label><input type="checkbox"> 예(원금보존)</label>
                                                                         <label><input type="checkbox"> 아니오(원금사용)</label>
                                                                     </td>
                                                                 </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class="terms-payment">
-                                                <div class="article-header">
-                                                    <h5 class="sub-title">납부 방법</h5>
-                                                    <p class="attention"> 입금계좌 : 우리은행 / 254-040273-01-001 / 한국과학기술원부설고등과학원</p>
-                                                </div>
-                                                <div class="article-content">
-                                                    <div class="table-wrap">
-                                                        <table class="table table-bordered">
-                                                            <tbody>
                                                                 <tr>
-                                                                    <th>일시납부</th>
+                                                                    <th>기부방법<br>(일시납부)</th>
                                                                     <td class="immediately-pay">
                                                                         <ul>
                                                                             <li>
@@ -288,7 +264,10 @@
                                                                                     <input type="text" id="depositor" class="form-control">
                                                                                 </div>
                                                                             </li>
-                                                                            <li><label><input type="radio"> 온라인 계좌이체</label></li>
+                                                                            <li>
+                                                                                <label><input type="radio"> 온라인 계좌이체</label>
+                                                                                <p>입금계좌 : 우리은행 / 254-040273-01-001 / 한국과학기술원부설고등과학원</p>
+                                                                            </li>
                                                                             <li>
                                                                                 <label><input type="radio"> 방문납부</label>
                                                                                 <div class="form-group">
@@ -305,7 +284,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <th>분할납부</th>
+                                                                    <th>기부방법<br>(분할납부)</th>
                                                                     <td class="installment">
                                                                         <div class="form-group">
                                                                             <div>
@@ -336,11 +315,20 @@
                                                                             <label>
                                                                                 <input type="radio"> 자동이체
                                                                                 <span>(기부자가 직접 인터넷뱅킹 또는 은행에 내방하여 신청)</span>
+                                                                                <span class="space">(우리은행 254-040273-01-001  예금주 : 한국과학기술원부설고등과학원)</span>
                                                                             </label>
                                                                             <label>
                                                                                 <input type="radio"> 급여공제
                                                                                 <span>(교직원에 한함)</span>
                                                                             </label>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th><label for="u-content">남기실 말씀</label></th>
+                                                                    <td>
+                                                                        <div class="form-group">
+                                                                            <textarea id="u-content" class="form-control"></textarea>
                                                                         </div>
                                                                     </td>
                                                                 </tr>
@@ -350,24 +338,20 @@
                                                 </div>
                                             </article>
                                             <div class="agree">
-                                                <label><input type="checkbox"> 기부자 예우 혜택에 동의합니다.</label>
-                                                <p>
-                                                    본 약정서 상의 개인정보 제공에 동의하며<br class="visible-xs">
-                                                    위와 같이 KIAS 발전기금을 약정합니다.
-                                                </p>
-                                                <div class="form-group">
-                                                    <label><input type="text" class="form-control"> 년</label>
-                                                    <label><input type="text" class="form-control"> 월</label>
-                                                    <label><input type="text" class="form-control"> 일</label>
+                                                <div class="agree-txt">
+                                                    <p>입금계좌 : 우리은행 254-040273-01-001</p>
+                                                    <p>예금주 : 한국과학기술원부설고등과학원</p>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label>약정인 <input type="text" class="form-control"> (서명)</label>
-                                                </div>
+                                                <p class="summary">온라인 입금 후에는 전화 또는 팩스로 기부내용을 반드시 알려주시기 바랍니다.</p>
+                                                <ul class="contact-list">
+                                                    <li>Tel : 02-958-3888</li>
+                                                    <li>FAX : 02-958-3770</li>
+                                                    <li>E-mail : <a href="mailto:msh@kias.re.kr">msh@kias.re.kr</a></li>
+                                                </ul>
                                             </div>
                                             <div class="btn-area">
                                                 <p>
-                                                    <a href="#" class="btn btn-sm btn-white" role="button">취소하기</a>
-                                                    <button class="btn btn-sm btn-blue" type="submit">등록하기</button>
+                                                    <button class="btn btn-sm btn-blue" type="submit">약정서 등록</button>
                                                 </p>
                                             </div>
                                         </div>

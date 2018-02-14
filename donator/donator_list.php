@@ -43,6 +43,17 @@
                                     <h4 class="section-title">기부자 명단</h4>
                                 </div>
                                 <div class="section-content">
+                                    <div class="search-form">
+                                        <form action="#">
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>이름</option>
+                                                </select>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <button type="submit" class="btn btn-search">검색</button>
+                                        </form>
+                                    </div>
                                     <p>
                                         대한민국 기초과학의 미래, 당신의 힘으로 밝혀<br class="visible-xs">
                                         주십시오<br class="hidden-xs"> 고등과학원의 미래는 우리나라의<br class="visible-xs">
@@ -164,18 +175,6 @@
                                                 </li>
                                             </ul>
                                         </nav>
-                                        
-                                        <div class="search-form">
-                                            <form action="#">
-                                                <div class="form-group">
-                                                    <select class="form-control">
-                                                        <option>이름</option>
-                                                    </select>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <button type="submit" class="btn btn-search">검색</button>
-                                            </form>
-                                        </div>
                                     </div>
                                 </div>
                             </section>

@@ -1185,6 +1185,11 @@ section .section-content {
         top: 1px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td label:first-child {
         margin-left: 0; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td textarea {
+      height: 150px !important; }
+      @media (min-width: 768px) {
+        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td textarea {
+          height: 200px !important; } }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td .attention {
       font-size: 13px;
       color: #999;
@@ -1197,10 +1202,11 @@ section .section-content {
       margin-bottom: 10px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group ~ .form-group {
       margin-top: 10px; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group .form-control ~ .form-control {
+      margin-top: 10px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group .form-control:nth-of-type(1) {
       display: inline-block;
-      width: 93%;
-      margin-bottom: 5px; }
+      width: 93%; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr label {
       vertical-align: top;
       margin-bottom: 15px; }
@@ -1378,6 +1384,9 @@ section .section-content {
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group.seletor label span {
         display: inline-block;
         color: #999; }
+        @media (min-width: 768px) {
+          .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group.seletor label span.space {
+            padding-left: 52px; } }
     @media (min-width: 768px) {
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group.seletor {
         margin-top: 20px; }
@@ -1399,9 +1408,6 @@ section .section-content {
     position: relative;
     top: 1px;
     margin-right: 5px; }
-  .write-form .section-content .write-item .agree p {
-    margin-top: 50px;
-    text-align: right; }
   .write-form .section-content .write-item .agree .form-group {
     margin-top: 20px;
     text-align: right; }
@@ -1411,6 +1417,24 @@ section .section-content {
       border: 1px solid #fff; }
     .write-form .section-content .write-item .agree .form-group ~ .form-group .form-control {
       width: 150px; }
+  .write-form .section-content .write-item .agree .agree-txt > p {
+    font-size: 13px;
+    color: #666;
+    display: inline-block;
+    margin-top: 10px; }
+    @media (min-width: 768px) {
+      .write-form .section-content .write-item .agree .agree-txt > p:last-child {
+        margin-left: 20px; } }
+  .write-form .section-content .write-item .agree .summary {
+    text-align: left;
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px; }
+  .write-form .section-content .write-item .agree ul {
+    margin-top: 30px; }
+    .write-form .section-content .write-item .agree ul li {
+      display: inline-block;
+      margin-right: 10px; }
 .write-form .section-content .write-item .btn-area {
   margin-top: 70px; }
 @media (min-width: 768px) {
@@ -1449,10 +1473,6 @@ section .section-content {
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group label {
         margin: 0;
         width: 100px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group .form-control {
-        display: inline-block;
-        width: 120px !important;
-        margin: 0 !important; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .attention {
       margin-top: 10px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.addr label {
@@ -1541,5 +1561,12 @@ section .section-content {
       margin-left: 40px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li:nth-of-type(3) .form-group .form-control {
         width: 165px; } }
+@media (min-width: 992px) {
+  .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group {
+    display: inline-block; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.serial-number .form-group .form-control {
+      display: inline-block;
+      width: 120px !important;
+      margin: 0 !important; } }
 
 /*# sourceMappingURL=sub.css.map */

@@ -500,6 +500,7 @@ a {
         color: #1a49a0;
         font-weight: 500; }
       .donation-way .section-content > ul > li > .method-list li dl dd {
+        vertical-align: top;
         display: inline;
         font-size: 13px;
         line-height: 24px;
@@ -508,7 +509,8 @@ a {
           content: " : "; }
 @media (min-width: 768px) {
   .donation-way .section-content > ul > li > .method-list li dl dt {
-    font-size: 16px; }
+    font-size: 16px;
+    vertical-align: top; }
   .donation-way .section-content > ul > li > .method-list li dl dd {
     display: inline-block;
     font-size: 16px; } }

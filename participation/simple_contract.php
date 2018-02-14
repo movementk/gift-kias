@@ -54,33 +54,37 @@
                                                         </th>
                                                         <td>
                                                             <div class="form-group">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="u-name" class="form-control" placeholder="이름입력">
-                                                                </div>
+                                                                <input type="text" id="u-name" class="form-control" placeholder="이름입력">
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <th>
+                                                        <th class="essential">
                                                             <label class="u-phone">연락처</label>
                                                         </th>
                                                         <td>
                                                             <div class="form-group">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="u-phone" class="form-control" placeholder="후원코드">
-                                                                </div>
+                                                                <input type="text" id="u-phone" class="form-control" placeholder="연락처">
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <th>
+                                                        <th class="essential">
+                                                            <label class="u-phone">이메일</label>
+                                                        </th>
+                                                        <td>
+                                                            <div class="form-group">
+                                                                <input type="email" id="u-mail" class="form-control" placeholder="e-mail">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="essential">
                                                             <label class="gift-pay">기부금액</label>
                                                         </th>
                                                         <td>
                                                             <div class="form-group">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="gift-pay" class="form-control" placeholder="숫자만 입력하세요">
-                                                                </div>
+                                                                <input type="text" id="gift-pay" class="form-control" placeholder="숫자만 입력하세요">
                                                             </div>
                                                         </td>
                                                     </tr>

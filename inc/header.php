@@ -4,7 +4,7 @@
             <ul class="quick-menu">
                 <li><a href="/">HOME</a></li>
                 <li><a href="#">CONTACT</a></li>
-                <li><a href="/member/inquiry_list.php">MYPAGE</a></li>
+                <li><a href="/member/breakdown.php">MYPAGE</a></li>
             </ul>
         </div>
     </div>

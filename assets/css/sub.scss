@@ -1105,6 +1105,12 @@ section {
                                                 margin-left: 0;
                                             }
                                         }
+                                        textarea {
+                                            height: 150px !important;
+                                            @media(min-width: $sm) {
+                                                height: 200px !important;
+                                            }
+                                        }
                                         .attention {
                                             font-size: 13px;
                                             color: #999;
@@ -1124,10 +1130,12 @@ section {
                                                     margin-top: 10px;
                                                 }
                                                 .form-control {
+                                                    & ~ .form-control {
+                                                        margin-top: 10px;
+                                                    }
                                                     &:nth-of-type(1) {
                                                         display: inline-block;
                                                         width: 93%;
-                                                        margin-bottom: 5px;
                                                     }
                                                 }
                                             }
@@ -1411,6 +1419,11 @@ section {
                                                         span {
                                                             display: inline-block;
                                                             color: #999;
+                                                            &.space {
+                                                                @media(min-width: $sm) {
+                                                                    padding-left: 52px;
+                                                                }
+                                                            }
                                                         }
                                                     }
                                                     @media(min-width: $sm) {
@@ -1451,10 +1464,6 @@ section {
                         margin-right: 5px;
                     }
                 }
-                p {
-                    margin-top: 50px;
-                    text-align: right;
-                }
                 .form-group {
                     margin-top: 20px;
                     text-align: right;
@@ -1469,6 +1478,32 @@ section {
                         .form-control {
                             width: 150px;
                         }
+                    }
+                }
+                .agree-txt {
+                    > p {
+                        font-size: 13px;
+                        color: #666;
+                        display: inline-block;
+                        margin-top: 10px;
+                        &:last-child {
+                            @media(min-width: $sm) {
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                }
+                .summary {
+                    text-align: left;
+                    font-size: 13px;
+                    color: #666;
+                    margin-top: 15px;
+                }
+                ul {
+                    margin-top: 30px;
+                    li {
+                        display: inline-block;
+                        margin-right: 10px;
                     }
                 }
             }
@@ -1533,11 +1568,6 @@ section {
                                                     label {
                                                         margin: 0;
                                                         width: 100px;
-                                                    }
-                                                    .form-control {
-                                                        display: inline-block;
-                                                        width: 120px !important;
-                                                        margin: 0 !important;
                                                     }
                                                 }
                                                 .attention {
@@ -1697,6 +1727,34 @@ section {
                                                                 }
                                                             }
                                                         }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            .write-item {
+                article {
+                    .article-content {
+                        .table-wrap {
+                            .table {
+                                tbody {
+                                    tr {
+                                        td {
+                                            &.serial-number {
+                                                .form-group {
+                                                    display: inline-block;
+                                                    .form-control {
+                                                        display: inline-block;
+                                                        width: 120px !important;
+                                                        margin: 0 !important;
                                                     }
                                                 }
                                             }

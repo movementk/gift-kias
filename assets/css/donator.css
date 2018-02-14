@@ -432,7 +432,7 @@ a {
 .donator-list .section-content .paging {
   margin-top: 45px; }
 .donator-list .section-content .search-form {
-  margin-top: 45px; }
+  margin-bottom: 45px; }
 @media (min-width: 768px) {
   .donator-list .section-content p {
     font-size: 16px;

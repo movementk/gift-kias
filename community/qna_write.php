@@ -58,19 +58,19 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="v-top"><label for="u-content">내용</label></th>
-                                                        <td>
-                                                            <div class="form-group">
-                                                                <textarea id="u-content" class="form-control"></textarea>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
                                                         <th>파일첨부</th>
                                                         <td class="attach">
                                                             <div class="form-group">
                                                                 <input type="file" id="u-attach" class="form-control">
                                                                 <label for="u-attach">파일찾기</label>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="v-top"><label for="u-content">내용</label></th>
+                                                        <td>
+                                                            <div class="form-group">
+                                                                <textarea id="u-content" class="form-control"></textarea>
                                                             </div>
                                                         </td>
                                                     </tr>
