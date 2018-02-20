@@ -1179,7 +1179,8 @@ section .section-content {
       display: inline-block;
       font-size: 13px;
       font-weight: 300;
-      margin-left: 15px; }
+      margin-left: 15px;
+      vertical-align: top; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td label input {
         position: relative;
         top: 1px; }
@@ -1285,39 +1286,43 @@ section .section-content {
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.way label {
       display: block;
       margin-left: 0; }
-    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li ~ li {
-      margin-top: 15px; }
-    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li > label {
-      margin-bottom: 10px; }
-    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group {
-      width: 170px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group ~ .form-group {
-        margin-top: 5px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group > label {
-        display: inline-block;
-        width: 60px;
-        line-height: 34px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group .form-control {
-        display: inline-block;
-        width: 105px;
-        padding-left: 5px;
-        padding-right: 5px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group:nth-of-type(1) {
-        position: relative; }
-        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group:nth-of-type(1) .form-control {
-          padding-right: 36px; }
-        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group:nth-of-type(1) a {
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: 34px;
-          height: 34px;
-          font-size: 14px;
-          color: #999;
-          line-height: 32px;
-          text-align: center;
-          border: 1px solid #dee1e2;
-          background-color: #f6f6f6; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li {
+      vertical-align: top; }
+      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li ~ li {
+        margin-top: 15px; }
+      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li > label {
+        vertical-align: middle;
+        margin-bottom: 10px; }
+      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group {
+        width: 170px; }
+        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group ~ .form-group {
+          margin-top: 5px; }
+        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group > label {
+          display: inline-block;
+          width: 60px;
+          letter-spacing: -1px;
+          line-height: 34px; }
+        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group .form-control {
+          display: inline-block;
+          width: 105px;
+          padding-left: 5px;
+          padding-right: 5px; }
+        .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group:nth-of-type(1) {
+          position: relative; }
+          .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group:nth-of-type(1) .form-control {
+            padding-right: 36px; }
+          .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group:nth-of-type(1) a {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 34px;
+            height: 34px;
+            font-size: 14px;
+            color: #999;
+            line-height: 32px;
+            text-align: center;
+            border: 1px solid #dee1e2;
+            background-color: #f6f6f6; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group ~ .form-group {
       margin-top: 10px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group > div ~ div {
@@ -1414,7 +1419,7 @@ section .section-content {
     .write-form .section-content .write-item .agree .form-group label .form-control {
       display: inline-block;
       width: 60px;
-      border: 1px solid #fff; }
+      /*border: 1px solid #fff;*/ }
     .write-form .section-content .write-item .agree .form-group ~ .form-group .form-control {
       width: 150px; }
   .write-form .section-content .write-item .agree .agree-txt > p {

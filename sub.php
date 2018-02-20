@@ -352,6 +352,16 @@
                                 </ul>
                             </nav>
                             
+                            
+                            
+                            
+                            <!-- 팝업버튼 -->
+                            <button type="button" class="btn btn-primary btn-modal" onclick="onPopupWindow()">
+                                팝업버튼
+                            </button>
+                            
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -362,5 +372,13 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script src="/assets/js/common.js"></script>
+    
+    
+    <!-- 팝업 js 추가 -->
+    <script>
+        function onPopupWindow(){  
+            window.open('popup.php', '_blank', 'top=30, left=30, width=930, height=700, scrollbars=yes');
+        }
+    </script>
 </body>
 </html>
