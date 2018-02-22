@@ -63,8 +63,10 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="num"><span>123</span></td>
-                                                    <td class="subject">
-                                                        <a href="/community/qna_view.php">공지사항 제목 노출 영역입니다.</a>
+                                                    <td class="subject reply">
+                                                        <a href="/community/qna_view.php">
+                                                            <span>RE</span>공지사항 제목 노출 영역입니다.
+                                                        </a>
                                                     </td>
                                                     <td class="date"><span>2018-01-01</span></td>
                                                     <td class="hit"><span>123</span></td>

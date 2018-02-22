@@ -794,6 +794,32 @@ section .section-content {
           @media (min-width: 768px) {
             .default-borad .table tbody tr td.subject a {
               padding-left: 20px; } }
+      .default-borad .table tbody tr td.reply {
+        background-color: #fff; }
+        .default-borad .table tbody tr td.reply a {
+          position: relative;
+          padding-left: 70px;
+          background-image: url(/assets/images/sub/icon_reply.gif);
+          background-repeat: no-repeat;
+          background-position: 15px 0; }
+          .default-borad .table tbody tr td.reply a span {
+            position: absolute;
+            top: 0;
+            left: 35px;
+            width: 30px;
+            font-size: 13px;
+            color: #fff;
+            text-align: center;
+            line-height: 18px;
+            background-color: #143883; }
+          @media (min-width: 768px) {
+            .default-borad .table tbody tr td.reply a {
+              padding-left: 90px;
+              background-position: 25px 0; }
+              .default-borad .table tbody tr td.reply a span {
+                left: 45px;
+                width: 35px;
+                line-height: 21px; } }
       .default-borad .table tbody tr td.num, .default-borad .table tbody tr td.date, .default-borad .table tbody tr td.hit {
         font-family: 'Roboto', sans-serif; }
       @media (min-width: 768px) {

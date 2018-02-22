@@ -1,5 +1,53 @@
 @import 'common';
 
+.jumbotron .bx-controls .bx-controls-direction {
+    z-index: 50;
+}
+
+
+.jumbotron .bx-controls .bx-pager {
+    z-index: 50;
+}
+
+
+.jumbotron ul li div.figure{
+    margin-top: -370px;
+    height: 370px;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 10s;
+    transition-duration: 10s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    @media(min-width: $sm) {
+        margin-top: -700px;
+        height: 700px;
+    }
+    @media(min-width: $md) {
+        margin-top: -523px;
+        height: 523px;
+    }
+}
+.jumbotron ul li.active div.figure{
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
 .jumbotron {
     position: relative;
     padding: 0;
@@ -11,6 +59,7 @@
             display: block;
             text-align: center;
             padding: 120px 0;
+            height: 370px;
             background-size: cover;
             background-position: 50% 50%;
             background-repeat: no-repeat;
@@ -67,6 +116,7 @@
                 }
             }
             @media (min-width: $sm) {
+                height: 700px;
                 padding: 220px 0 230px;
                 h2 {
                     font-size: 70px;
@@ -84,6 +134,7 @@
                 }
             }
             @media (min-width: $lg) {
+                height: 523px;
                 padding: 150px 0 160px;
                 h2 {
                     font-size: 65px;

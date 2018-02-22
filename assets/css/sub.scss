@@ -517,6 +517,36 @@ section {
                             }
                         }
                     }
+                    &.reply {
+                        background-color: #fff;
+                        a {
+                            position: relative;
+                            padding-left: 70px;
+                            background-image: url(/assets/images/sub/icon_reply.gif);
+                            background-repeat: no-repeat;
+                            background-position: 15px 0;
+                            span {
+                                position: absolute;
+                                top: 0;
+                                left: 35px;
+                                width: 30px;
+                                font-size: 13px;
+                                color: #fff;
+                                text-align: center;
+                                line-height: 18px;
+                                background-color: #143883;
+                            }
+                            @media(min-width: $sm) {
+                                padding-left: 90px;
+                                background-position: 25px 0;
+                                span {
+                                    left: 45px;
+                                    width: 35px;
+                                    line-height: 21px;
+                                }
+                            }
+                        }
+                    }
                     &.num, &.date, &.hit {
                         @include roboto();
                     }
