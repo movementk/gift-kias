@@ -90,7 +90,7 @@
                                                 </li>
                                                 <li class="row">
                                                     <div class="col-xs-12 col-sm-4 col-md-3">
-                                                        <h5>미래의 먹거리를 준비하는<br> 고등과학원에 동참</h5>
+                                                        <h5>미래의 먹거리를 준비하는 고등과학원에 동참</h5>
                                                     </div>
                                                     <div class="col-xs-12 col-sm-8 col-md-9">
                                                         <p>

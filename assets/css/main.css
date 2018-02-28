@@ -427,14 +427,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  -ms-transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition-property: transform;
   transition-property: transform;
-  -webkit-transition-duration: 10s;
-  transition-duration: 10s;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
   -webkit-transition-delay: 0s;
@@ -443,7 +443,7 @@ a {
     .jumbotron ul li div.figure {
       margin-top: -700px;
       height: 700px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     .jumbotron ul li div.figure {
       margin-top: -523px;
       height: 523px; } }
@@ -717,7 +717,8 @@ a {
   background-image: url(/assets/images/main/bg_introduce.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: cover; }
+  background-attachment: fixed;
+  background-size: auto 800px; }
   .introduce small {
     display: block;
     font-size: 18px;

@@ -35,10 +35,10 @@
                             padding-top: 0;
                         }
                         h5 {
+                            word-break: keep-all;
                             font-size: 18px;
                             color: #143883;
                             line-height: 30px;
-                            letter-spacing: -1.2px;
                             &:before {
                                 content: "";
                                 display: block;
@@ -95,12 +95,11 @@
                             }
                             h5 {
                                 font-size: 20px;
-                                letter-spacing: -1.2px;
                                 margin-top: 10px;
                                 &:before {
                                     content: "";
                                     display: block;
-                                    width: 200px;
+                                    width: 100%;
                                     margin-bottom: 20px;
                                 }
                             }
@@ -135,7 +134,8 @@
                     ul {
                         li {
                             h5 {
-                                letter-spacing: -2px;
+                                margin-right: -20px;
+                                letter-spacing: -1.5px;
                                 &:before {
                                     width: 100%;
                                 }
