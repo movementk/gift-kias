@@ -690,7 +690,53 @@
     }
 }
 
-
+//온라인 약정 기부자 정보수정
+.personal-data {
+    .section-content {
+        .write-item {
+            article {
+                .article-header {
+                    .attention {
+                        font-size: 13px;
+                        color: #666;
+                        a {
+                            color: #666;
+                        }
+                    }
+                }
+                .article-content {
+                    .table-wrap {
+                        .note {
+                            font-size: 13px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        .section-content {
+            .write-item {
+                article {
+                    .article-header {
+                        .attention {
+                            font-size: 14px;
+                        }
+                    }
+                    .article-content {
+                        .table-wrap {
+                            .note {
+                                font-size: 14px;
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

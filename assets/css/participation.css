@@ -840,4 +840,19 @@ a {
   .success .section-content .btn-area {
     margin-top: 60px; } }
 
+.personal-data .section-content .write-item article .article-header .attention {
+  font-size: 13px;
+  color: #666; }
+  .personal-data .section-content .write-item article .article-header .attention a {
+    color: #666; }
+.personal-data .section-content .write-item article .article-content .table-wrap .note {
+  font-size: 13px;
+  text-align: left; }
+@media (min-width: 768px) {
+  .personal-data .section-content .write-item article .article-header .attention {
+    font-size: 14px; }
+  .personal-data .section-content .write-item article .article-content .table-wrap .note {
+    font-size: 14px;
+    text-align: right; } }
+
 /*# sourceMappingURL=participation.css.map */

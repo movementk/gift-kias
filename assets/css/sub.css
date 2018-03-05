@@ -1447,6 +1447,15 @@ section .section-content {
   margin-top: 10px; }
   .write-form .section-content .write-item article .article-content .table-wrap .note:before {
     content: "*"; }
+.write-form .section-content .write-item article.terms-payment .article-header .attention {
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #004277;
+  border-radius: 10px;
+  background-color: #004e8c; }
+  @media (min-width: 768px) {
+    .write-form .section-content .write-item article.terms-payment .article-header .attention {
+      padding: 10px 30px; } }
 .write-form .section-content .write-item .agree {
   margin-top: 20px; }
   .write-form .section-content .write-item .agree label input {
