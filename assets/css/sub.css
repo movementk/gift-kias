@@ -1466,6 +1466,14 @@ section .section-content {
     .write-form .section-content .write-item .agree ul li {
       display: inline-block;
       margin-right: 10px; }
+.write-form .section-content .write-item .terms .article-header {
+  padding-bottom: 0 !important; }
+  .write-form .section-content .write-item .terms .article-header .sub-title {
+    float: none;
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .write-form .section-content .write-item .terms .article-header .sub-title {
+        margin-bottom: 25px; } }
 .write-form .section-content .write-item .btn-area {
   margin-top: 70px; }
 @media (min-width: 768px) {

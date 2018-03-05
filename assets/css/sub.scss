@@ -1541,6 +1541,18 @@ section {
                     }
                 }
             }
+            .terms {
+                .article-header {
+                    padding-bottom: 0 !important;
+                    .sub-title {
+                        float: none;
+                        margin-bottom: 30px;
+                        @media(min-width: $sm) {
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+            }
             .btn-area {
                 margin-top: 70px;
             }
