@@ -64,6 +64,13 @@
             background-position: 50% 50%;
             background-repeat: no-repeat;
             h2 {
+                small {
+                    font-size: 17px;
+                    color: #fff;
+                    font-weight: 300;
+                    display: block;
+                    margin-top: 10px;
+                }
                 display: block;
                 font-size: 32px;
                 color: #fff;
@@ -71,13 +78,6 @@
                 @include transition($duration: .9000s);
                 transform: scale(0);
                 -ms-transform: scale(0);
-                small {
-                    font-size: 17px;
-                    color: #fff;
-                    font-weight: 300;
-                    display: block;
-                    margin-bottom: 10px;
-                }
             }
             hr {
                 margin: 25px auto;
@@ -122,7 +122,7 @@
                     font-size: 70px;
                     small {
                         font-size: 36px;
-                        margin-bottom: 30px;
+                        margin-top: 30px;
                     }
                 }
                 hr {
@@ -140,7 +140,7 @@
                     font-size: 65px;
                     small {
                         font-size: 30px;
-                        margin-bottom: 20px;
+                        margin-top: 20px;
                     }
                 }
                 hr {
