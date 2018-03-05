@@ -1122,6 +1122,10 @@ section {
                                         &.addr {
                                             vertical-align: top;
                                         }
+                                        .req {
+                                            color: #e25371;
+                                            margin-left: 5px;
+                                        }
                                     }
                                     td {
                                         font-size: 13px;
@@ -1243,7 +1247,7 @@ section {
                                                 font-size: 13px;
                                                 font-weight: 400;
                                                 margin-top: 10px;
-                                                color: #666;
+                                                color: #143883;
                                                 display: inline-block;
                                             }
                                             label {
@@ -1508,6 +1512,11 @@ section {
                 // 납부 방법 article-header 스타일 수정 Start
                 &.terms-payment {
                     .article-header  {
+                        .sub-title {
+                            @media(min-width: $sm) {
+                                line-height: 46px;
+                            }
+                        }
                         .attention {
 							color: #fff;
                             padding: 10px 20px;

@@ -1200,6 +1200,9 @@ section .section-content {
       vertical-align: top; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr th.addr {
       vertical-align: top; }
+    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr th .req {
+      color: #e25371;
+      margin-left: 5px; }
   .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td {
     font-size: 13px;
     color: #666;
@@ -1279,7 +1282,7 @@ section .section-content {
       font-size: 13px;
       font-weight: 400;
       margin-top: 10px;
-      color: #666;
+      color: #143883;
       display: inline-block; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.shape label {
       float: left;
@@ -1447,6 +1450,9 @@ section .section-content {
   margin-top: 10px; }
   .write-form .section-content .write-item article .article-content .table-wrap .note:before {
     content: "*"; }
+@media (min-width: 768px) {
+  .write-form .section-content .write-item article.terms-payment .article-header .sub-title {
+    line-height: 46px; } }
 .write-form .section-content .write-item article.terms-payment .article-header .attention {
   color: #fff;
   padding: 10px 20px;

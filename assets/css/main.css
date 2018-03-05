@@ -462,7 +462,7 @@ a {
   .jumbotron ul li {
     display: block;
     text-align: center;
-    padding: 120px 0;
+    padding: 110px 0;
     height: 370px;
     background-size: cover;
     background-position: 50% 50%;
@@ -487,6 +487,7 @@ a {
         color: #fff;
         font-weight: 300;
         display: block;
+        line-height: 24px;
         margin-top: 10px; }
     .jumbotron ul li hr {
       margin: 25px auto;
@@ -534,11 +535,12 @@ a {
     @media (min-width: 768px) {
       .jumbotron ul li {
         height: 700px;
-        padding: 220px 0 230px; }
+        padding: 200px 0 230px; }
         .jumbotron ul li h2 {
           font-size: 70px; }
           .jumbotron ul li h2 small {
             font-size: 36px;
+            line-height: 45px;
             margin-top: 30px; }
         .jumbotron ul li hr {
           margin: 40px auto; }

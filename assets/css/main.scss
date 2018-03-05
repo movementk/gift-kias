@@ -58,7 +58,7 @@
         li {
             display: block;
             text-align: center;
-            padding: 120px 0;
+            padding: 110px 0;
             height: 370px;
             background-size: cover;
             background-position: 50% 50%;
@@ -69,6 +69,7 @@
                     color: #fff;
                     font-weight: 300;
                     display: block;
+                    line-height: 24px;
                     margin-top: 10px;
                 }
                 display: block;
@@ -117,11 +118,12 @@
             }
             @media (min-width: $sm) {
                 height: 700px;
-                padding: 220px 0 230px;
+                padding: 200px 0 230px;
                 h2 {
                     font-size: 70px;
                     small {
                         font-size: 36px;
+                        line-height: 45px;
                         margin-top: 30px;
                     }
                 }
