@@ -1094,6 +1094,13 @@ section {
                     }
                 }
                 .article-content {
+                    label {
+                        line-height: 34px;
+                        vertical-align: top;
+                    }
+                    .form-group {
+                        vertical-align: top;
+                    }
                     .table-wrap {
                         .table {
                             border: 0;
@@ -1130,7 +1137,7 @@ section {
                                             vertical-align: top;
                                             input {
                                                 position: relative;
-                                                top: 1px;
+                                                top: 2px;
                                             }
                                             &:first-child {
                                                 margin-left: 0;
@@ -1232,6 +1239,13 @@ section {
                                             }
                                         }
                                         &.shape {
+                                            strong {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                margin-top: 10px;
+                                                color: #666;
+                                                display: inline-block;
+                                            }
                                             label {
                                                 float: left;
                                                 line-height: 26px;
@@ -1316,6 +1330,9 @@ section {
                                                         width: 170px;
                                                         & ~ .form-group {
                                                             margin-top: 5px;
+                                                            @media(min-width: $sm) {
+                                                                margin-top: 0;
+                                                            }
                                                         }
                                                         > label {
                                                             display: inline-block;
@@ -1439,7 +1456,7 @@ section {
                                                     label {
                                                         position: relative;
                                                         display: block;
-                                                        line-height: 20px;
+                                                        /*line-height: 20px;*/
                                                         padding-left: 18px;
                                                         & ~ label {
                                                             margin-top: 20px;
@@ -1447,7 +1464,7 @@ section {
                                                         }
                                                         input {
                                                             position: absolute;
-                                                            top: 0;
+                                                            top: 7px;
                                                             left: 0;
                                                         }
                                                         span {
@@ -1488,6 +1505,25 @@ section {
                         }
                     }
                 }
+                
+                
+                
+                // 납부 방법 article-header 스타일 수정 Start
+                &.terms-payment {
+                    .article-header  {
+                        .attention {
+                            @media(min-width: $sm) {
+                                
+                            }
+                            @media(min-width: $md) {
+                                
+                            }
+                        }
+                    }
+                }
+                
+                
+                
             }
             .agree {
                 margin-top: 20px;
@@ -1696,6 +1732,14 @@ section {
                                                     > li {
                                                         & ~ li {
                                                             margin-top: 20px;
+                                                            label {
+                                                                input[type="radio"] {
+                                                                    top: 7px !important;
+                                                                }
+                                                            }
+                                                            p {
+                                                                margin-top: 10px;
+                                                            }
                                                         }
                                                         > label {
                                                             span {
