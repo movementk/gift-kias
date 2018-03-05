@@ -1505,25 +1505,21 @@ section {
                         }
                     }
                 }
-                
-                
-                
                 // 납부 방법 article-header 스타일 수정 Start
                 &.terms-payment {
                     .article-header  {
                         .attention {
+							color: #fff;
+                            padding: 10px 20px;
+                            border: 1px solid #004277;
+                            border-radius: 10px;
+                            background-color: #004e8c;
                             @media(min-width: $sm) {
-                                
-                            }
-                            @media(min-width: $md) {
-                                
+                            	padding: 10px 30px;
                             }
                         }
                     }
                 }
-                
-                
-                
             }
             .agree {
                 margin-top: 20px;
