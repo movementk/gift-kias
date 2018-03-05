@@ -43,6 +43,12 @@
                                 <div class="section-header">
                                     <h4 class="section-title">기부자 정보수정</h4>
                                 </div>
+                                <div class="info-box">
+                                    <i class="icon-info-circled"></i>
+                                    <p>
+                                        세무신고 및 기부금영수증 발행을 위하여 개인정보가 필요합니다. 주민번호 등 필수로<br class="visible-sm"> 지정하지 않은<br class="visible-lg"> 정보의 기입을 원치 않으시는 경우에는 담당자가 별도로 연락을 드리오니<br class="visible-sm"> 기입하지 않으셔도 됩니다.
+                                    </p>
+                                </div>
                                 <div class="section-content">
                                     <form action="#">
                                         <div class="write-item">

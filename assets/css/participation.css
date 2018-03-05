@@ -855,4 +855,39 @@ a {
     font-size: 14px;
     text-align: right; } }
 
+.write-form .info-box {
+  position: relative;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background-color: #f6f6f8;
+  padding: 35px 15px 30px 50px; }
+  .write-form .info-box .icon-info-circled {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    font-size: 30px;
+    color: #143883;
+    line-height: 30px; }
+    .write-form .info-box .icon-info-circled:before {
+      margin: 0; }
+  .write-form .info-box p {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    font-weight: 400; }
+  @media (min-width: 768px) {
+    .write-form .info-box {
+      margin-top: 50px;
+      padding: 40px;
+      padding-left: 115px; }
+      .write-form .info-box .icon-info-circled {
+        top: 40px;
+        left: 40px;
+        font-size: 40px;
+        line-height: 40px; }
+      .write-form .info-box p {
+        font-size: 15px;
+        line-height: 26px; } }
+
 /*# sourceMappingURL=participation.css.map */

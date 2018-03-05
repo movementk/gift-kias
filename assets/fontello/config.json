@@ -119,6 +119,12 @@
       "css": "lock-filled",
       "code": 59424,
       "src": "typicons"
+    },
+    {
+      "uid": "2355991b4045d64b08fb82988109c0ee",
+      "css": "info-circled",
+      "code": 59406,
+      "src": "elusive"
     }
   ]
 }
