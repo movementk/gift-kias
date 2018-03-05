@@ -525,6 +525,29 @@ a {
   .donator-respect .section-content article .article-content {
     margin-top: 90px; } }
 
+.tax-favor .section-header {
+  overflow: hidden; }
+  .tax-favor .section-header .section-title {
+    float: left;
+    line-height: 38px; }
+  .tax-favor .section-header .btn-receipt {
+    float: right; }
+    .tax-favor .section-header .btn-receipt p .btn-blue {
+      width: 130px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 38px;
+      color: #fff;
+      text-align: center;
+      background-color: #143883; }
+@media (min-width: 768px) {
+  .tax-favor .section-header .section-title {
+    line-height: 48px; }
+  .tax-favor .section-header .btn-receipt p .btn-blue {
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 48px; } }
 .tax-favor .section-content .benefit-step .article-content > ul {
   margin-top: 40px; }
   .tax-favor .section-content .benefit-step .article-content > ul li {
