@@ -8,47 +8,41 @@
     <main id="content">
         <div class="jumbotron">
             <ul>
-                <li>
-                    <div style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);" class="figure">
-                        <h2>
-                            <small>대한민국 기초과학의 미래</small>
-                            미래를 위한 선물 KIAS
-                        </h2>
-                        <hr>
-                        <p>
-                            Korea institute for Advanced Study<br>
-                            Cradle of Great Scientific minds<br class="visible-xs">
-                            in the 21st Century
-                        </p>
-                    </div>
+                <li style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);">
+                    <h2>
+                        <small>대한민국 기초과학의 미래</small>
+                        미래를 위한 선물 KIAS
+                    </h2>
+                    <hr>
+                    <p>
+                        Korea institute for Advanced Study<br>
+                        Cradle of Great Scientific minds<br class="visible-xs">
+                        in the 21st Century
+                    </p>
                 </li>
-                <li>
-                    <div style="background-image: url(/assets/images/main/img_jumbo_slider02.jpg);" class="figure">
-                        <h2>
-                            <small>대한민국 기초과학의 미래</small>
-                            미래를 위한 선물 KIAS
-                        </h2>
-                        <hr>
-                        <p>
-                            Korea institute for Advanced Study<br>
-                            Cradle of Great Scientific minds<br class="visible-xs">
-                            in the 21st Century
-                        </p>
-                    </div>
+                <li style="background-image: url(/assets/images/main/img_jumbo_slider02.jpg);">
+                    <h2>
+                        <small>대한민국 기초과학의 미래</small>
+                        미래를 위한 선물 KIAS
+                    </h2>
+                    <hr>
+                    <p>
+                        Korea institute for Advanced Study<br>
+                        Cradle of Great Scientific minds<br class="visible-xs">
+                        in the 21st Century
+                    </p>
                 </li>
-                <li>
-                    <div style="background-image: url(/assets/images/main/img_jumbo_slider03.jpg);" class="figure">
-                        <h2>
-                            <small>대한민국 기초과학의 미래</small>
-                            미래를 위한 선물 KIAS
-                        </h2>
-                        <hr>
-                        <p>
-                            Korea institute for Advanced Study<br>
-                            Cradle of Great Scientific minds<br class="visible-xs">
-                            in the 21st Century
-                        </p>
-                    </div>
+                <li style="background-image: url(/assets/images/main/img_jumbo_slider03.jpg);">
+                    <h2>
+                        <small>대한민국 기초과학의 미래</small>
+                        미래를 위한 선물 KIAS
+                    </h2>
+                    <hr>
+                    <p>
+                        Korea institute for Advanced Study<br>
+                        Cradle of Great Scientific minds<br class="visible-xs">
+                        in the 21st Century
+                    </p>
                 </li>
             </ul>
         </div>

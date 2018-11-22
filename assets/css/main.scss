@@ -21,14 +21,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
     background-color: rgba(0, 0, 0, 0.4);
     -webkit-transition-property: transform;
     transition-property: transform;
-    -webkit-transition-duration: 2s;
-    transition-duration: 2s;
+    -webkit-transition-duration: 10s;
+    transition-duration: 10s;
     -webkit-transition-timing-function: linear;
     transition-timing-function: linear;
     -webkit-transition-delay: 0s;
@@ -37,7 +37,7 @@
         margin-top: -700px;
         height: 700px;
     }
-    @media(min-width: $lg) {
+    @media(min-width: $md) {
         margin-top: -523px;
         height: 523px;
     }
@@ -58,20 +58,12 @@
         li {
             display: block;
             text-align: center;
-            padding: 110px 0;
+            padding: 120px 0;
             height: 370px;
             background-size: cover;
             background-position: 50% 50%;
             background-repeat: no-repeat;
             h2 {
-                small {
-                    font-size: 17px;
-                    color: #fff;
-                    font-weight: 300;
-                    display: block;
-                    line-height: 24px;
-                    margin-top: 10px;
-                }
                 display: block;
                 font-size: 32px;
                 color: #fff;
@@ -79,6 +71,13 @@
                 @include transition($duration: .9000s);
                 transform: scale(0);
                 -ms-transform: scale(0);
+                small {
+                    font-size: 17px;
+                    color: #fff;
+                    font-weight: 300;
+                    display: block;
+                    margin-bottom: 10px;
+                }
             }
             hr {
                 margin: 25px auto;
@@ -118,13 +117,12 @@
             }
             @media (min-width: $sm) {
                 height: 700px;
-                padding: 200px 0 230px;
+                padding: 220px 0 230px;
                 h2 {
                     font-size: 70px;
                     small {
                         font-size: 36px;
-                        line-height: 45px;
-                        margin-top: 30px;
+                        margin-bottom: 30px;
                     }
                 }
                 hr {
@@ -142,7 +140,7 @@
                     font-size: 65px;
                     small {
                         font-size: 30px;
-                        margin-top: 20px;
+                        margin-bottom: 20px;
                     }
                 }
                 hr {
@@ -363,8 +361,7 @@
     background-image: url(/assets/images/main/bg_introduce.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-attachment: fixed;
-    background-size: auto 800px;
+    background-size: cover;
     small {
         display: block;
         font-size: 18px;

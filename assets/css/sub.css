@@ -817,9 +817,7 @@ section .section-content {
               padding-left: 90px;
               background-position: 25px 0; }
               .default-borad .table tbody tr td.reply a span {
-                left: 45px;
-                width: 35px;
-                line-height: 21px; } }
+                left: 45px; } }
       .default-borad .table tbody tr td.num, .default-borad .table tbody tr td.date, .default-borad .table tbody tr td.hit {
         font-family: 'Roboto', sans-serif; }
       @media (min-width: 768px) {
@@ -1179,11 +1177,6 @@ section .section-content {
       position: absolute;
       top: 2px;
       left: 0; }
-.write-form .section-content .write-item article .article-content label {
-  line-height: 34px;
-  vertical-align: top; }
-.write-form .section-content .write-item article .article-content .form-group {
-  vertical-align: top; }
 .write-form .section-content .write-item article .article-content .table-wrap .table {
   border: 0; }
   .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr th {
@@ -1200,9 +1193,6 @@ section .section-content {
       vertical-align: top; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr th.addr {
       vertical-align: top; }
-    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr th .req {
-      color: #e25371;
-      margin-left: 5px; }
   .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td {
     font-size: 13px;
     color: #666;
@@ -1217,7 +1207,7 @@ section .section-content {
       vertical-align: top; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td label input {
         position: relative;
-        top: 2px; }
+        top: 1px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td label:first-child {
         margin-left: 0; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td textarea {
@@ -1278,12 +1268,6 @@ section .section-content {
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.email .form-group .form-control:nth-of-type(2) {
       display: inline-block;
       width: 90%; }
-    .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.shape strong {
-      font-size: 13px;
-      font-weight: 400;
-      margin-top: 10px;
-      color: #143883;
-      display: inline-block; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.shape label {
       float: left;
       line-height: 26px;
@@ -1337,9 +1321,6 @@ section .section-content {
         width: 170px; }
         .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group ~ .form-group {
           margin-top: 5px; }
-          @media (min-width: 768px) {
-            .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group ~ .form-group {
-              margin-top: 0; } }
         .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.immediately-pay > ul > li .form-group > label {
           display: inline-block;
           width: 60px;
@@ -1420,14 +1401,14 @@ section .section-content {
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group.seletor label {
       position: relative;
       display: block;
-      /*line-height: 20px;*/
+      line-height: 20px;
       padding-left: 18px; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group.seletor label ~ label {
         margin-top: 20px;
         margin-left: 0; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group.seletor label input {
         position: absolute;
-        top: 7px;
+        top: 0;
         left: 0; }
       .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.installment .form-group.seletor label span {
         display: inline-block;
@@ -1450,18 +1431,6 @@ section .section-content {
   margin-top: 10px; }
   .write-form .section-content .write-item article .article-content .table-wrap .note:before {
     content: "*"; }
-@media (min-width: 768px) {
-  .write-form .section-content .write-item article.terms-payment .article-header .sub-title {
-    line-height: 46px; } }
-.write-form .section-content .write-item article.terms-payment .article-header .attention {
-  color: #fff;
-  padding: 10px 20px;
-  border: 1px solid #004277;
-  border-radius: 10px;
-  background-color: #004e8c; }
-  @media (min-width: 768px) {
-    .write-form .section-content .write-item article.terms-payment .article-header .attention {
-      padding: 10px 30px; } }
 .write-form .section-content .write-item .agree {
   margin-top: 20px; }
   .write-form .section-content .write-item .agree label input {
@@ -1495,14 +1464,6 @@ section .section-content {
     .write-form .section-content .write-item .agree ul li {
       display: inline-block;
       margin-right: 10px; }
-.write-form .section-content .write-item .terms .article-header {
-  padding-bottom: 0 !important; }
-  .write-form .section-content .write-item .terms .article-header .sub-title {
-    float: none;
-    margin-bottom: 30px; }
-    @media (min-width: 768px) {
-      .write-form .section-content .write-item .terms .article-header .sub-title {
-        margin-bottom: 25px; } }
 .write-form .section-content .write-item .btn-area {
   margin-top: 70px; }
 @media (min-width: 768px) {
@@ -1588,10 +1549,6 @@ section .section-content {
       margin-left: 10px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.usage > ul > li ~ li {
       margin-top: 20px; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.usage > ul > li ~ li label input[type="radio"] {
-        top: 7px !important; }
-      .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.usage > ul > li ~ li p {
-        margin-top: 10px; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.usage > ul > li > label span {
       display: inline-block; }
     .write-form .section-content .write-item article .article-content .table-wrap .table tbody tr td.usage > ul > li > ul {

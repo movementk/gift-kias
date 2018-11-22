@@ -541,8 +541,6 @@ section {
                                 background-position: 25px 0;
                                 span {
                                     left: 45px;
-                                    width: 35px;
-                                    line-height: 21px;
                                 }
                             }
                         }
@@ -1094,13 +1092,6 @@ section {
                     }
                 }
                 .article-content {
-                    label {
-                        line-height: 34px;
-                        vertical-align: top;
-                    }
-                    .form-group {
-                        vertical-align: top;
-                    }
                     .table-wrap {
                         .table {
                             border: 0;
@@ -1122,10 +1113,6 @@ section {
                                         &.addr {
                                             vertical-align: top;
                                         }
-                                        .req {
-                                            color: #e25371;
-                                            margin-left: 5px;
-                                        }
                                     }
                                     td {
                                         font-size: 13px;
@@ -1141,7 +1128,7 @@ section {
                                             vertical-align: top;
                                             input {
                                                 position: relative;
-                                                top: 2px;
+                                                top: 1px;
                                             }
                                             &:first-child {
                                                 margin-left: 0;
@@ -1243,13 +1230,6 @@ section {
                                             }
                                         }
                                         &.shape {
-                                            strong {
-                                                font-size: 13px;
-                                                font-weight: 400;
-                                                margin-top: 10px;
-                                                color: #143883;
-                                                display: inline-block;
-                                            }
                                             label {
                                                 float: left;
                                                 line-height: 26px;
@@ -1334,9 +1314,6 @@ section {
                                                         width: 170px;
                                                         & ~ .form-group {
                                                             margin-top: 5px;
-                                                            @media(min-width: $sm) {
-                                                                margin-top: 0;
-                                                            }
                                                         }
                                                         > label {
                                                             display: inline-block;
@@ -1460,7 +1437,7 @@ section {
                                                     label {
                                                         position: relative;
                                                         display: block;
-                                                        /*line-height: 20px;*/
+                                                        line-height: 20px;
                                                         padding-left: 18px;
                                                         & ~ label {
                                                             margin-top: 20px;
@@ -1468,7 +1445,7 @@ section {
                                                         }
                                                         input {
                                                             position: absolute;
-                                                            top: 7px;
+                                                            top: 0;
                                                             left: 0;
                                                         }
                                                         span {
@@ -1505,26 +1482,6 @@ section {
                             margin-top: 10px;
                             &:before {
                                 content: "*";
-                            }
-                        }
-                    }
-                }
-                // 납부 방법 article-header 스타일 수정 Start
-                &.terms-payment {
-                    .article-header  {
-                        .sub-title {
-                            @media(min-width: $sm) {
-                                line-height: 46px;
-                            }
-                        }
-                        .attention {
-							color: #fff;
-                            padding: 10px 20px;
-                            border: 1px solid #004277;
-                            border-radius: 10px;
-                            background-color: #004e8c;
-                            @media(min-width: $sm) {
-                            	padding: 10px 30px;
                             }
                         }
                     }
@@ -1579,18 +1536,6 @@ section {
                     li {
                         display: inline-block;
                         margin-right: 10px;
-                    }
-                }
-            }
-            .terms {
-                .article-header {
-                    padding-bottom: 0 !important;
-                    .sub-title {
-                        float: none;
-                        margin-bottom: 30px;
-                        @media(min-width: $sm) {
-                            margin-bottom: 25px;
-                        }
                     }
                 }
             }
@@ -1737,14 +1682,6 @@ section {
                                                     > li {
                                                         & ~ li {
                                                             margin-top: 20px;
-                                                            label {
-                                                                input[type="radio"] {
-                                                                    top: 7px !important;
-                                                                }
-                                                            }
-                                                            p {
-                                                                margin-top: 10px;
-                                                            }
                                                         }
                                                         > label {
                                                             span {

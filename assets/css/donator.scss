@@ -238,44 +238,6 @@
 
 //세제혜택
 .tax-favor {
-	.section-header {
-		overflow: hidden;
-		.section-title {
-			float: left;
-			line-height: 38px;
-		}
-		.btn-receipt {
-			float: right;
-			p {
-				.btn-blue {
-					width: 130px;
-					height: 40px;
-					font-size: 14px;
-					line-height: 38px;
-					color: #fff;
-					text-align: center;
-					background-color: #143883;
-				}
-			}
-		}
-	}
-	@media(min-width: $sm) {
-		.section-header {
-			.section-title {
-				line-height: 48px;
-			}
-			.btn-receipt {
-				p {
-					.btn-blue {
-						width: 170px;
-						height: 50px;
-						font-size: 16px;
-						line-height: 48px;
-					}
-				}
-			}
-		}
-	}
     .section-content {
         .benefit-step {
             .article-content {

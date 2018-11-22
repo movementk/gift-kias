@@ -427,14 +427,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition-property: transform;
   transition-property: transform;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
+  -webkit-transition-duration: 10s;
+  transition-duration: 10s;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
   -webkit-transition-delay: 0s;
@@ -443,7 +443,7 @@ a {
     .jumbotron ul li div.figure {
       margin-top: -700px;
       height: 700px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     .jumbotron ul li div.figure {
       margin-top: -523px;
       height: 523px; } }
@@ -462,7 +462,7 @@ a {
   .jumbotron ul li {
     display: block;
     text-align: center;
-    padding: 110px 0;
+    padding: 120px 0;
     height: 370px;
     background-size: cover;
     background-position: 50% 50%;
@@ -487,8 +487,7 @@ a {
         color: #fff;
         font-weight: 300;
         display: block;
-        line-height: 24px;
-        margin-top: 10px; }
+        margin-bottom: 10px; }
     .jumbotron ul li hr {
       margin: 25px auto;
       width: 30px;
@@ -535,13 +534,12 @@ a {
     @media (min-width: 768px) {
       .jumbotron ul li {
         height: 700px;
-        padding: 200px 0 230px; }
+        padding: 220px 0 230px; }
         .jumbotron ul li h2 {
           font-size: 70px; }
           .jumbotron ul li h2 small {
             font-size: 36px;
-            line-height: 45px;
-            margin-top: 30px; }
+            margin-bottom: 30px; }
         .jumbotron ul li hr {
           margin: 40px auto; }
         .jumbotron ul li p {
@@ -555,7 +553,7 @@ a {
           font-size: 65px; }
           .jumbotron ul li h2 small {
             font-size: 30px;
-            margin-top: 20px; }
+            margin-bottom: 20px; }
         .jumbotron ul li hr {
           margin: 30px auto; } }
   .jumbotron .bx-controls .bx-controls-direction {
@@ -719,8 +717,7 @@ a {
   background-image: url(/assets/images/main/bg_introduce.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-attachment: fixed;
-  background-size: auto 800px; }
+  background-size: cover; }
   .introduce small {
     display: block;
     font-size: 18px;
